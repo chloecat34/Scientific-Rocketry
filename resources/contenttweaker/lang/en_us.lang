@@ -249,6 +249,7 @@ tile.contenttweaker.tungstensteel_machine_casing.name=§8Tungstensteel Machine C
 tile.contenttweaker.cosmic_machine_casing.name=§dCosmic Machine Casing
 tile.contenttweaker.unfinished_ender_casing.name=§bUnfinished Ender Casing
 tile.contenttweaker.compressed_obsidian.name=Compressed Obsidian
+tile.contenttweaker.fake_controller.name=Fake ME Controller
 fluid.glass=Molten Glass
 fluid.black_quartz=Molten Black Quartz
 fluid.titanium_iridium_alloy=Molten Titanium Iridium Alloy

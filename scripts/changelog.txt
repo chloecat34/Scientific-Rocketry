@@ -1,6 +1,0 @@
-Replaced Modular Machinery with Modular Machinery Community Edition
-Replaced FoamFix with VintageFix
-Changed Sender MK3 Recipe
-Added better Translocator alternate recipes
-
-Quests might get reworked later

@@ -21,18 +21,18 @@
 		icon: {
 			id: "simple_trophies:trophy",
 			tag: {
+				TrophyColorRed: 179,
+				TrophyColorBlue: 44,
+				TrophyEarnedAt: 1704153697L,
+				TrophyShowsTooltip: 1b,
+				TrophyColorGreen: 49,
+				TrophyName: "Void Ore Miner",
 				TrophyItem: {
 					id: "environmentaltech:void_ore_miner_cont_1",
 					Count: 1b,
 					Damage: 0s
 				},
-				TrophyName: "Void Ore Miner",
-				TrophyColorRed: 179,
-				TrophyColorGreen: 49,
-				TrophyColorBlue: 44,
-				TrophyVariant: "classic",
-				TrophyEarnedAt: 1704153697L,
-				TrophyShowsTooltip: 1b
+				TrophyVariant: "classic"
 			}
 		},
 		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"environmentaltech:void_ore_miner_cont_1\", Count:1b,Damage:0s},  TrophyName:\"Void Ore Miner\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"

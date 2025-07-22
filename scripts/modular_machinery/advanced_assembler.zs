@@ -479,7 +479,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "basicinductioncell", m, 5)
     .addItemInput(<mekanism:energytablet> * 12)
     .addFluidInput(<liquid:osgloglas> * 1152)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "advinductioncell", m, 15)
     .addEnergyPerTickInput(400000)
     .addItemOutput(<mekanism:basicblock2:3>.withTag({tier: 1}) * 2)
@@ -490,7 +490,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "advinductioncell", m, 15)
     .addItemInput(<mekanism:enrichedalloy> * 8)
     .addFluidInput(<liquid:mithril> * 1152)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "eliteinductioncell", m, 40)
     .addEnergyPerTickInput(1000000)
     .addItemOutput(<mekanism:basicblock2:3>.withTag({tier: 2}))
@@ -501,7 +501,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "eliteinductioncell", m, 40)
     .addItemInput(<mekanism:reinforcedalloy> * 4)
     .addFluidInput(<liquid:adamantium> * 576)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "ultimateinductioncell", m, 100)
     .addEnergyPerTickInput(5000000)
     .addItemOutput(<mekanism:basicblock2:3>.withTag({tier: 3}))
@@ -512,7 +512,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "ultimateinductioncell", m, 1
     .addItemInput(<mekanism:atomicalloy> * 4)
     .addFluidInput(<liquid:ultimate> * 576)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "basicinductionprovider", m, 5)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<mekanism:basicblock2:4>.withTag({tier: 0}) * 4)
@@ -522,7 +522,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "basicinductionprovider", m, 
     .addItemInput(<mekanism:energytablet> * 12)
     .addFluidInput(<liquid:osgloglas> * 1152)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "advinductionprovider", m, 15)
     .addEnergyPerTickInput(400000)
     .addItemOutput(<mekanism:basicblock2:4>.withTag({tier: 1}) * 2)
@@ -533,7 +533,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "advinductionprovider", m, 15
     .addItemInput(<mekanism:enrichedalloy> * 8)
     .addFluidInput(<liquid:mithril> * 1152)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "eliteinductionprovider", m, 40)
     .addEnergyPerTickInput(1000000)
     .addItemOutput(<mekanism:basicblock2:4>.withTag({tier: 2}))
@@ -544,7 +544,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "eliteinductionprovider", m, 
     .addItemInput(<mekanism:reinforcedalloy> * 4)
     .addFluidInput(<liquid:adamantium> * 576)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "ultimateinductionprovider", m, 100)
     .addEnergyPerTickInput(5000000)
     .addItemOutput(<mekanism:basicblock2:4>.withTag({tier: 3}))
@@ -580,7 +580,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "structureframe1", m, 5)
     .addFluidInput(<liquid:iridium> * 288)
     .addFluidInput(<liquid:titanium> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "structureframe2", m, 10)
     .addEnergyPerTickInput(250000)
     .addItemOutput(<environmentaltech:structure_frame_2> * 2)
@@ -592,7 +592,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "structureframe2", m, 10)
     .addFluidInput(<liquid:mithril> * 288)
     .addFluidInput(<liquid:osmiridium> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "structureframe3", m, 20)
     .addEnergyPerTickInput(600000)
     .addItemOutput(<environmentaltech:structure_frame_3> * 2)
@@ -604,7 +604,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "structureframe3", m, 20)
     .addFluidInput(<liquid:stellar_alloy> * 288)
     .addFluidInput(<liquid:dark_soularium> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "structureframe4", m, 30)
     .addEnergyPerTickInput(1500000)
     .addItemOutput(<environmentaltech:structure_frame_4> * 2)
@@ -616,7 +616,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "structureframe4", m, 30)
     .addFluidInput(<liquid:crystaltine> * 576)
     .addFluidInput(<liquid:tungstensteel> * 576)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "structureframe5", m, 50)
     .addEnergyPerTickInput(5000000)
     .addItemOutput(<environmentaltech:structure_frame_5> * 2)
@@ -628,7 +628,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "structureframe5", m, 50)
     .addFluidInput(<liquid:crystal_matrix> * 576)
     .addFluidInput(<liquid:adamantium> * 576)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "structureframe6", m, 100)
     .addEnergyPerTickInput(10000000)
     .addItemOutput(<environmentaltech:structure_frame_6> * 2)
@@ -641,7 +641,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "structureframe6", m, 100)
     .addFluidInput(<liquid:ultimate> * 576)
     .build();
 
-// Interconnect    
+// Interconnect
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "interconnect", m, 10)
     .addEnergyPerTickInput(400000)
     .addItemOutput(<environmentaltech:interconnect> * 2)
@@ -743,7 +743,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "excbasiccatalyst", m, 20)
     .addItemInput(<ore:plateMithril>)
     .addFluidInput(<liquid:mithril> * 144)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "excadvcatalyst", m, 20)
     .addEnergyPerTickInput(1000000)
     .addItemOutput(<extendedcrafting:material:9>)
@@ -751,7 +751,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "excadvcatalyst", m, 20)
     .addItemInput(<ore:plateMithril>)
     .addFluidInput(<liquid:mithril> * 144)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "excelitecatalyst", m, 20)
     .addEnergyPerTickInput(1500000)
     .addItemOutput(<extendedcrafting:material:10>)
@@ -759,7 +759,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "excelitecatalyst", m, 20)
     .addItemInput(<ore:plateMithril>)
     .addFluidInput(<liquid:mithril> * 144)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "excultimatecatalyst", m, 20)
     .addEnergyPerTickInput(2000000)
     .addItemOutput(<extendedcrafting:material:11>)
@@ -767,7 +767,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "excultimatecatalyst", m, 20)
     .addItemInput(<ore:plateMithril>)
     .addFluidInput(<liquid:mithril> * 144)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "exccrystaltinecatalyst", m, 40)
     .addEnergyPerTickInput(5000000)
     .addItemOutput(<extendedcrafting:material:12>)
@@ -863,7 +863,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "mirror", m, 2)
     .addItemInput(<ore:blockGlass> * 3)
     .addFluidInput(<liquid:glass> * 1000)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocellhardened", m, 3)
     .addEnergyPerTickInput(35000)
     .addItemOutput(<contenttweaker:hardened_photovoltaic_cell> * 3)
@@ -873,7 +873,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocellhardened", m, 3)
     .addItemInput(<solarflux:mirror>)
     .addFluidInput(<liquid:electrum> * 144)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocellreinforced", m, 4)
     .addEnergyPerTickInput(50000)
     .addItemOutput(<contenttweaker:reinforced_photovoltaic_cell> * 3)
@@ -883,7 +883,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocellreinforced", m, 4)
     .addItemInput(<contenttweaker:hardened_photovoltaic_cell>)
     .addFluidInput(<liquid:energetic_alloy> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocellsignalum", m, 5)
     .addEnergyPerTickInput(75000)
     .addItemOutput(<contenttweaker:signalum_photovoltaic_cell> * 3)
@@ -893,7 +893,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocellsignalum", m, 5)
     .addItemInput(<contenttweaker:reinforced_photovoltaic_cell>)
     .addFluidInput(<liquid:lumium> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocellresonant", m, 6)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<contenttweaker:resonant_photovoltaic_cell> * 3)
@@ -903,7 +903,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocellresonant", m, 6)
     .addItemInput(<contenttweaker:signalum_photovoltaic_cell>)
     .addFluidInput(<liquid:vibrant_alloy> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocelliridium", m, 8)
     .addEnergyPerTickInput(200000)
     .addItemOutput(<contenttweaker:iridium_photovoltaic_cell> * 3)
@@ -913,7 +913,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocelliridium", m, 8)
     .addItemInput(<contenttweaker:resonant_photovoltaic_cell>)
     .addFluidInput(<liquid:enderium> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocellosgloglas", m, 10)
     .addEnergyPerTickInput(500000)
     .addItemOutput(<contenttweaker:osgloglas_photovoltaic_cell> * 3)
@@ -923,7 +923,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocellosgloglas", m, 10)
     .addItemInput(<contenttweaker:iridium_photovoltaic_cell>)
     .addFluidInput(<liquid:osgloglas> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocellmithril", m, 15)
     .addEnergyPerTickInput(1000000)
     .addItemOutput(<contenttweaker:mithril_photovoltaic_cell> * 3)
@@ -933,7 +933,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocellmithril", m, 15)
     .addItemInput(<contenttweaker:osgloglas_photovoltaic_cell>)
     .addFluidInput(<liquid:stellar_alloy> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocelladamantium", m, 20)
     .addEnergyPerTickInput(1000000)
     .addItemOutput(<contenttweaker:adamantium_photovoltaic_cell> * 3)
@@ -943,7 +943,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "photocelladamantium", m, 20)
     .addItemInput(<contenttweaker:mithril_photovoltaic_cell>)
     .addFluidInput(<liquid:adamantium> * 288)
     .build();
-    
+
 // Solar panels
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "leadstonesolar", m, 2)
     .addEnergyPerTickInput(25000)
@@ -954,7 +954,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "leadstonesolar", m, 2)
     .addItemInput(<solarflux:mirror> * 3)
     .addFluidInput(<liquid:lumium> * 144)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "hardenedsolar", m, 4)
     .addEnergyPerTickInput(40000)
     .addItemOutput(<solarflux:custom_solar_panel_hardened> * 2)
@@ -964,7 +964,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "hardenedsolar", m, 4)
     .addItemInput(<contenttweaker:hardened_photovoltaic_cell> * 3)
     .addFluidInput(<liquid:enderium> * 144)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "reinforcedsolar", m, 6)
     .addEnergyPerTickInput(75000)
     .addItemOutput(<solarflux:custom_solar_panel_reinforced> * 2)
@@ -974,7 +974,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "reinforcedsolar", m, 6)
     .addItemInput(<contenttweaker:reinforced_photovoltaic_cell> * 3)
     .addFluidInput(<liquid:osgloglas> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "signalumsolar", m, 10)
     .addEnergyPerTickInput(150000)
     .addItemOutput(<solarflux:custom_solar_panel_signalum> * 2)
@@ -984,7 +984,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "signalumsolar", m, 10)
     .addItemInput(<contenttweaker:signalum_photovoltaic_cell> * 3)
     .addFluidInput(<liquid:mithril> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "resonantsolar", m, 15)
     .addEnergyPerTickInput(350000)
     .addItemOutput(<solarflux:custom_solar_panel_resonant> * 2)
@@ -994,7 +994,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "resonantsolar", m, 15)
     .addItemInput(<contenttweaker:resonant_photovoltaic_cell> * 3)
     .addFluidInput(<liquid:stellar_alloy> * 576)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "iridiumsolar", m, 20)
     .addEnergyPerTickInput(350000)
     .addItemOutput(<solarflux:custom_solar_panel_iridium> * 2)
@@ -1014,7 +1014,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "1kstorage", m, 2)
     .addItemInput(<appliedenergistics2:material:22> * 2)
     .addFluidInput(<liquid:energetic_alloy> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "1kstoragefluid", m, 2)
     .addEnergyPerTickInput(25000)
     .addItemOutput(<appliedenergistics2:material:54> * 4)
@@ -1023,7 +1023,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "1kstoragefluid", m, 2)
     .addItemInput(<appliedenergistics2:material:22> * 2)
     .addFluidInput(<liquid:energetic_alloy> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "1kstoragegas", m, 2)
     .addEnergyPerTickInput(25000)
     .addItemOutput(<aeadditions:storage.component:7> * 4)
@@ -1065,7 +1065,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "64kstorage", m, 10)
 
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "256kstorage", m, 15)
     .addEnergyPerTickInput(500000)
-    .addItemOutput(<aeadditions:storage.component:0> * 2)
+    .addItemOutput(<nae2:material:1> * 2)
     .addItemInput(<appliedenergistics2:material:38> * 5)
     .addItemInput(<ore:plateVibrantAlloy> * 6)
     .addItemInput(<appliedenergistics2:material:22> * 2)
@@ -1075,8 +1075,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "256kstorage", m, 15)
 
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "1024kstorage", m, 20)
     .addEnergyPerTickInput(1000000)
-    .addItemOutput(<aeadditions:storage.component:1> * 2)
-    .addItemInput(<aeadditions:storage.component:0> * 5)
+    .addItemOutput(<nae2:material:2> * 2)
+    .addItemInput(<nae2:material:1> * 5)
     .addItemInput(<ore:plateOsgloglas> * 6)
     .addItemInput(<appliedenergistics2:material:22> * 2)
     .addItemInput(<appliedenergistics2:material:24> * 2)
@@ -1085,8 +1085,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "1024kstorage", m, 20)
 
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "4096kstorage", m, 50)
     .addEnergyPerTickInput(2500000)
-    .addItemOutput(<aeadditions:storage.component:2> * 2)
-    .addItemInput(<aeadditions:storage.component:1> * 5)
+    .addItemOutput(<nae2:material:3> * 2)
+    .addItemInput(<nae2:material:2> * 5)
     .addItemInput(<ore:plateArdite> * 6)
     .addItemInput(<appliedenergistics2:material:22> * 2)
     .addItemInput(<appliedenergistics2:material:24> * 2)
@@ -1095,8 +1095,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "4096kstorage", m, 50)
 
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "16384kstorage", m, 100)
     .addEnergyPerTickInput(10000000)
-    .addItemOutput(<aeadditions:storage.component:3> * 2)
-    .addItemInput(<aeadditions:storage.component:2> * 5)
+    .addItemOutput(<nae2:material:4> * 2)
+    .addItemInput(<nae2:material:3> * 5)
     .addItemInput(<ore:plateAdamantium> * 6)
     .addItemInput(<appliedenergistics2:material:22> * 2)
     .addItemInput(<appliedenergistics2:material:24> * 2)
@@ -1135,7 +1135,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "64kstoragefluid", m, 10)
 
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "256kstoragefluid", m, 15)
     .addEnergyPerTickInput(500000)
-    .addItemOutput(<aeadditions:storage.component:4> * 2)
+    .addItemOutput(<nae2:material:5> * 2)
     .addItemInput(<appliedenergistics2:material:57> * 5)
     .addItemInput(<ore:plateEnderium> * 6)
     .addItemInput(<appliedenergistics2:material:22> * 2)
@@ -1145,8 +1145,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "256kstoragefluid", m, 15)
 
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "1024kstoragefluid", m, 20)
     .addEnergyPerTickInput(1000000)
-    .addItemOutput(<aeadditions:storage.component:5> * 2)
-    .addItemInput(<aeadditions:storage.component:4> * 5)
+    .addItemOutput(<nae2:material:6> * 2)
+    .addItemInput(<nae2:material:5> * 5)
     .addItemInput(<ore:plateCobalt> * 6)
     .addItemInput(<appliedenergistics2:material:22> * 2)
     .addItemInput(<appliedenergistics2:material:24> * 2)
@@ -1155,12 +1155,22 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "1024kstoragefluid", m, 20)
 
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "4096kstoragefluid", m, 50)
     .addEnergyPerTickInput(2500000)
-    .addItemOutput(<aeadditions:storage.component:6> * 2)
-    .addItemInput(<aeadditions:storage.component:5> * 5)
+    .addItemOutput(<nae2:material:7> * 2)
+    .addItemInput(<nae2:material:6> * 5)
     .addItemInput(<ore:plateMithril> * 6)
     .addItemInput(<appliedenergistics2:material:22> * 2)
     .addItemInput(<appliedenergistics2:material:24> * 2)
     .addFluidInput(<liquid:adamantium> * 288)
+    .build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(m + "16384kstoragefluid", m, 100)
+    .addEnergyPerTickInput(10000000)
+    .addItemOutput(<nae2:material:8> * 2)
+    .addItemInput(<nae2:material:7> * 5)
+    .addItemInput(<ore:plateCrystaltine> * 6)
+    .addItemInput(<appliedenergistics2:material:22> * 2)
+    .addItemInput(<appliedenergistics2:material:24> * 2)
+    .addFluidInput(<liquid:ultimate> * 288)
     .build();
 
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "4kstoragegas", m, 4)
@@ -1185,7 +1195,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "16kstoragegas", m, 6)
 
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "64kstoragegas", m, 10)
     .addEnergyPerTickInput(250000)
-    .addItemOutput(<aeadditions:storage.component:10> * 2)
+    .addItemOutput(<nae2:material:20> * 2)
     .addItemInput(<aeadditions:storage.component:9> * 5)
     .addItemInput(<ore:plateLumium> * 6)
     .addItemInput(<appliedenergistics2:quartz_glass> * 2)
@@ -1195,8 +1205,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "64kstoragegas", m, 10)
 
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "256kstoragegas", m, 15)
     .addEnergyPerTickInput(500000)
-    .addItemOutput(<aeadditions:storage.component:11> * 2)
-    .addItemInput(<aeadditions:storage.component:10> * 5)
+    .addItemOutput(<nae2:material:21> * 2)
+    .addItemInput(<nae2:material:20> * 5)
     .addItemInput(<ore:plateEndSteel> * 6)
     .addItemInput(<appliedenergistics2:material:22> * 2)
     .addItemInput(<appliedenergistics2:material:24> * 2)
@@ -1205,8 +1215,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "256kstoragegas", m, 15)
 
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "1024kstoragegas", m, 20)
     .addEnergyPerTickInput(1000000)
-    .addItemOutput(<aeadditions:storage.component:12> * 2)
-    .addItemInput(<aeadditions:storage.component:11> * 5)
+    .addItemOutput(<nae2:material:22> * 2)
+    .addItemInput(<nae2:material:21> * 5)
     .addItemInput(<ore:plateOsmiridium> * 6)
     .addItemInput(<appliedenergistics2:material:22> * 2)
     .addItemInput(<appliedenergistics2:material:24> * 2)
@@ -1215,8 +1225,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "1024kstoragegas", m, 20)
 
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "4096kstoragegas", m, 50)
     .addEnergyPerTickInput(2500000)
-    .addItemOutput(<aeadditions:storage.component:13> * 2)
-    .addItemInput(<aeadditions:storage.component:12> * 5)
+    .addItemOutput(<nae2:material:23> * 2)
+    .addItemInput(<nae2:material:22> * 5)
     .addItemInput(<ore:plateStellarAlloy> * 6)
     .addItemInput(<appliedenergistics2:material:22> * 2)
     .addItemInput(<appliedenergistics2:material:24> * 2)
@@ -1253,7 +1263,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "irontubing", m, 5)
     .addItemInput(<actuallyadditions:item_misc:8> * 2)
     .addFluidInput(<liquid:osmiridium> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "redstoneironwiring", m, 5)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<advgenerators:iron_wiring> * 8)
@@ -1403,7 +1413,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "simplemachinechassis", m, 4)
     .addItemInput(<ore:dustBedrock>)
     .addFluidInput(<liquid:obsidian> * 576)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "soulmachinechassis", m, 8)
     .addEnergyPerTickInput(75000)
     .addItemOutput(<enderio:item_material:53> * 2)
@@ -1412,7 +1422,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "soulmachinechassis", m, 8)
     .addItemInput(<ore:plateSoularium> * 4)
     .addFluidInput(<liquid:soularium> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "soullessmachinechassis", m, 10)
     .addEnergyPerTickInput(120000)
     .addItemOutput(<enderio:item_material:55> * 2)
@@ -1421,7 +1431,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "soullessmachinechassis", m, 
     .addItemInput(<enderio:block_industrial_insulation> * 4)
     .addFluidInput(<liquid:ethene> * 1000)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "endsteelmachinechassis", m, 15)
     .addEnergyPerTickInput(200000)
     .addItemOutput(<enderio:item_material:66> * 2)
@@ -1461,7 +1471,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "basicendercore", m, 6)
     .addItemInput(<actuallyadditions:item_crystal_empowered:1> * 2)
     .addFluidInput(<liquid:vivid_alloy> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "enhancedendercore", m, 12)
     .addEnergyPerTickInput(225000)
     .addItemOutput(<enderutilities:enderpart:11> * 2)
@@ -1471,7 +1481,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "enhancedendercore", m, 12)
     .addItemInput(<actuallyadditions:item_crystal_empowered:4> * 2)
     .addFluidInput(<liquid:gelid_enderium> * 288)
     .build();
-    
+
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "advancedendercore", m, 20)
     .addEnergyPerTickInput(500000)
     .addItemOutput(<enderutilities:enderpart:12> * 2)
@@ -1482,7 +1492,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "advancedendercore", m, 20)
     .addFluidInput(<liquid:enderium_nak> * 576)
     .build();
 
-    
+
 
 
 // // // Machine frame

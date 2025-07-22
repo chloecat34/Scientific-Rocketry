@@ -5,19 +5,20 @@ recipes.replaceAllOccurences(<ore:dustRedstone>, <ore:plateRedstoneAlloy>, <appl
 recipes.replaceAllOccurences(<ore:dustRedstone>, <ore:plateElectrum>, <appliedenergistics2:material:36>);
 recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:plateEnergeticAlloy>, <appliedenergistics2:material:37>);
 recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:plateSignalum>, <appliedenergistics2:material:38>);
-recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:plateVibrantAlloy>, <aeadditions:storage.component:0>);
-recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:plateOsgloglas>, <aeadditions:storage.component:1>);
-recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:plateArdite>, <aeadditions:storage.component:2>);
-recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:plateAdamantium>, <aeadditions:storage.component:3>);
+recipes.replaceAllOccurences(<ore:dustFluix>, <ore:plateVibrantAlloy>, <nae2:material:1>);
+recipes.replaceAllOccurences(<ore:dustFluix>, <ore:plateOsgloglas>, <nae2:material:2>);
+recipes.replaceAllOccurences(<ore:dustFluix>, <ore:plateArdite>, <nae2:material:3>);
+recipes.replaceAllOccurences(<ore:dustFluix>, <ore:plateAdamantium>, <nae2:material:4>);
 
 // ME fluid storage component
 recipes.replaceAllOccurences(<ore:gemLapis>, <ore:plateElectrotine>, <appliedenergistics2:material:54>);
 recipes.replaceAllOccurences(<ore:gemLapis>, <ore:plateElectrotineAlloy>, <appliedenergistics2:material:55>);
 recipes.replaceAllOccurences(<ore:gemLapis>, <ore:plateEnergeticSilver>, <appliedenergistics2:material:56>);
 recipes.replaceAllOccurences(<ore:gemLapis>, <ore:plateVividAlloy>, <appliedenergistics2:material:57>);
-recipes.replaceAllOccurences(<ore:dyeBlue>, <ore:plateEnderium>, <aeadditions:storage.component:4>);
-recipes.replaceAllOccurences(<ore:dyeBlue>, <ore:plateCobalt>, <aeadditions:storage.component:5>);
-recipes.replaceAllOccurences(<ore:dyeBlue>, <ore:plateMithril>, <aeadditions:storage.component:6>);
+recipes.replaceAllOccurences(<ore:dustFluix>, <ore:plateEnderium>, <nae2:material:5>);
+recipes.replaceAllOccurences(<ore:dustFluix>, <ore:plateCobalt>, <nae2:material:6>);
+recipes.replaceAllOccurences(<ore:dustFluix>, <ore:plateMithril>, <nae2:material:7>);
+recipes.replaceAllOccurences(<ore:dustFluix>, <ore:plateCrystaltine>, <nae2:material:8>);
 
 // ME gas storage component
 recipes.replaceAllOccurences(<ore:dyeYellow>, <ore:plateConstantan>, <aeadditions:storage.component:7>);

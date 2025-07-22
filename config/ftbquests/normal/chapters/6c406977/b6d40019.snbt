@@ -8,7 +8,7 @@
 		uid: "2de16300",
 		type: "item",
 		items: [{
-			item: "aeadditions:storage.component 1 6"
+			item: "nae2:material 1 7"
 		}]
 	}]
 }

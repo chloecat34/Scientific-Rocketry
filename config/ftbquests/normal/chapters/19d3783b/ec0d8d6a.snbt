@@ -61,18 +61,18 @@
 		icon: {
 			id: "simple_trophies:trophy",
 			tag: {
+				TrophyColorRed: 179,
+				TrophyColorBlue: 44,
+				TrophyEarnedAt: 1704154967L,
+				TrophyShowsTooltip: 1b,
+				TrophyColorGreen: 49,
+				TrophyName: "Cosmic Forge",
 				TrophyItem: {
 					id: "contenttweaker:cosmic_machine_casing",
 					Count: 1b,
 					Damage: 0s
 				},
-				TrophyName: "Cosmic Forge",
-				TrophyColorRed: 179,
-				TrophyColorGreen: 49,
-				TrophyColorBlue: 44,
-				TrophyVariant: "classic",
-				TrophyEarnedAt: 1704154967L,
-				TrophyShowsTooltip: 1b
+				TrophyVariant: "classic"
 			}
 		},
 		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"contenttweaker:cosmic_machine_casing\", Count:1b,Damage:0s},  TrophyName:\"Cosmic Forge\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"

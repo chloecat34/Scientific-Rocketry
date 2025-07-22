@@ -13,8 +13,8 @@ mods.nuclearcraft.AlloyFurnace.addRecipe(<enderutilities:enderpart:0>, <enderio:
 recipes.remove(<enderutilities:asu>);
 
 recipes.addShaped(<enderutilities:asu>, [
-	[<enderutilities:enderpart:0>, <ore:plateVividAlloy>, <enderutilities:enderpart:0>], 
-	[<ore:circuitElite>, <appliedenergistics2:material:38>, <ore:circuitElite>], 
+	[<enderutilities:enderpart:0>, <ore:plateVividAlloy>, <enderutilities:enderpart:0>],
+	[<ore:circuitElite>, <appliedenergistics2:material:38>, <ore:circuitElite>],
 	[<enderutilities:enderpart:0>, <ore:plateVividAlloy>, <enderutilities:enderpart:0>]
 ]);
 
@@ -22,8 +22,8 @@ recipes.addShaped(<enderutilities:asu>, [
 recipes.remove(<enderutilities:draw_bridge:0>);
 
 recipes.addShaped(<enderutilities:draw_bridge:0>, [
-	[<enderutilities:enderpart:0>, <minecraft:sticky_piston>, <enderutilities:enderpart:0>], 
-	[<enderutilities:enderpart:0>, <ore:gearRestoniaEmpowered>, <enderutilities:enderpart:0>], 
+	[<enderutilities:enderpart:0>, <minecraft:sticky_piston>, <enderutilities:enderpart:0>],
+	[<enderutilities:enderpart:0>, <ore:gearRestoniaEmpowered>, <enderutilities:enderpart:0>],
 	[<enderutilities:enderpart:0>, <minecraft:sticky_piston>, <enderutilities:enderpart:0>]
 ]);
 
@@ -31,8 +31,8 @@ recipes.addShaped(<enderutilities:draw_bridge:0>, [
 recipes.remove(<enderutilities:draw_bridge:1>);
 
 recipes.addShaped(<enderutilities:draw_bridge:1>, [
-	[<enderutilities:enderpart:1>, <ore:platePalisEmpowered>, <enderutilities:enderpart:1>], 
-	[<ore:platePalisEmpowered>, <enderutilities:draw_bridge:0>, <ore:platePalisEmpowered>], 
+	[<enderutilities:enderpart:1>, <ore:platePalisEmpowered>, <enderutilities:enderpart:1>],
+	[<ore:platePalisEmpowered>, <enderutilities:draw_bridge:0>, <ore:platePalisEmpowered>],
 	[<enderutilities:enderpart:1>, <ore:platePalisEmpowered>, <enderutilities:enderpart:1>]
 ]);
 
@@ -40,8 +40,8 @@ recipes.addShaped(<enderutilities:draw_bridge:1>, [
 recipes.remove(<enderutilities:ender_elevator:0> * 2);
 
 recipes.addShaped(<enderutilities:ender_elevator:0>, [
-	[<enderutilities:enderpart:0>, <ore:itemConduitBinder>, <enderutilities:enderpart:0>], 
-	[<ore:itemConduitBinder>, <ore:itemPulsatingCrystal>, <ore:itemConduitBinder>], 
+	[<enderutilities:enderpart:0>, <ore:itemConduitBinder>, <enderutilities:enderpart:0>],
+	[<ore:itemConduitBinder>, <ore:itemPulsatingCrystal>, <ore:itemConduitBinder>],
 	[<enderutilities:enderpart:0>, <ore:itemConduitBinder>, <enderutilities:enderpart:0>]
 ]);
 
@@ -50,14 +50,14 @@ recipes.remove(<enderutilities:inserter:0>);
 recipes.remove(<enderutilities:inserter:1>);
 
 recipes.addShaped(<enderutilities:inserter:0>, [
-	[<enderutilities:enderpart:0>, <ore:plateVibrantAlloy>, <enderutilities:enderpart:0>], 
-	[<ore:blockGlassHardened>, <ore:gearEnderium>, <ore:blockGlassHardened>], 
+	[<enderutilities:enderpart:0>, <ore:plateVibrantAlloy>, <enderutilities:enderpart:0>],
+	[<ore:blockGlassHardened>, <ore:gearEnderium>, <ore:blockGlassHardened>],
 	[<enderutilities:enderpart:0>, <ore:plateVibrantAlloy>, <enderutilities:enderpart:0>]
 ]);
 
 recipes.addShaped(<enderutilities:inserter:1>, [
-	[<enderutilities:enderpart:0>, <ore:plateEnrichedSignalum>, <enderutilities:enderpart:0>], 
-	[<ore:blockGlassHardened>, <ore:gearEnderium>, <ore:blockGlassHardened>], 
+	[<enderutilities:enderpart:0>, <ore:plateEnrichedSignalum>, <enderutilities:enderpart:0>],
+	[<ore:blockGlassHardened>, <ore:gearEnderium>, <ore:blockGlassHardened>],
 	[<enderutilities:enderpart:0>, <ore:plateEnrichedSignalum>, <enderutilities:enderpart:0>]
 ]);
 
@@ -67,20 +67,20 @@ recipes.remove(<enderutilities:enderpart:11>);
 recipes.remove(<enderutilities:enderpart:12>);
 
 recipes.addShaped(<enderutilities:enderpart:10>, [
-	[<enderutilities:enderpart>, <ore:plateRefinedObsidian>, <enderutilities:enderpart>], 
-	[<actuallyadditions:item_crystal_empowered:1>, <darkutils:material:1>, <actuallyadditions:item_crystal_empowered:1>], 
+	[<enderutilities:enderpart>, <ore:plateRefinedObsidian>, <enderutilities:enderpart>],
+	[<actuallyadditions:item_crystal_empowered:1>, <darkutils:material:1>, <actuallyadditions:item_crystal_empowered:1>],
 	[<enderutilities:enderpart>, <ore:plateRefinedObsidian>, <enderutilities:enderpart>]
 ]);
 
 recipes.addShaped(<enderutilities:enderpart:11>, [
-	[<enderutilities:enderpart:1>, <ore:plateGelidEnderium>, <enderutilities:enderpart:1>], 
-	[<actuallyadditions:item_crystal_empowered:4>, <enderutilities:enderpart:10>, <actuallyadditions:item_crystal_empowered:4>], 
+	[<enderutilities:enderpart:1>, <ore:plateGelidEnderium>, <enderutilities:enderpart:1>],
+	[<actuallyadditions:item_crystal_empowered:4>, <enderutilities:enderpart:10>, <actuallyadditions:item_crystal_empowered:4>],
 	[<enderutilities:enderpart:1>, <ore:plateGelidEnderium>, <enderutilities:enderpart:1>]
 ]);
 
 recipes.addShaped(<enderutilities:enderpart:12>, [
-	[<enderutilities:enderpart:2>, <ore:plateMithril>, <enderutilities:enderpart:2>], 
-	[<ore:plateGlitchInfused>, <enderutilities:enderpart:11>, <ore:plateGlitchInfused>], 
+	[<enderutilities:enderpart:2>, <ore:plateMithril>, <enderutilities:enderpart:2>],
+	[<ore:plateGlitchInfused>, <enderutilities:enderpart:11>, <ore:plateGlitchInfused>],
 	[<enderutilities:enderpart:2>, <ore:plateMithril>, <enderutilities:enderpart:2>]
 ]);
 
@@ -90,20 +90,20 @@ recipes.remove(<enderutilities:energy_bridge:1>);
 recipes.remove(<enderutilities:energy_bridge:2>);
 
 recipes.addShaped(<enderutilities:energy_bridge:1>, [
-	[<enderutilities:enderpart:2>, <thermalfoundation:glass_alloy:7>, <enderutilities:enderpart:2>], 
-	[<enderutilities:enderpart:17>, <rftools:matter_receiver>, <enderutilities:enderpart:17>], 
+	[<enderutilities:enderpart:2>, <thermalfoundation:glass_alloy:7>, <enderutilities:enderpart:2>],
+	[<enderutilities:enderpart:17>, <rftools:matter_receiver>, <enderutilities:enderpart:17>],
 	[<enderutilities:enderpart:2>, <thermalfoundation:glass_alloy:7>, <enderutilities:enderpart:2>]
 ]);
 
 recipes.addShaped(<enderutilities:energy_bridge:2>, [
-	[<enderutilities:enderpart:2>, <ore:netherStar>, <enderutilities:enderpart:2>], 
-	[<enderutilities:enderpart:17>, <rftools:matter_transmitter>, <enderutilities:enderpart:17>], 
+	[<enderutilities:enderpart:2>, <ore:netherStar>, <enderutilities:enderpart:2>],
+	[<enderutilities:enderpart:17>, <rftools:matter_transmitter>, <enderutilities:enderpart:17>],
 	[<enderutilities:enderpart:2>, <actuallyadditions:block_crystal_empowered:2>, <enderutilities:enderpart:2>]
 ]);
 
 recipes.addShaped(<enderutilities:energy_bridge:0>, [
-	[<enderutilities:enderpart:2>, <mekanism:teleportationcore>, <enderutilities:enderpart:2>], 
-	[<ore:plateGelidEnderium>, <enderutilities:enderpart:17>, <ore:plateGelidEnderium>], 
+	[<enderutilities:enderpart:2>, <mekanism:teleportationcore>, <enderutilities:enderpart:2>],
+	[<ore:plateGelidEnderium>, <enderutilities:enderpart:17>, <ore:plateGelidEnderium>],
 	[<enderutilities:enderpart:2>, <mekanism:teleportationcore>, <enderutilities:enderpart:2>]
 ]);
 
@@ -111,8 +111,8 @@ recipes.addShaped(<enderutilities:energy_bridge:0>, [
 recipes.remove(<enderutilities:machine_1:0>);
 
 recipes.addShaped(<enderutilities:machine_1:0>, [
-	[<enderutilities:enderpart:0>, <actuallyadditions:item_misc:8>, <enderutilities:enderpart:0>], 
-	[<ore:plateVibrantAlloy>, <ore:blockVibrantAlloy>, <ore:plateVibrantAlloy>], 
+	[<enderutilities:enderpart:0>, <actuallyadditions:item_misc:8>, <enderutilities:enderpart:0>],
+	[<ore:plateVibrantAlloy>, <ore:blockVibrantAlloy>, <ore:plateVibrantAlloy>],
 	[<enderutilities:enderpart:0>, <actuallyadditions:item_misc:8>, <enderutilities:enderpart:0>]
 ]);
 
@@ -120,8 +120,8 @@ recipes.addShaped(<enderutilities:machine_1:0>, [
 recipes.remove(<enderutilities:machine_1:1>);
 
 recipes.addShaped(<enderutilities:machine_1:1>, [
-	[<enderutilities:enderpart:0>, <ore:plateDarkSteel>, <enderutilities:enderpart:0>], 
-	[<ore:plateDarkSteel>, <avaritia:compressed_crafting_table>, <ore:plateDarkSteel>], 
+	[<enderutilities:enderpart:0>, <ore:plateDarkSteel>, <enderutilities:enderpart:0>],
+	[<ore:plateDarkSteel>, <avaritia:compressed_crafting_table>, <ore:plateDarkSteel>],
 	[<enderutilities:enderpart:0>, <ironchest:iron_chest>, <enderutilities:enderpart:0>]
 ]);
 
@@ -129,8 +129,8 @@ recipes.addShaped(<enderutilities:machine_1:1>, [
 recipes.remove(<enderutilities:molecular_exciter>);
 
 recipes.addShaped(<enderutilities:molecular_exciter>, [
-	[<enderutilities:enderpart:1>, <ore:plateVividAlloy>, <enderutilities:enderpart:1>], 
-	[<thermalfoundation:glass_alloy:7>, <thermalfoundation:glass_alloy:7>, <enderutilities:enderpart:11>], 
+	[<enderutilities:enderpart:1>, <ore:plateVividAlloy>, <enderutilities:enderpart:1>],
+	[<thermalfoundation:glass_alloy:7>, <thermalfoundation:glass_alloy:7>, <enderutilities:enderpart:11>],
 	[<enderutilities:enderpart:1>, <ore:plateVividAlloy>, <enderutilities:enderpart:1>]
 ]);
 
@@ -139,14 +139,14 @@ recipes.remove(<enderutilities:frame> * 8);
 recipes.remove(<enderutilities:portal_panel>);
 
 recipes.addShaped(<enderutilities:frame> * 4, [
-	[<appliedenergistics2:quartz_vibrant_glass>, <enderutilities:enderpart:1>, <appliedenergistics2:quartz_vibrant_glass>], 
-	[<enderutilities:enderpart:1>, <mekanism:teleportationcore>, <enderutilities:enderpart:1>], 
+	[<appliedenergistics2:quartz_vibrant_glass>, <enderutilities:enderpart:1>, <appliedenergistics2:quartz_vibrant_glass>],
+	[<enderutilities:enderpart:1>, <mekanism:teleportationcore>, <enderutilities:enderpart:1>],
 	[<appliedenergistics2:quartz_vibrant_glass>, <enderutilities:enderpart:1>, <appliedenergistics2:quartz_vibrant_glass>]
 ]);
 
 recipes.addShaped(<enderutilities:portal_panel>, [
-	[<enderutilities:frame>, <ore:circuitUltimate>, <enderutilities:frame>], 
-	[<enderutilities:enderpart:16>, <actuallyadditions:block_misc:8>, <enderutilities:enderpart:16>], 
+	[<enderutilities:frame>, <ore:circuitUltimate>, <enderutilities:frame>],
+	[<enderutilities:enderpart:16>, <actuallyadditions:block_misc:8>, <enderutilities:enderpart:16>],
 	[<enderutilities:frame>, <ore:circuitUltimate>, <enderutilities:frame>]
 ]);
 
@@ -154,8 +154,8 @@ recipes.addShaped(<enderutilities:portal_panel>, [
 recipes.remove(<enderutilities:msu:0>);
 
 recipes.addShaped(<enderutilities:msu:0>, [
-	[<enderutilities:enderpart:2>, <enderutilities:asu:0>, <enderutilities:enderpart:2>], 
-	[<enderutilities:enderpart:17>, <aeadditions:storage.component:0>, <enderutilities:enderpart:17>], 
+	[<enderutilities:enderpart:2>, <enderutilities:asu:0>, <enderutilities:enderpart:2>],
+	[<enderutilities:enderpart:17>, <nae2:material:1>, <enderutilities:enderpart:17>],
 	[<enderutilities:enderpart:2>, <enderutilities:asu:0>, <enderutilities:enderpart:2>]
 ]);
 

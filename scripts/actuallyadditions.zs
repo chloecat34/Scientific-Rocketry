@@ -10,8 +10,8 @@ recipes.remove(<actuallyadditions:item_misc:8>);
 
 // Iron casing
 recipes.addShaped(<actuallyadditions:block_misc:9>, [
-	[<ore:plateInvar>, <ore:itemEnrichedAlloy>, <ore:plateInvar>], 
-	[<ore:circuitBasic>, <ore:gearQuartzBlack>, <ore:circuitBasic>], 
+	[<ore:plateInvar>, <ore:itemEnrichedAlloy>, <ore:plateInvar>],
+	[<ore:circuitBasic>, <ore:gearQuartzBlack>, <ore:circuitBasic>],
 	[<ore:plateInvar>, <ore:itemEnrichedAlloy>, <ore:plateInvar>]
 ]);
 
@@ -94,21 +94,21 @@ var restonia_out = [
 
 for i, input in restonia_in {
     mods.actuallyadditions.Empowerer.addRecipe(
-        restonia_out[i], 
-        input, 
-        <redstonearsenal:material:160>, 
-        <thermalfoundation:bait:2>, 
-        <minecraft:dye:1>, 
-        <thermalfoundation:material:1024>, 
-        5000 * multis[i], 
+        restonia_out[i],
+        input,
+        <redstonearsenal:material:160>,
+        <thermalfoundation:bait:2>,
+        <minecraft:dye:1>,
+        <thermalfoundation:material:1024>,
+        5000 * multis[i],
         100
     );
 
     mods.extendedcrafting.CombinationCrafting.addRecipe(restonia_out[i], 500000 * multis[i], 1000000, input, [
-        <redstonearsenal:material:160>, 
-        <thermalfoundation:bait:2>, 
-        <minecraft:dye:1>, 
-        <thermalfoundation:material:1024>, 
+        <redstonearsenal:material:160>,
+        <thermalfoundation:bait:2>,
+        <minecraft:dye:1>,
+        <thermalfoundation:material:1024>,
     ]);
 }
 
@@ -122,20 +122,20 @@ var palis_out = [
 
 for i, input in palis_in {
     mods.actuallyadditions.Empowerer.addRecipe(
-        palis_out[i], 
-        input, 
-        <projectred-core:resource_item:342>, 
-        <thermalfoundation:material:167>, 
-        <integratedterminals:menril_glass>, 
-        <nuclearcraft:alloy:2>, 
-        5000 * multis[i], 
+        palis_out[i],
+        input,
+        <projectred-core:resource_item:342>,
+        <thermalfoundation:material:167>,
+        <integratedterminals:menril_glass>,
+        <nuclearcraft:alloy:2>,
+        5000 * multis[i],
         100
     );
 
     mods.extendedcrafting.CombinationCrafting.addRecipe(palis_out[i], 500000 * multis[i], 1000000, input, [
-        <projectred-core:resource_item:342>, 
-        <thermalfoundation:material:167>, 
-        <integratedterminals:menril_glass>, 
+        <projectred-core:resource_item:342>,
+        <thermalfoundation:material:167>,
+        <integratedterminals:menril_glass>,
         <nuclearcraft:alloy:2>
     ]);
 }
@@ -151,20 +151,20 @@ var diamatine_out = [
 
 for i, input in diamatine_in {
     mods.actuallyadditions.Empowerer.addRecipe(
-        diamatine_out[i], 
-        input, 
-        <redstonerepository:material:5>, 
-        <thermalfoundation:material:134>, 
-        <enderio:item_alloy_endergy_ingot:6>, 
-        <thermalfoundation:material:1025>, 
-        5000 * multis[i], 
+        diamatine_out[i],
+        input,
+        <redstonerepository:material:5>,
+        <thermalfoundation:material:134>,
+        <enderio:item_alloy_endergy_ingot:6>,
+        <thermalfoundation:material:1025>,
+        5000 * multis[i],
         100
     );
 
     mods.extendedcrafting.CombinationCrafting.addRecipe(diamatine_out[i], 500000 * multis[i], 1000000, input, [
-        <redstonerepository:material:5>, 
-        <thermalfoundation:material:134>, 
-        <enderio:item_alloy_endergy_ingot:6>, 
+        <redstonerepository:material:5>,
+        <thermalfoundation:material:134>,
+        <enderio:item_alloy_endergy_ingot:6>,
         <thermalfoundation:material:1025>
     ]);
 }
@@ -180,20 +180,20 @@ var void_out = [
 
 for i, input in void_in {
     mods.actuallyadditions.Empowerer.addRecipe(
-        void_out[i], 
-        input, 
-        <enderio:item_alloy_ingot:6>, 
-        <mekanism:ingot:0>, 
-        <nuclearcraft:alloy:3>, 
-        <thermalfoundation:material:1027>, 
-        5000 * multis[i], 
+        void_out[i],
+        input,
+        <enderio:item_alloy_ingot:6>,
+        <mekanism:ingot:0>,
+        <nuclearcraft:alloy:3>,
+        <thermalfoundation:material:1027>,
+        5000 * multis[i],
         100
     );
 
     mods.extendedcrafting.CombinationCrafting.addRecipe(void_out[i], 500000 * multis[i], 1000000, input, [
-        <enderio:item_alloy_ingot:6>, 
-        <mekanism:ingot:0>, 
-        <nuclearcraft:alloy:3>, 
+        <enderio:item_alloy_ingot:6>,
+        <mekanism:ingot:0>,
+        <nuclearcraft:alloy:3>,
         <thermalfoundation:material:1027>
     ]);
 }
@@ -209,20 +209,20 @@ var emeradic_out = [
 
 for i, input in emeradic_in {
     mods.actuallyadditions.Empowerer.addRecipe(
-        emeradic_out[i], 
-        input, 
-        <enderio:item_alloy_ingot:2>, 
-        <thermalfoundation:fertilizer:2>, 
-        <nuclearcraft:ingot:14>, 
-        <nuclearcraft:alloy:11>, 
-        5000 * multis[i], 
+        emeradic_out[i],
+        input,
+        <enderio:item_alloy_ingot:2>,
+        <thermalfoundation:fertilizer:2>,
+        <nuclearcraft:ingot:14>,
+        <nuclearcraft:alloy:11>,
+        5000 * multis[i],
         100
     );
 
     mods.extendedcrafting.CombinationCrafting.addRecipe(emeradic_out[i], 500000 * multis[i], 1000000, input, [
-        <enderio:item_alloy_ingot:2>, 
-        <thermalfoundation:fertilizer:2>, 
-        <nuclearcraft:ingot:14>, 
+        <enderio:item_alloy_ingot:2>,
+        <thermalfoundation:fertilizer:2>,
+        <nuclearcraft:ingot:14>,
         <nuclearcraft:alloy:11>
     ]);
 }
@@ -238,20 +238,20 @@ var enori_out = [
 
 for i, input in enori_in {
     mods.actuallyadditions.Empowerer.addRecipe(
-        enori_out[i], 
-        input, 
-        <enderio:item_alloy_ingot:8>, 
-        <nuclearcraft:alloy:12>, 
-        <mekanism:polyethene:2>, 
-        <thermalfoundation:material:1026>, 
-        5000 * multis[i], 
+        enori_out[i],
+        input,
+        <enderio:item_alloy_ingot:8>,
+        <nuclearcraft:alloy:12>,
+        <mekanism:polyethene:2>,
+        <thermalfoundation:material:1026>,
+        5000 * multis[i],
         100
     );
 
     mods.extendedcrafting.CombinationCrafting.addRecipe(enori_out[i], 500000 * multis[i], 1000000, input, [
-        <enderio:item_alloy_ingot:8>, 
-        <nuclearcraft:alloy:12>, 
-        <mekanism:polyethene:2>, 
+        <enderio:item_alloy_ingot:8>,
+        <nuclearcraft:alloy:12>,
+        <mekanism:polyethene:2>,
         <thermalfoundation:material:1026>
     ]);
 }
@@ -274,8 +274,8 @@ mods.actuallyadditions.AtomicReconstructor.removeRecipe(<moreplates:void_plate>)
 recipes.remove(<actuallyadditions:item_misc:6>);
 
 recipes.addShaped(<actuallyadditions:item_misc:6>, [
-	[<ore:stringFluxed>, <ore:ingotElectrumFlux>, <ore:stringFluxed>], 
-	[<ore:ingotElectrumFlux>, <actuallyadditions:item_crystal:4>, <ore:ingotElectrumFlux>], 
+	[<ore:stringFluxed>, <ore:ingotElectrumFlux>, <ore:stringFluxed>],
+	[<ore:ingotElectrumFlux>, <actuallyadditions:item_crystal:4>, <ore:ingotElectrumFlux>],
 	[<ore:stringFluxed>, <ore:ingotElectrumFlux>, <ore:stringFluxed>]
 ]);
 
@@ -285,8 +285,8 @@ recipes.remove(<actuallyadditions:block_misc:8>);
 mods.nuclearcraft.Infuser.addRecipe(<contenttweaker:unfinished_ender_casing>, <liquid:ender_distillation> * 4000, <actuallyadditions:block_misc:8>, 2.0, 4.0);
 
 recipes.addShaped(<contenttweaker:unfinished_ender_casing>, [
-	[<ore:gearEnderium>, <ore:blockQuartzBlack>, <ore:gearEnderium>], 
-	[<actuallyadditions:block_crystal_empowered:2>, <enderio:block_reinforced_obsidian>, <actuallyadditions:block_crystal_empowered:2>], 
+	[<ore:gearEnderium>, <ore:blockQuartzBlack>, <ore:gearEnderium>],
+	[<actuallyadditions:block_crystal_empowered:2>, <enderio:block_reinforced_obsidian>, <actuallyadditions:block_crystal_empowered:2>],
 	[<ore:gearEnderium>, <ore:blockQuartzBlack>, <ore:gearEnderium>]
 ]);
 
@@ -301,8 +301,8 @@ recipes.replaceAllOccurences(<actuallyadditions:item_crystal:2>, <actuallyadditi
 recipes.remove(<actuallyadditions:item_misc:18>);
 
 recipes.addShaped(<actuallyadditions:item_misc:18>, [
-    [<actuallyadditions:item_crystal_empowered:5>, <ore:fusedQuartz>, <actuallyadditions:item_crystal_empowered:5>], 
-	[<ore:fusedQuartz>, <ore:gemQuartzBlack>, <ore:fusedQuartz>], 
+    [<actuallyadditions:item_crystal_empowered:5>, <ore:fusedQuartz>, <actuallyadditions:item_crystal_empowered:5>],
+	[<ore:fusedQuartz>, <ore:gemQuartzBlack>, <ore:fusedQuartz>],
 	[<actuallyadditions:item_crystal_empowered:5>, <ore:fusedQuartz>, <actuallyadditions:item_crystal_empowered:5>]
 ]);
 
@@ -313,10 +313,10 @@ recipes.remove(<actuallyadditions:block_furnace_solar>);
 recipes.remove(<actuallyadditions:item_misc:19>);
 
 mods.actuallyadditions.Empowerer.addRecipe(
-        <actuallyadditions:item_misc:19>, 
-        <minecraft:nether_star>, 
-        <ore:plateEnderBiotite>, 
-        <minecraft:dragon_breath>, 
+        <actuallyadditions:item_misc:19>,
+        <minecraft:nether_star>,
+        <ore:plateEnderBiotite>,
+        <minecraft:dragon_breath>,
         <minecraft:sea_lantern>,
 		<ore:itemEnderCrystal>,
         50000,
@@ -324,8 +324,8 @@ mods.actuallyadditions.Empowerer.addRecipe(
     );
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:item_misc:19>, 5000000, 1000000, <minecraft:nether_star>, [
-    <ore:plateEnderBiotite>, 
-    <minecraft:dragon_breath>, 
+    <ore:plateEnderBiotite>,
+    <minecraft:dragon_breath>,
     <minecraft:sea_lantern>,
 	<ore:itemEnderCrystal>
 ]);
@@ -334,20 +334,20 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:item_misc
 recipes.remove(<actuallyadditions:block_laser_relay> * 4);
 
 recipes.addShaped(<actuallyadditions:block_laser_relay> * 4, [
-	[<ore:ingotDarkSteel>, <ore:plateRuby>, <ore:ingotDarkSteel>], 
-	[<actuallyadditions:item_crystal_empowered:0>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal_empowered:0>], 
+	[<ore:ingotDarkSteel>, <ore:plateRuby>, <ore:ingotDarkSteel>],
+	[<actuallyadditions:item_crystal_empowered:0>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal_empowered:0>],
 	[<ore:ingotDarkSteel>, <ore:plateRuby>, <ore:ingotDarkSteel>]
 ]);
 
 recipes.addShaped(<actuallyadditions:block_laser_relay_fluids> * 4, [
-	[<ore:ingotDarkSteel>, <ore:plateSapphire>, <ore:ingotDarkSteel>], 
-	[<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal_empowered:1>], 
+	[<ore:ingotDarkSteel>, <ore:plateSapphire>, <ore:ingotDarkSteel>],
+	[<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal_empowered:1>],
 	[<ore:ingotDarkSteel>, <ore:plateSapphire>, <ore:ingotDarkSteel>]
 ]);
 
 recipes.addShaped(<actuallyadditions:block_laser_relay_item> * 4, [
-	[<ore:ingotDarkSteel>, <ore:platePeridot>, <ore:ingotDarkSteel>], 
-	[<actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal_empowered:4>], 
+	[<ore:ingotDarkSteel>, <ore:platePeridot>, <ore:ingotDarkSteel>],
+	[<actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal_empowered:4>],
 	[<ore:ingotDarkSteel>, <ore:platePeridot>, <ore:ingotDarkSteel>]
 ]);
 
@@ -355,8 +355,8 @@ recipes.addShaped(<actuallyadditions:block_laser_relay_item> * 4, [
 recipes.remove(<actuallyadditions:block_giant_chest>);
 
 recipes.addShaped(<actuallyadditions:block_giant_chest>, [
-	[<ore:chest>, <actuallyadditions:item_crystal:3>, <ore:chest>], 
-	[<actuallyadditions:item_crystal:3>, <actuallyadditions:block_misc:4>, <actuallyadditions:item_crystal:3>], 
+	[<ore:chest>, <actuallyadditions:item_crystal:3>, <ore:chest>],
+	[<actuallyadditions:item_crystal:3>, <actuallyadditions:block_misc:4>, <actuallyadditions:item_crystal:3>],
 	[<ore:chest>, <actuallyadditions:item_crystal:3>, <ore:chest>]
 ]);
 
@@ -364,8 +364,8 @@ recipes.addShaped(<actuallyadditions:block_giant_chest>, [
 recipes.remove(<actuallyadditions:block_giant_chest_medium>);
 
 recipes.addShaped(<actuallyadditions:block_giant_chest_medium>, [
-	[<ore:plateDarkSteel>, <actuallyadditions:item_crystal_empowered:3>, <ore:plateDarkSteel>], 
-	[<actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:block_giant_chest>, <actuallyadditions:item_crystal_empowered:3>], 
+	[<ore:plateDarkSteel>, <actuallyadditions:item_crystal_empowered:3>, <ore:plateDarkSteel>],
+	[<actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:block_giant_chest>, <actuallyadditions:item_crystal_empowered:3>],
 	[<ore:plateDarkSteel>, <actuallyadditions:item_crystal_empowered:3>, <ore:plateDarkSteel>]
 ]);
 
@@ -373,8 +373,8 @@ recipes.addShaped(<actuallyadditions:block_giant_chest_medium>, [
 recipes.remove(<actuallyadditions:block_giant_chest_large>);
 
 recipes.addShaped(<actuallyadditions:block_giant_chest_large>, [
-	[<ore:plateCrystallinePinkSlime>, <ore:dustMana>, <ore:plateCrystallinePinkSlime>], 
-	[<ore:dustMana>, <actuallyadditions:block_giant_chest_medium>, <ore:dustMana>], 
+	[<ore:plateCrystallinePinkSlime>, <ore:dustMana>, <ore:plateCrystallinePinkSlime>],
+	[<ore:dustMana>, <actuallyadditions:block_giant_chest_medium>, <ore:dustMana>],
 	[<ore:plateCrystallinePinkSlime>, <ore:dustMana>, <ore:plateCrystallinePinkSlime>]
 ]);
 
@@ -382,8 +382,8 @@ recipes.addShaped(<actuallyadditions:block_giant_chest_large>, [
 recipes.remove(<actuallyadditions:block_greenhouse_glass> * 2);
 
 recipes.addShaped(<actuallyadditions:block_greenhouse_glass> * 4, [
-	[<thermalfoundation:glass_alloy:6>, <ore:treeSapling>, <thermalfoundation:glass_alloy:6>], 
-	[<ore:treeSapling>, <actuallyadditions:item_crystal_empowered:1>, <ore:treeSapling>], 
+	[<thermalfoundation:glass_alloy:6>, <ore:treeSapling>, <thermalfoundation:glass_alloy:6>],
+	[<ore:treeSapling>, <actuallyadditions:item_crystal_empowered:1>, <ore:treeSapling>],
 	[<thermalfoundation:glass_alloy:6>, <ore:treeSapling>, <thermalfoundation:glass_alloy:6>]
 ]);
 

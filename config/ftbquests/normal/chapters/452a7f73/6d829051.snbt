@@ -21,18 +21,18 @@
 		icon: {
 			id: "simple_trophies:trophy",
 			tag: {
+				TrophyColorRed: 179,
+				TrophyColorBlue: 44,
+				TrophyEarnedAt: 1704154091L,
+				TrophyShowsTooltip: 1b,
+				TrophyColorGreen: 49,
+				TrophyName: "The Internet Realm",
 				TrophyItem: {
 					id: "mekanism:salt",
 					Count: 1b,
 					Damage: 0s
 				},
-				TrophyName: "The Internet Realm",
-				TrophyColorRed: 179,
-				TrophyColorGreen: 49,
-				TrophyColorBlue: 44,
-				TrophyVariant: "classic",
-				TrophyEarnedAt: 1704154091L,
-				TrophyShowsTooltip: 1b
+				TrophyVariant: "classic"
 			}
 		},
 		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"mekanism:salt\", Count:1b,Damage:0s},  TrophyName:\"The Internet Realm\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"

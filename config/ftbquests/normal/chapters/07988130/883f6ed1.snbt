@@ -38,7 +38,7 @@
 		uid: "2b2106c7",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:controller"
+			item: "contenttweaker:fake_controller"
 		}],
 		count: 20L
 	},
@@ -71,18 +71,18 @@
 		icon: {
 			id: "simple_trophies:trophy",
 			tag: {
+				TrophyColorRed: 179,
+				TrophyColorBlue: 44,
+				TrophyEarnedAt: 1704154774L,
+				TrophyShowsTooltip: 1b,
+				TrophyColorGreen: 49,
+				TrophyName: "Advanced Assembler",
 				TrophyItem: {
 					id: "contenttweaker:tungstensteel_machine_casing",
 					Count: 1b,
 					Damage: 0s
 				},
-				TrophyName: "Advanced Assembler",
-				TrophyColorRed: 179,
-				TrophyColorGreen: 49,
-				TrophyColorBlue: 44,
-				TrophyVariant: "classic",
-				TrophyEarnedAt: 1704154774L,
-				TrophyShowsTooltip: 1b
+				TrophyVariant: "classic"
 			}
 		},
 		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"contenttweaker:tungstensteel_machine_casing\", Count:1b,Damage:0s},  TrophyName:\"Advanced Assembler\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"

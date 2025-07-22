@@ -29,19 +29,19 @@
 		icon: {
 			id: "simple_trophies:trophy",
 			tag: {
+				TrophyColorRed: 179,
+				TrophyColorBlue: 44,
+				TrophyEarnedAt: 1704155414L,
+				TrophyShowsTooltip: 1b,
+				TrophyColorGreen: 49,
+				TrophyName: "Creative Energy Cube",
 				TrophyItem: {
 					id: "mekanism:energycube",
 					tier: 4b,
 					Count: 1b,
 					Damage: 0s
 				},
-				TrophyName: "Creative Energy Cube",
-				TrophyColorRed: 179,
-				TrophyColorGreen: 49,
-				TrophyColorBlue: 44,
-				TrophyVariant: "classic",
-				TrophyEarnedAt: 1704155414L,
-				TrophyShowsTooltip: 1b
+				TrophyVariant: "classic"
 			}
 		},
 		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"mekanism:energycube\", tier: 4b, Count:1b,Damage:0s},  TrophyName:\"Creative Energy Cube\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"

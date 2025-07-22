@@ -2,8 +2,8 @@
 recipes.remove(<advgenerators:iron_frame> * 2);
 
 recipes.addShaped(<advgenerators:iron_frame>, [
-    [null, <ore:plateElectricalSteel>, null], 
-	[<ore:plateElectricalSteel>, <enderio:item_basic_capacitor:2>, <ore:plateElectricalSteel>], 
+    [null, <ore:plateElectricalSteel>, null],
+	[<ore:plateElectricalSteel>, <enderio:item_basic_capacitor:2>, <ore:plateElectricalSteel>],
 	[null, <ore:plateElectricalSteel>, null]
 ]);
 
@@ -11,8 +11,8 @@ recipes.addShaped(<advgenerators:iron_frame>, [
 recipes.remove(<advgenerators:power_io>);
 
 recipes.addShaped(<advgenerators:power_io>, [
-	[<ore:plateEnrichedSignalum>, <ore:gearRestoniaEmpowered>, <ore:plateEnrichedSignalum>], 
-	[<enderio:block_cap_bank:3>, <mekanism:basicblock2:3>.withTag({tier: 1}), <enderio:block_cap_bank:3>], 
+	[<ore:plateEnrichedSignalum>, <ore:gearRestoniaEmpowered>, <ore:plateEnrichedSignalum>],
+	[<enderio:block_cap_bank:3>, <mekanism:basicblock2:3>.withTag({tier: 1}), <enderio:block_cap_bank:3>],
 	[<ore:plateEnrichedSignalum>, <ore:gearRestoniaEmpowered>, <ore:plateEnrichedSignalum>]
 ]);
 
@@ -20,8 +20,8 @@ recipes.addShaped(<advgenerators:power_io>, [
 recipes.remove(<advgenerators:iron_tubing> * 16);
 
 recipes.addShaped(<advgenerators:iron_tubing> * 4, [
-	[null, <ore:ingotIridium>, <actuallyadditions:item_misc:8>], 
-	[<ore:ingotIridium>, <ore:gearEnoriEmpowered>, <ore:ingotIridium>], 
+	[null, <ore:ingotIridium>, <actuallyadditions:item_misc:8>],
+	[<ore:ingotIridium>, <ore:gearEnoriEmpowered>, <ore:ingotIridium>],
 	[<actuallyadditions:item_misc:8>, <ore:ingotIridium>, null]
 ]);
 
@@ -29,8 +29,8 @@ recipes.addShaped(<advgenerators:iron_tubing> * 4, [
 recipes.remove(<advgenerators:iron_wiring> * 16);
 
 recipes.addShaped(<advgenerators:iron_wiring> * 4, [
-	[null, <ore:ingotOsgloglas>, <actuallyadditions:item_misc:8>], 
-	[<ore:ingotOsgloglas>, <ore:gearRestoniaEmpowered>, <ore:ingotOsgloglas>], 
+	[null, <ore:ingotOsgloglas>, <actuallyadditions:item_misc:8>],
+	[<ore:ingotOsgloglas>, <ore:gearRestoniaEmpowered>, <ore:ingotOsgloglas>],
 	[<actuallyadditions:item_misc:8>, <ore:ingotOsgloglas>, null]
 ]);
 
@@ -38,8 +38,8 @@ recipes.addShaped(<advgenerators:iron_wiring> * 4, [
 recipes.remove(<advgenerators:controller>);
 
 recipes.addShaped(<advgenerators:controller>, [
-	[<ore:plateOsgloglas>, <ore:skullZombieController>, <ore:plateOsgloglas>], 
-	[<advancedrocketry:ic:2>, <ore:circuitUltimate>, <advancedrocketry:ic:2>], 
+	[<ore:plateOsgloglas>, <ore:skullZombieController>, <ore:plateOsgloglas>],
+	[<advancedrocketry:ic:2>, <ore:circuitUltimate>, <advancedrocketry:ic:2>],
 	[<ore:plateOsgloglas>, <advancedrocketry:ic:3>, <ore:plateOsgloglas>]
 ]);
 
@@ -47,8 +47,8 @@ recipes.addShaped(<advgenerators:controller>, [
 recipes.remove(<advgenerators:pressure_valve>);
 
 recipes.addShaped(<advgenerators:pressure_valve>, [
-	[<ore:plateElectricalSteel>, <thermaldynamics:duct_16:6>, <ore:plateElectricalSteel>], 
-	[<advgenerators:iron_tubing>, <ore:gearOsmiridium>, <advgenerators:iron_tubing>], 
+	[<ore:plateElectricalSteel>, <thermaldynamics:duct_16:6>, <ore:plateElectricalSteel>],
+	[<advgenerators:iron_tubing>, <ore:gearOsmiridium>, <advgenerators:iron_tubing>],
 	[<ore:plateElectricalSteel>, <thermaldynamics:duct_16:6>, <ore:plateElectricalSteel>]
 ]);
 
@@ -61,8 +61,8 @@ mods.nuclearcraft.Infuser.addRecipe(<advgenerators:pressure_valve>, <liquid:mith
 recipes.remove(<advgenerators:rf_output>);
 
 recipes.addShaped(<advgenerators:rf_output>, [
-    [<ore:plateElectrumFlux>, <advgenerators:power_io>, <ore:plateElectrumFlux>], 
-	[<advgenerators:iron_frame>, <thermalfoundation:material:514>, <advgenerators:iron_frame>], 
+    [<ore:plateElectrumFlux>, <advgenerators:power_io>, <ore:plateElectrumFlux>],
+	[<advgenerators:iron_frame>, <thermalfoundation:material:514>, <advgenerators:iron_frame>],
 	[<ore:plateElectrumFlux>, <advgenerators:iron_wiring>, <ore:plateElectrumFlux>]
 ]);
 
@@ -76,6 +76,9 @@ recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotSteel>, <advgenerators:i
 
 recipes.replaceAllOccurences(<minecraft:glass_pane>, <ore:blockGlassHardened>, <advgenerators:fuel_tank>);
 
+// Gas input is broken and doesn't consume fuel'
+recipes.remove(<advgenerators:gas_input>);
+
 // Fuel-air mixer
 recipes.replaceAllOccurences(<minecraft:piston>, <ore:gearVibrantAlloy>, <advgenerators:efficiency_upgrade_tier1>);
 
@@ -83,7 +86,7 @@ recipes.replaceAllOccurences(<minecraft:piston>, <ore:gearVibrantAlloy>, <advgen
 recipes.remove(<advgenerators:efficiency_upgrade_tier2>);
 
 recipes.addShaped(<advgenerators:efficiency_upgrade_tier2>, [
-    [<advgenerators:iron_frame>, <ore:gearEnderium>, <advgenerators:iron_frame>], 
-	[<advgenerators:advanced_pressure_valve>, <minecraft:piston>, <advgenerators:advanced_pressure_valve>], 
+    [<advgenerators:iron_frame>, <ore:gearEnderium>, <advgenerators:iron_frame>],
+	[<advgenerators:advanced_pressure_valve>, <minecraft:piston>, <advgenerators:advanced_pressure_valve>],
 	[<advgenerators:iron_frame>, <ore:gearEnderium>, <advgenerators:iron_frame>]
 ]);

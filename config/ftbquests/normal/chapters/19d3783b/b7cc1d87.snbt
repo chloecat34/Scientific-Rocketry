@@ -21,18 +21,18 @@
 		icon: {
 			id: "simple_trophies:trophy",
 			tag: {
+				TrophyColorRed: 179,
+				TrophyColorBlue: 44,
+				TrophyEarnedAt: 1704155814L,
+				TrophyShowsTooltip: 1b,
+				TrophyColorGreen: 49,
+				TrophyName: "Creative ME Energy Cell",
 				TrophyItem: {
 					id: "appliedenergistics2:creative_energy_cell",
 					Count: 1b,
 					Damage: 0s
 				},
-				TrophyName: "Creative ME Energy Cell",
-				TrophyColorRed: 179,
-				TrophyColorGreen: 49,
-				TrophyColorBlue: 44,
-				TrophyVariant: "classic",
-				TrophyEarnedAt: 1704155814L,
-				TrophyShowsTooltip: 1b
+				TrophyVariant: "classic"
 			}
 		},
 		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"appliedenergistics2:creative_energy_cell\", Count:1b,Damage:0s},  TrophyName:\"Creative ME Energy Cell\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"

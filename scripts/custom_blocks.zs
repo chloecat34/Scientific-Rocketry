@@ -60,3 +60,4 @@ registerMetalBlock("adamantium_machine_casing", 10.0, 120.0, 5);
 registerMetalBlock("cosmic_machine_casing", 10.0, 120.0, 5);
 registerMetalBlock("unfinished_ender_casing", 5.0, 120.0, 2);
 registerMetalBlock("compressed_obsidian", 20.0, 150000.0, 3);
+registerMetalBlock("fake_controller", 5.0, 60.0, 4);

@@ -21,18 +21,18 @@
 		icon: {
 			id: "simple_trophies:trophy",
 			tag: {
+				TrophyColorRed: 179,
+				TrophyColorBlue: 44,
+				TrophyEarnedAt: 1704155219L,
+				TrophyShowsTooltip: 1b,
+				TrophyColorGreen: 49,
+				TrophyName: "Heart of the S'mogus",
 				TrophyItem: {
 					id: "contenttweaker:heart_of_the_smogus",
 					Count: 1b,
 					Damage: 0s
 				},
-				TrophyName: "Heart of the S'mogus",
-				TrophyColorRed: 179,
-				TrophyColorGreen: 49,
-				TrophyColorBlue: 44,
-				TrophyVariant: "classic",
-				TrophyEarnedAt: 1704155219L,
-				TrophyShowsTooltip: 1b
+				TrophyVariant: "classic"
 			}
 		},
 		command: "{TrophyItem:{id:\"contenttweaker:heart_of_the_smogus\",Count:1b,Damage:0s},TrophyName:\"Heart of the S'mogus\",TrophyColorRed:179,TrophyColorGreen:49,TrophyColorBlue:44,TrophyVariant:\"classic\",TrophyShowsTooltip:1b}"

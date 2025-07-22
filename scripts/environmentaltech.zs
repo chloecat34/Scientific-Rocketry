@@ -22,8 +22,8 @@ mods.nuclearcraft.Infuser.addRecipe(<environmentaltech:kyronite_crystal>, <liqui
 recipes.remove(<environmentaltech:diode>);
 
 recipes.addShaped(<environmentaltech:diode>, [
-	[<ore:plateReinforcedThermalloy>, <ore:skullGuardianDiode>, <ore:plateReinforcedThermalloy>], 
-	[<enderutilities:enderpart:17>, <actuallyadditions:item_misc:19>, <enderutilities:enderpart:17>], 
+	[<ore:plateReinforcedThermalloy>, <ore:skullGuardianDiode>, <ore:plateReinforcedThermalloy>],
+	[<enderutilities:enderpart:17>, <actuallyadditions:item_misc:19>, <enderutilities:enderpart:17>],
 	[<ore:plateReinforcedThermalloy>, <mekanism:teleportationcore>, <ore:plateReinforcedThermalloy>]
 ]);
 
@@ -31,8 +31,8 @@ recipes.addShaped(<environmentaltech:diode>, [
 recipes.remove(<environmentaltech:connector> * 4);
 
 recipes.addShaped(<environmentaltech:connector> * 4, [
-	[<ore:plateEnoriEmpowered>, <ore:plateIridium>, <ore:plateEnoriEmpowered>], 
-	[<appliedenergistics2:material:24>, <advancedrocketry:ic:2>, <appliedenergistics2:material:24>], 
+	[<ore:plateEnoriEmpowered>, <ore:plateIridium>, <ore:plateEnoriEmpowered>],
+	[<appliedenergistics2:material:24>, <advancedrocketry:ic:2>, <appliedenergistics2:material:24>],
 	[<ore:plateEnoriEmpowered>, <ore:plateIridium>, <ore:plateEnoriEmpowered>]
 ]);
 
@@ -40,8 +40,8 @@ recipes.addShaped(<environmentaltech:connector> * 4, [
 recipes.remove(<environmentaltech:interconnect>);
 
 recipes.addShaped(<environmentaltech:interconnect>, [
-	[<ore:plateVoidEmpowered>, <environmentaltech:connector>, <ore:plateVoidEmpowered>], 
-	[<environmentaltech:connector>, <valkyrielib:modifier_component>, <environmentaltech:connector>], 
+	[<ore:plateVoidEmpowered>, <environmentaltech:connector>, <ore:plateVoidEmpowered>],
+	[<environmentaltech:connector>, <valkyrielib:modifier_component>, <environmentaltech:connector>],
 	[<ore:plateVoidEmpowered>, <environmentaltech:connector>, <ore:plateVoidEmpowered>]
 ]);
 
@@ -49,8 +49,8 @@ recipes.addShaped(<environmentaltech:interconnect>, [
 recipes.remove(<valkyrielib:modifier_component> * 4);
 
 recipes.addShaped(<valkyrielib:modifier_component> * 2, [
-	[<minecraft:concrete:15>, <ore:gearRestoniaEmpowered>, <minecraft:concrete:15>], 
-	[<ore:crystalLitherite>, <thermalfoundation:upgrade:3>, <ore:crystalLitherite>], 
+	[<minecraft:concrete:15>, <ore:gearRestoniaEmpowered>, <minecraft:concrete:15>],
+	[<ore:crystalLitherite>, <thermalfoundation:upgrade:3>, <ore:crystalLitherite>],
 	[<minecraft:concrete:15>, <ore:gearRestoniaEmpowered>, <minecraft:concrete:15>]
 ]);
 
@@ -58,8 +58,8 @@ recipes.addShaped(<valkyrielib:modifier_component> * 2, [
 recipes.remove(<valkyrielib:modifier_speed>);
 
 recipes.addShaped(<valkyrielib:modifier_speed>, [
-	[<ore:plateVibrantAlloy>, <nuclearcraft:upgrade>, <ore:plateVibrantAlloy>], 
-	[<nuclearcraft:upgrade>, <valkyrielib:modifier_component>, <nuclearcraft:upgrade>], 
+	[<ore:plateVibrantAlloy>, <nuclearcraft:upgrade>, <ore:plateVibrantAlloy>],
+	[<nuclearcraft:upgrade>, <valkyrielib:modifier_component>, <nuclearcraft:upgrade>],
 	[<ore:plateVibrantAlloy>, <nuclearcraft:upgrade>, <ore:plateVibrantAlloy>]
 ]);
 
@@ -73,8 +73,8 @@ recipes.replaceAllOccurences(<minecraft:enchanting_table>, <actuallyadditions:bl
 recipes.remove(<environmentaltech:structure_frame_1>);
 
 recipes.addShaped(<environmentaltech:structure_frame_1>, [
-	[<ore:platePlatinum>, <ore:crystalLitherite>, <ore:platePlatinum>], 
-	[<ore:platePalisEmpowered>, <environmentaltech:interconnect>, <ore:platePalisEmpowered>], 
+	[<ore:platePlatinum>, <ore:crystalLitherite>, <ore:platePlatinum>],
+	[<ore:platePalisEmpowered>, <environmentaltech:interconnect>, <ore:platePalisEmpowered>],
 	[<ore:platePlatinum>, <ore:gearEnoriEmpowered>, <ore:platePlatinum>]
 ]);
 
@@ -82,8 +82,8 @@ recipes.addShaped(<environmentaltech:structure_frame_1>, [
 recipes.remove(<environmentaltech:structure_frame_2>);
 
 recipes.addShaped(<environmentaltech:structure_frame_2>, [
-	[<ore:plateGelidEnderium>, <ore:crystalErodium>, <ore:plateGelidEnderium>], 
-	[<ore:plateEmeradicEmpowered>, <environmentaltech:structure_frame_1>, <ore:plateEmeradicEmpowered>], 
+	[<ore:plateGelidEnderium>, <ore:crystalErodium>, <ore:plateGelidEnderium>],
+	[<ore:plateEmeradicEmpowered>, <environmentaltech:structure_frame_1>, <ore:plateEmeradicEmpowered>],
 	[<ore:plateGelidEnderium>, <ore:gearOsgloglas>, <ore:plateGelidEnderium>]
 ]);
 
@@ -91,8 +91,8 @@ recipes.addShaped(<environmentaltech:structure_frame_2>, [
 recipes.remove(<environmentaltech:structure_frame_3>);
 
 recipes.addShaped(<environmentaltech:structure_frame_3>, [
-	[<ore:plateMithril>, <ore:crystalKyronite>, <ore:plateMithril>], 
-	[<ore:plateDiamatineEmpowered>, <environmentaltech:structure_frame_2>, <ore:plateDiamatineEmpowered>], 
+	[<ore:plateMithril>, <ore:crystalKyronite>, <ore:plateMithril>],
+	[<ore:plateDiamatineEmpowered>, <environmentaltech:structure_frame_2>, <ore:plateDiamatineEmpowered>],
 	[<ore:plateMithril>, <thermalexpansion:frame:146>, <ore:plateMithril>]
 ]);
 
@@ -100,8 +100,8 @@ recipes.addShaped(<environmentaltech:structure_frame_3>, [
 recipes.remove(<environmentaltech:structure_frame_4>);
 
 recipes.addShaped(<environmentaltech:structure_frame_4>, [
-	[<ore:plateManyullyn>, <ore:crystalPladium>, <ore:plateManyullyn>], 
-	[<ore:plateGlitchInfused>, <environmentaltech:structure_frame_3>, <ore:plateGlitchInfused>], 
+	[<ore:plateManyullyn>, <ore:crystalPladium>, <ore:plateManyullyn>],
+	[<ore:plateGlitchInfused>, <environmentaltech:structure_frame_3>, <ore:plateGlitchInfused>],
 	[<ore:plateManyullyn>, <actuallyadditions:block_misc:8>, <ore:plateManyullyn>]
 ]);
 
@@ -109,8 +109,8 @@ recipes.addShaped(<environmentaltech:structure_frame_4>, [
 recipes.remove(<environmentaltech:structure_frame_5>);
 
 recipes.addShaped(<environmentaltech:structure_frame_5>, [
-	[<ore:plateTungstensteel>, <ore:crystalIonite>, <ore:plateTungstensteel>], 
-	[<ore:plateCrystaltine>, <environmentaltech:structure_frame_4>, <ore:plateCrystaltine>], 
+	[<ore:plateTungstensteel>, <ore:crystalIonite>, <ore:plateTungstensteel>],
+	[<ore:plateCrystaltine>, <environmentaltech:structure_frame_4>, <ore:plateCrystaltine>],
 	[<ore:plateTungstensteel>, <contenttweaker:osmiridium_machine_casing>, <ore:plateTungstensteel>]
 ]);
 
@@ -118,8 +118,8 @@ recipes.addShaped(<environmentaltech:structure_frame_5>, [
 recipes.remove(<environmentaltech:structure_frame_6>);
 
 recipes.addShaped(<environmentaltech:structure_frame_6>, [
-	[<ore:plateAdamantium>, <ore:crystalAethium>, <ore:plateAdamantium>], 
-	[<ore:plateCrystalMatrix>, <environmentaltech:structure_frame_5>, <ore:plateCrystalMatrix>], 
+	[<ore:plateAdamantium>, <ore:crystalAethium>, <ore:plateAdamantium>],
+	[<ore:plateCrystalMatrix>, <environmentaltech:structure_frame_5>, <ore:plateCrystalMatrix>],
 	[<ore:plateAdamantium>, <thermalexpansion:frame:148>, <ore:plateAdamantium>]
 ]);
 
@@ -127,8 +127,8 @@ recipes.addShaped(<environmentaltech:structure_frame_6>, [
 recipes.remove(<environmentaltech:structure_panel>);
 
 recipes.addShaped(<environmentaltech:structure_panel>, [
-	[<ore:plateCrystallineAlloy>, <enderio:block_reinforced_obsidian>, <ore:plateCrystallineAlloy>], 
-	[<enderio:block_reinforced_obsidian>, <environmentaltech:interconnect>, <enderio:block_reinforced_obsidian>], 
+	[<ore:plateCrystallineAlloy>, <enderio:block_reinforced_obsidian>, <ore:plateCrystallineAlloy>],
+	[<enderio:block_reinforced_obsidian>, <environmentaltech:interconnect>, <enderio:block_reinforced_obsidian>],
 	[<ore:plateCrystallineAlloy>, <enderio:block_reinforced_obsidian>, <ore:plateCrystallineAlloy>]
 ]);
 
@@ -136,8 +136,8 @@ recipes.addShaped(<environmentaltech:structure_panel>, [
 recipes.remove(<environmentaltech:structure_panel_clear>);
 
 recipes.addShaped(<environmentaltech:structure_panel_clear>, [
-	[<ore:plateCrystallineAlloy>, <thermalfoundation:glass:7>, <ore:plateCrystallineAlloy>], 
-	[<thermalfoundation:glass:7>, <environmentaltech:interconnect>, <thermalfoundation:glass:7>], 
+	[<ore:plateCrystallineAlloy>, <thermalfoundation:glass:7>, <ore:plateCrystallineAlloy>],
+	[<thermalfoundation:glass:7>, <environmentaltech:interconnect>, <thermalfoundation:glass:7>],
 	[<ore:plateCrystallineAlloy>, <thermalfoundation:glass:7>, <ore:plateCrystallineAlloy>]
 ]);
 
@@ -145,8 +145,8 @@ recipes.addShaped(<environmentaltech:structure_panel_clear>, [
 recipes.remove(<environmentaltech:lightning_rod>);
 
 recipes.addShaped(<environmentaltech:lightning_rod>, [
-	[<ore:plateEnoriEmpowered>, <ore:blockElectricalSteel>, <ore:plateEnoriEmpowered>], 
-	[<ore:plateEnoriEmpowered>, <ore:blockElectricalSteel>, <ore:plateEnoriEmpowered>], 
+	[<ore:plateEnoriEmpowered>, <ore:blockElectricalSteel>, <ore:plateEnoriEmpowered>],
+	[<ore:plateEnoriEmpowered>, <ore:blockElectricalSteel>, <ore:plateEnoriEmpowered>],
 	[<ore:plateEnoriEmpowered>, <ore:blockElectricalSteel>, <ore:plateEnoriEmpowered>]
 ]);
 
@@ -154,8 +154,8 @@ recipes.addShaped(<environmentaltech:lightning_rod>, [
 recipes.remove(<environmentaltech:lightning_rod_insulated>);
 
 recipes.addShaped(<environmentaltech:lightning_rod_insulated>, [
-	[<enderio:block_industrial_insulation>, <enderio:block_industrial_insulation>, <enderio:block_industrial_insulation>], 
-	[<enderio:block_industrial_insulation>, <environmentaltech:lightning_rod>, <enderio:block_industrial_insulation>], 
+	[<enderio:block_industrial_insulation>, <enderio:block_industrial_insulation>, <enderio:block_industrial_insulation>],
+	[<enderio:block_industrial_insulation>, <environmentaltech:lightning_rod>, <enderio:block_industrial_insulation>],
 	[<enderio:block_industrial_insulation>, <enderio:block_industrial_insulation>, <enderio:block_industrial_insulation>]
 ]);
 
@@ -163,8 +163,8 @@ recipes.addShaped(<environmentaltech:lightning_rod_insulated>, [
 recipes.remove(<environmentaltech:photovoltaic_cell>);
 
 recipes.addShaped(<environmentaltech:photovoltaic_cell>, [
-	[<thermalfoundation:glass_alloy:6>, <contenttweaker:signalum_photovoltaic_cell>, <thermalfoundation:glass_alloy:6>], 
-	[<actuallyadditions:item_crystal_empowered:1>, <integratedterminals:chorus_glass>, <actuallyadditions:item_crystal_empowered:1>], 
+	[<thermalfoundation:glass_alloy:6>, <contenttweaker:signalum_photovoltaic_cell>, <thermalfoundation:glass_alloy:6>],
+	[<actuallyadditions:item_crystal_empowered:1>, <integratedterminals:chorus_glass>, <actuallyadditions:item_crystal_empowered:1>],
 	[<ore:itemPowderPhotovoltaic>, <ore:itemPowderPhotovoltaic>, <ore:itemPowderPhotovoltaic>]
 ]);
 
@@ -175,8 +175,8 @@ recipes.replaceAllOccurences(<ore:blockGlass>, <thermalfoundation:glass:7>, <env
 recipes.remove(<environmentaltech:void_ore_miner_cont_1>);
 
 recipes.addShaped(<environmentaltech:void_ore_miner_cont_1>, [
-	[<ore:blockLitherite>, <industrialforegoing:laser_base>, <ore:blockLitherite>], 
-	[<ore:blockLitherite>, <environmentaltech:diode>, <ore:blockLitherite>], 
+	[<ore:blockLitherite>, <industrialforegoing:laser_base>, <ore:blockLitherite>],
+	[<ore:blockLitherite>, <environmentaltech:diode>, <ore:blockLitherite>],
 	[<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -184,8 +184,8 @@ recipes.addShaped(<environmentaltech:void_ore_miner_cont_1>, [
 recipes.remove(<environmentaltech:void_ore_miner_cont_2>);
 
 recipes.addShaped(<environmentaltech:void_ore_miner_cont_2>, [
-	[<ore:blockErodium>, <ore:blockMithril>, <ore:blockErodium>], 
-	[<ore:blockErodium>, <environmentaltech:void_ore_miner_cont_1>, <ore:blockErodium>], 
+	[<ore:blockErodium>, <ore:blockMithril>, <ore:blockErodium>],
+	[<ore:blockErodium>, <environmentaltech:void_ore_miner_cont_1>, <ore:blockErodium>],
 	[<ore:blockOsmiridium>, <ore:etLaserLens>, <ore:blockOsmiridium>]
 ]);
 
@@ -215,10 +215,10 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:void_ore_
 recipes.remove(<environmentaltech:void_ore_miner_cont_4>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_ore_miner_cont_4>, [
-	[<environmentaltech:structure_frame_4>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <environmentaltech:structure_frame_4>], 
-	[<ore:blockPladium>, <environmentaltech:diode>, <advancedrocketry:spacelaser>, <environmentaltech:diode>, <ore:blockPladium>], 
-	[<ore:blockPladium>, <mekanism:machineblock:11>, <environmentaltech:void_ore_miner_cont_3>, <mekanism:machineblock:11>, <ore:blockPladium>], 
-	[<ore:blockPladium>, <environmentaltech:diode>, <mekanism:machineblock:4>, <environmentaltech:diode>, <ore:blockPladium>], 
+	[<environmentaltech:structure_frame_4>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <environmentaltech:structure_frame_4>],
+	[<ore:blockPladium>, <environmentaltech:diode>, <advancedrocketry:spacelaser>, <environmentaltech:diode>, <ore:blockPladium>],
+	[<ore:blockPladium>, <mekanism:machineblock:11>, <environmentaltech:void_ore_miner_cont_3>, <mekanism:machineblock:11>, <ore:blockPladium>],
+	[<ore:blockPladium>, <environmentaltech:diode>, <mekanism:machineblock:4>, <environmentaltech:diode>, <ore:blockPladium>],
 	[<environmentaltech:structure_frame_4>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <environmentaltech:structure_frame_4>]
 ]);
 
@@ -226,12 +226,12 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_ore_min
 recipes.remove(<environmentaltech:void_ore_miner_cont_5>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_ore_miner_cont_5>, [
-	[<environmentaltech:structure_frame_5>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <environmentaltech:structure_frame_5>], 
-	[<ore:blockIonite>, <extendedcrafting:material:12>, <advancedrocketry:warpcore>, <thermalexpansion:frame:148>, <advancedrocketry:warpcore>, <extendedcrafting:material:12>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <enderio:item_capacitor_stellar>, <advancedrocketry:warpmonitor>, <ore:plateCrystalMatrix>, <advancedrocketry:warpmonitor>, <enderio:item_capacitor_stellar>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <contenttweaker:tungstensteel_machine_casing>, <ore:plateCrystalMatrix>, <environmentaltech:void_ore_miner_cont_4>, <ore:plateCrystalMatrix>, <contenttweaker:tungstensteel_machine_casing>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <enderio:item_capacitor_stellar>, <advancedrocketry:warpmonitor>, <ore:plateCrystalMatrix>, <advancedrocketry:warpmonitor>, <enderio:item_capacitor_stellar>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <extendedcrafting:material:12>, <advancedrocketry:warpcore>, <thermalexpansion:frame:148>, <advancedrocketry:warpcore>, <extendedcrafting:material:12>, <ore:blockIonite>], 
+	[<environmentaltech:structure_frame_5>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <environmentaltech:structure_frame_5>],
+	[<ore:blockIonite>, <extendedcrafting:material:12>, <advancedrocketry:warpcore>, <thermalexpansion:frame:148>, <advancedrocketry:warpcore>, <extendedcrafting:material:12>, <ore:blockIonite>],
+	[<ore:blockIonite>, <enderio:item_capacitor_stellar>, <advancedrocketry:warpmonitor>, <ore:plateCrystalMatrix>, <advancedrocketry:warpmonitor>, <enderio:item_capacitor_stellar>, <ore:blockIonite>],
+	[<ore:blockIonite>, <contenttweaker:tungstensteel_machine_casing>, <ore:plateCrystalMatrix>, <environmentaltech:void_ore_miner_cont_4>, <ore:plateCrystalMatrix>, <contenttweaker:tungstensteel_machine_casing>, <ore:blockIonite>],
+	[<ore:blockIonite>, <enderio:item_capacitor_stellar>, <advancedrocketry:warpmonitor>, <ore:plateCrystalMatrix>, <advancedrocketry:warpmonitor>, <enderio:item_capacitor_stellar>, <ore:blockIonite>],
+	[<ore:blockIonite>, <extendedcrafting:material:12>, <advancedrocketry:warpcore>, <thermalexpansion:frame:148>, <advancedrocketry:warpcore>, <extendedcrafting:material:12>, <ore:blockIonite>],
 	[<environmentaltech:structure_frame_5>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <environmentaltech:structure_frame_5>]
 ]);
 
@@ -239,14 +239,14 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_ore_min
 recipes.remove(<environmentaltech:void_ore_miner_cont_6>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_ore_miner_cont_6>, [
-	[<environmentaltech:structure_frame_6>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <environmentaltech:structure_frame_6>], 
-	[<ore:blockAethium>, <contenttweaker:cosmic_machine_casing>, <extendedcrafting:storage:6>, <modularmachinery:blockcasing:5>, <ore:plateCosmicNeutronium>, <modularmachinery:blockcasing:5>, <extendedcrafting:storage:6>, <contenttweaker:cosmic_machine_casing>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <aeadditions:storage.component:3>, <ore:crystalTungsten>, <ore:ingotUltimate>, <ore:plateCosmicNeutronium>, <ore:ingotUltimate>, <ore:crystalTungsten>, <aeadditions:storage.component:3>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <contenttweaker:adamantium_machine_casing>, <ore:ingotUltimate>, <ore:ingotUltimate>, <mekanismgenerators:reactor:1>, <ore:ingotUltimate>, <ore:ingotUltimate>, <contenttweaker:adamantium_machine_casing>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <mekanismgenerators:reactor:1>, <environmentaltech:void_ore_miner_cont_5>, <mekanismgenerators:reactor:1>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <contenttweaker:adamantium_machine_casing>, <ore:ingotUltimate>, <ore:ingotUltimate>, <mekanismgenerators:reactor:1>, <ore:ingotUltimate>, <ore:ingotUltimate>, <contenttweaker:adamantium_machine_casing>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <aeadditions:storage.component:3>, <ore:crystalTungsten>, <ore:ingotUltimate>, <ore:plateCosmicNeutronium>, <ore:ingotUltimate>, <ore:crystalTungsten>, <aeadditions:storage.component:3>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <contenttweaker:cosmic_machine_casing>, <extendedcrafting:storage:6>, <modularmachinery:blockcasing:5>, <ore:plateCosmicNeutronium>, <modularmachinery:blockcasing:5>, <extendedcrafting:storage:6>, <contenttweaker:cosmic_machine_casing>, <ore:blockAethium>], 
+	[<environmentaltech:structure_frame_6>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <environmentaltech:structure_frame_6>],
+	[<ore:blockAethium>, <contenttweaker:cosmic_machine_casing>, <extendedcrafting:storage:6>, <modularmachinery:blockcasing:5>, <ore:plateCosmicNeutronium>, <modularmachinery:blockcasing:5>, <extendedcrafting:storage:6>, <contenttweaker:cosmic_machine_casing>, <ore:blockAethium>],
+	[<ore:blockAethium>, <nae2:material:4>, <ore:crystalTungsten>, <ore:ingotUltimate>, <ore:plateCosmicNeutronium>, <ore:ingotUltimate>, <ore:crystalTungsten>, <nae2:material:4>, <ore:blockAethium>],
+	[<ore:blockAethium>, <contenttweaker:adamantium_machine_casing>, <ore:ingotUltimate>, <ore:ingotUltimate>, <mekanismgenerators:reactor:1>, <ore:ingotUltimate>, <ore:ingotUltimate>, <contenttweaker:adamantium_machine_casing>, <ore:blockAethium>],
+	[<ore:blockAethium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <mekanismgenerators:reactor:1>, <environmentaltech:void_ore_miner_cont_5>, <mekanismgenerators:reactor:1>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockAethium>],
+	[<ore:blockAethium>, <contenttweaker:adamantium_machine_casing>, <ore:ingotUltimate>, <ore:ingotUltimate>, <mekanismgenerators:reactor:1>, <ore:ingotUltimate>, <ore:ingotUltimate>, <contenttweaker:adamantium_machine_casing>, <ore:blockAethium>],
+	[<ore:blockAethium>, <nae2:material:4>, <ore:crystalTungsten>, <ore:ingotUltimate>, <ore:plateCosmicNeutronium>, <ore:ingotUltimate>, <ore:crystalTungsten>, <nae2:material:4>, <ore:blockAethium>],
+	[<ore:blockAethium>, <contenttweaker:cosmic_machine_casing>, <extendedcrafting:storage:6>, <modularmachinery:blockcasing:5>, <ore:plateCosmicNeutronium>, <modularmachinery:blockcasing:5>, <extendedcrafting:storage:6>, <contenttweaker:cosmic_machine_casing>, <ore:blockAethium>],
 	[<environmentaltech:structure_frame_6>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <environmentaltech:structure_frame_6>]
 ]);
 
@@ -254,8 +254,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_ore_min
 recipes.remove(<environmentaltech:void_res_miner_cont_1>);
 
 recipes.addShaped(<environmentaltech:void_res_miner_cont_1>, [
-	[<ore:blockLitherite>, <rftools:builder>, <ore:blockLitherite>], 
-	[<ore:blockLitherite>, <environmentaltech:diode>, <ore:blockLitherite>], 
+	[<ore:blockLitherite>, <rftools:builder>, <ore:blockLitherite>],
+	[<ore:blockLitherite>, <environmentaltech:diode>, <ore:blockLitherite>],
 	[<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -263,8 +263,8 @@ recipes.addShaped(<environmentaltech:void_res_miner_cont_1>, [
 recipes.remove(<environmentaltech:void_res_miner_cont_2>);
 
 recipes.addShaped(<environmentaltech:void_res_miner_cont_2>, [
-	[<ore:blockErodium>, <ore:blockMithril>, <ore:blockErodium>], 
-	[<ore:blockErodium>, <environmentaltech:void_res_miner_cont_1>, <ore:blockErodium>], 
+	[<ore:blockErodium>, <ore:blockMithril>, <ore:blockErodium>],
+	[<ore:blockErodium>, <environmentaltech:void_res_miner_cont_1>, <ore:blockErodium>],
 	[<ore:blockOsmiridium>, <ore:etLaserLens>, <ore:blockOsmiridium>]
 ]);
 
@@ -294,10 +294,10 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:void_res_
 recipes.remove(<environmentaltech:void_res_miner_cont_4>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_res_miner_cont_4>, [
-	[<environmentaltech:structure_frame_4>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <environmentaltech:structure_frame_4>], 
-	[<ore:blockPladium>, <environmentaltech:diode>, <advancedrocketry:spacelaser>, <environmentaltech:diode>, <ore:blockPladium>], 
-	[<ore:blockPladium>, <mekanism:machineblock:11>, <environmentaltech:void_res_miner_cont_3>, <mekanism:machineblock:11>, <ore:blockPladium>], 
-	[<ore:blockPladium>, <environmentaltech:diode>, <mekanism:machineblock:4>, <environmentaltech:diode>, <ore:blockPladium>], 
+	[<environmentaltech:structure_frame_4>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <environmentaltech:structure_frame_4>],
+	[<ore:blockPladium>, <environmentaltech:diode>, <advancedrocketry:spacelaser>, <environmentaltech:diode>, <ore:blockPladium>],
+	[<ore:blockPladium>, <mekanism:machineblock:11>, <environmentaltech:void_res_miner_cont_3>, <mekanism:machineblock:11>, <ore:blockPladium>],
+	[<ore:blockPladium>, <environmentaltech:diode>, <mekanism:machineblock:4>, <environmentaltech:diode>, <ore:blockPladium>],
 	[<environmentaltech:structure_frame_4>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <environmentaltech:structure_frame_4>]
 ]);
 
@@ -305,12 +305,12 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_res_min
 recipes.remove(<environmentaltech:void_res_miner_cont_5>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_res_miner_cont_5>, [
-	[<environmentaltech:structure_frame_5>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <environmentaltech:structure_frame_5>], 
-	[<ore:blockIonite>, <extendedcrafting:material:12>, <advancedrocketry:warpcore>, <thermalexpansion:frame:148>, <advancedrocketry:warpcore>, <extendedcrafting:material:12>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <enderio:item_capacitor_stellar>, <advancedrocketry:warpmonitor>, <ore:plateCrystalMatrix>, <advancedrocketry:warpmonitor>, <enderio:item_capacitor_stellar>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <contenttweaker:tungstensteel_machine_casing>, <ore:plateCrystalMatrix>, <environmentaltech:void_res_miner_cont_4>, <ore:plateCrystalMatrix>, <contenttweaker:tungstensteel_machine_casing>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <enderio:item_capacitor_stellar>, <advancedrocketry:warpmonitor>, <ore:plateCrystalMatrix>, <advancedrocketry:warpmonitor>, <enderio:item_capacitor_stellar>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <extendedcrafting:material:12>, <advancedrocketry:warpcore>, <thermalexpansion:frame:148>, <advancedrocketry:warpcore>, <extendedcrafting:material:12>, <ore:blockIonite>], 
+	[<environmentaltech:structure_frame_5>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <environmentaltech:structure_frame_5>],
+	[<ore:blockIonite>, <extendedcrafting:material:12>, <advancedrocketry:warpcore>, <thermalexpansion:frame:148>, <advancedrocketry:warpcore>, <extendedcrafting:material:12>, <ore:blockIonite>],
+	[<ore:blockIonite>, <enderio:item_capacitor_stellar>, <advancedrocketry:warpmonitor>, <ore:plateCrystalMatrix>, <advancedrocketry:warpmonitor>, <enderio:item_capacitor_stellar>, <ore:blockIonite>],
+	[<ore:blockIonite>, <contenttweaker:tungstensteel_machine_casing>, <ore:plateCrystalMatrix>, <environmentaltech:void_res_miner_cont_4>, <ore:plateCrystalMatrix>, <contenttweaker:tungstensteel_machine_casing>, <ore:blockIonite>],
+	[<ore:blockIonite>, <enderio:item_capacitor_stellar>, <advancedrocketry:warpmonitor>, <ore:plateCrystalMatrix>, <advancedrocketry:warpmonitor>, <enderio:item_capacitor_stellar>, <ore:blockIonite>],
+	[<ore:blockIonite>, <extendedcrafting:material:12>, <advancedrocketry:warpcore>, <thermalexpansion:frame:148>, <advancedrocketry:warpcore>, <extendedcrafting:material:12>, <ore:blockIonite>],
 	[<environmentaltech:structure_frame_5>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <environmentaltech:structure_frame_5>]
 ]);
 
@@ -318,14 +318,14 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_res_min
 recipes.remove(<environmentaltech:void_res_miner_cont_6>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_res_miner_cont_6>, [
-	[<environmentaltech:structure_frame_6>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <environmentaltech:structure_frame_6>], 
-	[<ore:blockAethium>, <contenttweaker:cosmic_machine_casing>, <extendedcrafting:storage:6>, <modularmachinery:blockcasing:5>, <ore:plateCosmicNeutronium>, <modularmachinery:blockcasing:5>, <extendedcrafting:storage:6>, <contenttweaker:cosmic_machine_casing>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <aeadditions:storage.component:3>, <ore:crystalTungsten>, <ore:ingotUltimate>, <ore:plateCosmicNeutronium>, <ore:ingotUltimate>, <ore:crystalTungsten>, <aeadditions:storage.component:3>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <contenttweaker:adamantium_machine_casing>, <ore:ingotUltimate>, <ore:ingotUltimate>, <mekanismgenerators:reactor:1>, <ore:ingotUltimate>, <ore:ingotUltimate>, <contenttweaker:adamantium_machine_casing>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <mekanismgenerators:reactor:1>, <environmentaltech:void_res_miner_cont_5>, <mekanismgenerators:reactor:1>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <contenttweaker:adamantium_machine_casing>, <ore:ingotUltimate>, <ore:ingotUltimate>, <mekanismgenerators:reactor:1>, <ore:ingotUltimate>, <ore:ingotUltimate>, <contenttweaker:adamantium_machine_casing>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <aeadditions:storage.component:3>, <ore:crystalTungsten>, <ore:ingotUltimate>, <ore:plateCosmicNeutronium>, <ore:ingotUltimate>, <ore:crystalTungsten>, <aeadditions:storage.component:3>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <contenttweaker:cosmic_machine_casing>, <extendedcrafting:storage:6>, <modularmachinery:blockcasing:5>, <ore:plateCosmicNeutronium>, <modularmachinery:blockcasing:5>, <extendedcrafting:storage:6>, <contenttweaker:cosmic_machine_casing>, <ore:blockAethium>], 
+	[<environmentaltech:structure_frame_6>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <environmentaltech:structure_frame_6>],
+	[<ore:blockAethium>, <contenttweaker:cosmic_machine_casing>, <extendedcrafting:storage:6>, <modularmachinery:blockcasing:5>, <ore:plateCosmicNeutronium>, <modularmachinery:blockcasing:5>, <extendedcrafting:storage:6>, <contenttweaker:cosmic_machine_casing>, <ore:blockAethium>],
+	[<ore:blockAethium>, <nae2:material:4>, <ore:crystalTungsten>, <ore:ingotUltimate>, <ore:plateCosmicNeutronium>, <ore:ingotUltimate>, <ore:crystalTungsten>, <nae2:material:4>, <ore:blockAethium>],
+	[<ore:blockAethium>, <contenttweaker:adamantium_machine_casing>, <ore:ingotUltimate>, <ore:ingotUltimate>, <mekanismgenerators:reactor:1>, <ore:ingotUltimate>, <ore:ingotUltimate>, <contenttweaker:adamantium_machine_casing>, <ore:blockAethium>],
+	[<ore:blockAethium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <mekanismgenerators:reactor:1>, <environmentaltech:void_res_miner_cont_5>, <mekanismgenerators:reactor:1>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockAethium>],
+	[<ore:blockAethium>, <contenttweaker:adamantium_machine_casing>, <ore:ingotUltimate>, <ore:ingotUltimate>, <mekanismgenerators:reactor:1>, <ore:ingotUltimate>, <ore:ingotUltimate>, <contenttweaker:adamantium_machine_casing>, <ore:blockAethium>],
+	[<ore:blockAethium>, <nae2:material:4>, <ore:crystalTungsten>, <ore:ingotUltimate>, <ore:plateCosmicNeutronium>, <ore:ingotUltimate>, <ore:crystalTungsten>, <nae2:material:4>, <ore:blockAethium>],
+	[<ore:blockAethium>, <contenttweaker:cosmic_machine_casing>, <extendedcrafting:storage:6>, <modularmachinery:blockcasing:5>, <ore:plateCosmicNeutronium>, <modularmachinery:blockcasing:5>, <extendedcrafting:storage:6>, <contenttweaker:cosmic_machine_casing>, <ore:blockAethium>],
 	[<environmentaltech:structure_frame_6>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <environmentaltech:structure_frame_6>]
 ]);
 
@@ -333,8 +333,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_res_min
 recipes.remove(<environmentaltech:void_botanic_miner_cont_2>);
 
 recipes.addShaped(<environmentaltech:void_botanic_miner_cont_2>, [
-	[<ore:blockErodium>, <ore:blockMithril>, <ore:blockErodium>], 
-	[<ore:blockErodium>, <environmentaltech:void_botanic_miner_cont_1>, <ore:blockErodium>], 
+	[<ore:blockErodium>, <ore:blockMithril>, <ore:blockErodium>],
+	[<ore:blockErodium>, <environmentaltech:void_botanic_miner_cont_1>, <ore:blockErodium>],
 	[<ore:blockOsmiridium>, <ore:etLaserLens>, <ore:blockOsmiridium>]
 ]);
 
@@ -364,10 +364,10 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:void_bota
 recipes.remove(<environmentaltech:void_botanic_miner_cont_4>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_botanic_miner_cont_4>, [
-	[<environmentaltech:structure_frame_4>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <environmentaltech:structure_frame_4>], 
-	[<ore:blockPladium>, <environmentaltech:diode>, <advancedrocketry:spacelaser>, <environmentaltech:diode>, <ore:blockPladium>], 
-	[<ore:blockPladium>, <mekanism:machineblock:11>, <environmentaltech:void_botanic_miner_cont_3>, <mekanism:machineblock:11>, <ore:blockPladium>], 
-	[<ore:blockPladium>, <environmentaltech:diode>, <mekanism:machineblock:4>, <environmentaltech:diode>, <ore:blockPladium>], 
+	[<environmentaltech:structure_frame_4>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <environmentaltech:structure_frame_4>],
+	[<ore:blockPladium>, <environmentaltech:diode>, <advancedrocketry:spacelaser>, <environmentaltech:diode>, <ore:blockPladium>],
+	[<ore:blockPladium>, <mekanism:machineblock:11>, <environmentaltech:void_botanic_miner_cont_3>, <mekanism:machineblock:11>, <ore:blockPladium>],
+	[<ore:blockPladium>, <environmentaltech:diode>, <mekanism:machineblock:4>, <environmentaltech:diode>, <ore:blockPladium>],
 	[<environmentaltech:structure_frame_4>, <ore:blockPladium>, <ore:blockPladium>, <ore:blockPladium>, <environmentaltech:structure_frame_4>]
 ]);
 
@@ -375,12 +375,12 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_botanic
 recipes.remove(<environmentaltech:void_botanic_miner_cont_5>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_botanic_miner_cont_5>, [
-	[<environmentaltech:structure_frame_5>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <environmentaltech:structure_frame_5>], 
-	[<ore:blockIonite>, <extendedcrafting:material:12>, <advancedrocketry:warpcore>, <thermalexpansion:frame:148>, <advancedrocketry:warpcore>, <extendedcrafting:material:12>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <enderio:item_capacitor_stellar>, <advancedrocketry:warpmonitor>, <ore:plateCrystalMatrix>, <advancedrocketry:warpmonitor>, <enderio:item_capacitor_stellar>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <contenttweaker:tungstensteel_machine_casing>, <ore:plateCrystalMatrix>, <environmentaltech:void_botanic_miner_cont_4>, <ore:plateCrystalMatrix>, <contenttweaker:tungstensteel_machine_casing>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <enderio:item_capacitor_stellar>, <advancedrocketry:warpmonitor>, <ore:plateCrystalMatrix>, <advancedrocketry:warpmonitor>, <enderio:item_capacitor_stellar>, <ore:blockIonite>], 
-	[<ore:blockIonite>, <extendedcrafting:material:12>, <advancedrocketry:warpcore>, <thermalexpansion:frame:148>, <advancedrocketry:warpcore>, <extendedcrafting:material:12>, <ore:blockIonite>], 
+	[<environmentaltech:structure_frame_5>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <environmentaltech:structure_frame_5>],
+	[<ore:blockIonite>, <extendedcrafting:material:12>, <advancedrocketry:warpcore>, <thermalexpansion:frame:148>, <advancedrocketry:warpcore>, <extendedcrafting:material:12>, <ore:blockIonite>],
+	[<ore:blockIonite>, <enderio:item_capacitor_stellar>, <advancedrocketry:warpmonitor>, <ore:plateCrystalMatrix>, <advancedrocketry:warpmonitor>, <enderio:item_capacitor_stellar>, <ore:blockIonite>],
+	[<ore:blockIonite>, <contenttweaker:tungstensteel_machine_casing>, <ore:plateCrystalMatrix>, <environmentaltech:void_botanic_miner_cont_4>, <ore:plateCrystalMatrix>, <contenttweaker:tungstensteel_machine_casing>, <ore:blockIonite>],
+	[<ore:blockIonite>, <enderio:item_capacitor_stellar>, <advancedrocketry:warpmonitor>, <ore:plateCrystalMatrix>, <advancedrocketry:warpmonitor>, <enderio:item_capacitor_stellar>, <ore:blockIonite>],
+	[<ore:blockIonite>, <extendedcrafting:material:12>, <advancedrocketry:warpcore>, <thermalexpansion:frame:148>, <advancedrocketry:warpcore>, <extendedcrafting:material:12>, <ore:blockIonite>],
 	[<environmentaltech:structure_frame_5>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <ore:blockIonite>, <environmentaltech:structure_frame_5>]
 ]);
 
@@ -388,14 +388,14 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_botanic
 recipes.remove(<environmentaltech:void_botanic_miner_cont_6>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:void_botanic_miner_cont_6>, [
-	[<environmentaltech:structure_frame_6>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <environmentaltech:structure_frame_6>], 
-	[<ore:blockAethium>, <contenttweaker:cosmic_machine_casing>, <extendedcrafting:storage:6>, <modularmachinery:blockcasing:5>, <ore:plateCosmicNeutronium>, <modularmachinery:blockcasing:5>, <extendedcrafting:storage:6>, <contenttweaker:cosmic_machine_casing>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <aeadditions:storage.component:3>, <ore:crystalTungsten>, <ore:ingotUltimate>, <ore:plateCosmicNeutronium>, <ore:ingotUltimate>, <ore:crystalTungsten>, <aeadditions:storage.component:3>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <contenttweaker:adamantium_machine_casing>, <ore:ingotUltimate>, <ore:ingotUltimate>, <mekanismgenerators:reactor:1>, <ore:ingotUltimate>, <ore:ingotUltimate>, <contenttweaker:adamantium_machine_casing>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <mekanismgenerators:reactor:1>, <environmentaltech:void_botanic_miner_cont_5>, <mekanismgenerators:reactor:1>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <contenttweaker:adamantium_machine_casing>, <ore:ingotUltimate>, <ore:ingotUltimate>, <mekanismgenerators:reactor:1>, <ore:ingotUltimate>, <ore:ingotUltimate>, <contenttweaker:adamantium_machine_casing>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <aeadditions:storage.component:3>, <ore:crystalTungsten>, <ore:ingotUltimate>, <ore:plateCosmicNeutronium>, <ore:ingotUltimate>, <ore:crystalTungsten>, <aeadditions:storage.component:3>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <contenttweaker:cosmic_machine_casing>, <extendedcrafting:storage:6>, <modularmachinery:blockcasing:5>, <ore:plateCosmicNeutronium>, <modularmachinery:blockcasing:5>, <extendedcrafting:storage:6>, <contenttweaker:cosmic_machine_casing>, <ore:blockAethium>], 
+	[<environmentaltech:structure_frame_6>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <environmentaltech:structure_frame_6>],
+	[<ore:blockAethium>, <contenttweaker:cosmic_machine_casing>, <extendedcrafting:storage:6>, <modularmachinery:blockcasing:5>, <ore:plateCosmicNeutronium>, <modularmachinery:blockcasing:5>, <extendedcrafting:storage:6>, <contenttweaker:cosmic_machine_casing>, <ore:blockAethium>],
+	[<ore:blockAethium>, <nae2:material:4>, <ore:crystalTungsten>, <ore:ingotUltimate>, <ore:plateCosmicNeutronium>, <ore:ingotUltimate>, <ore:crystalTungsten>, <nae2:material:4>, <ore:blockAethium>],
+	[<ore:blockAethium>, <contenttweaker:adamantium_machine_casing>, <ore:ingotUltimate>, <ore:ingotUltimate>, <mekanismgenerators:reactor:1>, <ore:ingotUltimate>, <ore:ingotUltimate>, <contenttweaker:adamantium_machine_casing>, <ore:blockAethium>],
+	[<ore:blockAethium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <mekanismgenerators:reactor:1>, <environmentaltech:void_botanic_miner_cont_5>, <mekanismgenerators:reactor:1>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockAethium>],
+	[<ore:blockAethium>, <contenttweaker:adamantium_machine_casing>, <ore:ingotUltimate>, <ore:ingotUltimate>, <mekanismgenerators:reactor:1>, <ore:ingotUltimate>, <ore:ingotUltimate>, <contenttweaker:adamantium_machine_casing>, <ore:blockAethium>],
+	[<ore:blockAethium>, <nae2:material:4>, <ore:crystalTungsten>, <ore:ingotUltimate>, <ore:plateCosmicNeutronium>, <ore:ingotUltimate>, <ore:crystalTungsten>, <nae2:material:4>, <ore:blockAethium>],
+	[<ore:blockAethium>, <contenttweaker:cosmic_machine_casing>, <extendedcrafting:storage:6>, <modularmachinery:blockcasing:5>, <ore:plateCosmicNeutronium>, <modularmachinery:blockcasing:5>, <extendedcrafting:storage:6>, <contenttweaker:cosmic_machine_casing>, <ore:blockAethium>],
 	[<environmentaltech:structure_frame_6>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, <environmentaltech:structure_frame_6>]
 ]);
 
@@ -488,8 +488,8 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_con
 recipes.remove(<environmentaltech:modifier_null>);
 
 recipes.addShaped(<environmentaltech:modifier_null>, [
-	[<ore:plateDarkSteel>, <ore:ingotEnhancedEnder>, <ore:plateDarkSteel>], 
-	[<valkyrielib:modifier_component>, <environmentaltech:interconnect>, <valkyrielib:modifier_component>], 
+	[<ore:plateDarkSteel>, <ore:ingotEnhancedEnder>, <ore:plateDarkSteel>],
+	[<valkyrielib:modifier_component>, <environmentaltech:interconnect>, <valkyrielib:modifier_component>],
 	[<ore:plateDarkSteel>, <ore:ingotEnhancedEnder>, <ore:plateDarkSteel>]
 ]);
 
@@ -497,8 +497,8 @@ recipes.addShaped(<environmentaltech:modifier_null>, [
 recipes.remove(<environmentaltech:laser_core>);
 
 recipes.addShaped(<environmentaltech:laser_core>, [
-	[<ore:plateIridium>, <actuallyadditions:block_laser_relay_extreme>, <ore:plateIridium>], 
-	[<environmentaltech:connector>, <ore:etLaserLens>, <environmentaltech:connector>], 
+	[<ore:plateIridium>, <actuallyadditions:block_laser_relay_extreme>, <ore:plateIridium>],
+	[<environmentaltech:connector>, <ore:etLaserLens>, <environmentaltech:connector>],
 	[<ore:plateIridium>, <enderutilities:molecular_exciter>, <ore:plateIridium>]
 ]);
 

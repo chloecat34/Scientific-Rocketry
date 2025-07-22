@@ -13,8 +13,8 @@ recipes.addShaped(<thermalexpansion:frame:129>, [
 
 // Reinforced cell frame (empty)
 recipes.addShaped(<thermalexpansion:frame:130>, [
-    [<ore:plateLumium>, <ore:gearSignalum>, <ore:plateLumium>], 
-	[<ore:ingotHSLASteel>, <thermalexpansion:frame:129>, <ore:ingotHSLASteel>], 
+    [<ore:plateLumium>, <ore:gearSignalum>, <ore:plateLumium>],
+	[<ore:ingotHSLASteel>, <thermalexpansion:frame:129>, <ore:ingotHSLASteel>],
 	[<ore:plateLumium>, <ore:gearSignalum>, <ore:plateLumium>]
 ]);
 
@@ -24,55 +24,55 @@ mods.nuclearcraft.Infuser.addRecipe(<thermalexpansion:frame:130>, <liquid:redsto
 
 // Signalum cell frame (empty)
 recipes.addShaped(<thermalexpansion:frame:131>, [
-	[<ore:plateEnrichedSignalum>, <ore:gearGelidEnderium>, <ore:plateEnrichedSignalum>], 
-	[<ore:circuitUltimate>, <thermalexpansion:frame:146>, <ore:circuitUltimate>], 
+	[<ore:plateEnrichedSignalum>, <ore:gearGelidEnderium>, <ore:plateEnrichedSignalum>],
+	[<ore:circuitUltimate>, <thermalexpansion:frame:146>, <ore:circuitUltimate>],
 	[<ore:plateEnrichedSignalum>, <enderio:item_capacitor_crystalline>, <ore:plateEnrichedSignalum>]
 ]);
 
 // Signalum cell frame (full) (20M RF)
 mods.actuallyadditions.Empowerer.addRecipe(
-    <thermalexpansion:frame:147>, 
-    <thermalexpansion:frame:131>, 
-    <thermalfoundation:material:264>, 
-    <contenttweaker:osgloglas_gear>,  
-	<opencomputers:material:4>, 
+    <thermalexpansion:frame:147>,
+    <thermalexpansion:frame:131>,
+    <thermalfoundation:material:264>,
+    <contenttweaker:osgloglas_gear>,
+	<opencomputers:material:4>,
 	<advgenerators:controller>,
-    200000, 
+    200000,
     100
 );
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:frame:147>, 20000000, 1000000, <thermalexpansion:frame:131>, [
-    <thermalfoundation:material:264>, 
-    <contenttweaker:osgloglas_gear>,  
-	<opencomputers:material:4>, 
+    <thermalfoundation:material:264>,
+    <contenttweaker:osgloglas_gear>,
+	<opencomputers:material:4>,
 	<advgenerators:controller>
 ]);
 
 // Mana dust (5M RF)
 mods.actuallyadditions.Empowerer.addRecipe(
-    <thermalfoundation:material:1028> * 8, 
-    <contenttweaker:terrestrial_artifact>, 
-    <thermalfoundation:material:1024>, 
+    <thermalfoundation:material:1028> * 8,
+    <contenttweaker:terrestrial_artifact>,
+    <thermalfoundation:material:1024>,
     <thermalfoundation:material:1025>,
     <thermalfoundation:material:1026>,
     <thermalfoundation:material:1027>,
-    20000, 
+    20000,
     100
 );
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:material:1028> * 8, 2000000, 1000000, <contenttweaker:terrestrial_artifact>, [
-    <thermalfoundation:material:1024>, 
-    <thermalfoundation:material:1025>,	
+    <thermalfoundation:material:1024>,
+    <thermalfoundation:material:1025>,
     <thermalfoundation:material:1026>,
     <thermalfoundation:material:1027>
 ]);
 
 // Resonant cell frame (empty)
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:frame:132>, [
-	[<ore:plateTungstensteel>, <ore:plateTungstensteel>, <ore:plateCrystalMatrix>, <ore:plateTungstensteel>, <ore:plateTungstensteel>], 
-	[<ore:plateTungstensteel>, <threng:material:4>, <thermalexpansion:frame:146>, <threng:material:4>, <ore:plateTungstensteel>], 
-	[<ore:plateCrystalMatrix>, <ore:dustMana>, <thermalexpansion:frame:147>, <ore:dustMana>, <ore:plateCrystalMatrix>], 
-	[<ore:plateTungstensteel>, <simplyjetpacks:metaitemmods:15>, <thermalexpansion:frame:146>, <simplyjetpacks:metaitemmods:15>, <ore:plateTungstensteel>], 
+	[<ore:plateTungstensteel>, <ore:plateTungstensteel>, <ore:plateCrystalMatrix>, <ore:plateTungstensteel>, <ore:plateTungstensteel>],
+	[<ore:plateTungstensteel>, <threng:material:4>, <thermalexpansion:frame:146>, <threng:material:4>, <ore:plateTungstensteel>],
+	[<ore:plateCrystalMatrix>, <ore:dustMana>, <thermalexpansion:frame:147>, <ore:dustMana>, <ore:plateCrystalMatrix>],
+	[<ore:plateTungstensteel>, <simplyjetpacks:metaitemmods:15>, <thermalexpansion:frame:146>, <simplyjetpacks:metaitemmods:15>, <ore:plateTungstensteel>],
 	[<ore:plateTungstensteel>, <ore:plateTungstensteel>, <ore:plateCrystalMatrix>, <ore:plateTungstensteel>, <ore:plateTungstensteel>]
 ]);
 
@@ -107,8 +107,8 @@ recipes.replaceAllOccurences(<ore:ingotElectrum>, <ore:gearElectrum>, <thermalfo
 recipes.remove(<thermalexpansion:frame:128>);
 
 recipes.addShaped(<thermalexpansion:frame:128>, [
-	[<ore:plateLead>, <ore:blockGlass>, <ore:plateLead>], 
-	[<ore:blockGlass>, <ore:gearElectrum>, <ore:blockGlass>], 
+	[<ore:plateLead>, <ore:blockGlass>, <ore:plateLead>],
+	[<ore:blockGlass>, <ore:gearElectrum>, <ore:blockGlass>],
 	[<ore:plateLead>, <ore:blockGlass>, <ore:plateLead>]
 ]);
 
@@ -116,8 +116,8 @@ recipes.addShaped(<thermalexpansion:frame:128>, [
 recipes.remove(<thermalexpansion:cell:0>);
 
 recipes.addShaped(<thermalexpansion:cell:0>, [
-	[<ore:plateRestonia>, <ore:blockRedstoneAlloy>, <ore:plateRestonia>], 
-	[<ore:ingotLead>, <thermalexpansion:frame:128>, <ore:ingotLead>], 
+	[<ore:plateRestonia>, <ore:blockRedstoneAlloy>, <ore:plateRestonia>],
+	[<ore:ingotLead>, <thermalexpansion:frame:128>, <ore:ingotLead>],
 	[<ore:plateRestonia>, <thermalfoundation:material:515>, <ore:plateRestonia>]
 ]);
 
@@ -128,8 +128,8 @@ recipes.replaceAllOccurences(<ore:blockGlassHardened>, <thermalexpansion:cell:0>
 recipes.remove(<thermalfoundation:upgrade:0>);
 
 recipes.addShaped(<thermalfoundation:upgrade:0>, [
-	[<ore:dustRedstone>, <ore:plateInvar>, <ore:dustRedstone>], 
-	[<ore:plateInvar>, <ore:gearBronze>, <ore:plateInvar>], 
+	[<ore:dustRedstone>, <ore:plateInvar>, <ore:dustRedstone>],
+	[<ore:plateInvar>, <ore:gearBronze>, <ore:plateInvar>],
 	[<ore:dustRedstone>, <ore:plateInvar>, <ore:dustRedstone>]
 ]);
 
@@ -137,8 +137,8 @@ recipes.addShaped(<thermalfoundation:upgrade:0>, [
 recipes.remove(<thermalfoundation:upgrade:1>);
 
 recipes.addShaped(<thermalfoundation:upgrade:1>, [
-	[<ore:blockGlassHardened>, <ore:plateElectrum>, <ore:blockGlassHardened>], 
-	[<ore:plateElectrum>, <ore:gearEnori>, <ore:plateElectrum>], 
+	[<ore:blockGlassHardened>, <ore:plateElectrum>, <ore:blockGlassHardened>],
+	[<ore:plateElectrum>, <ore:gearEnori>, <ore:plateElectrum>],
 	[<ore:blockGlassHardened>, <ore:plateElectrum>, <ore:blockGlassHardened>]
 ]);
 
@@ -146,8 +146,8 @@ recipes.addShaped(<thermalfoundation:upgrade:1>, [
 recipes.remove(<thermalfoundation:upgrade:2>);
 
 recipes.addShaped(<thermalfoundation:upgrade:2>, [
-	[<ore:dustCryotheum>, <ore:plateSignalum>, <ore:dustCryotheum>], 
-	[<ore:plateSignalum>, <ore:gearCrystallinePinkSlime>, <ore:plateSignalum>], 
+	[<ore:dustCryotheum>, <ore:plateSignalum>, <ore:dustCryotheum>],
+	[<ore:plateSignalum>, <ore:gearCrystallinePinkSlime>, <ore:plateSignalum>],
 	[<ore:dustCryotheum>, <ore:plateSignalum>, <ore:dustCryotheum>]
 ]);
 
@@ -155,8 +155,8 @@ recipes.addShaped(<thermalfoundation:upgrade:2>, [
 recipes.remove(<thermalfoundation:upgrade:3>);
 
 recipes.addShaped(<thermalfoundation:upgrade:3>, [
-	[<ore:dustMana>, <ore:plateEnderium>, <ore:dustMana>], 
-	[<ore:plateEnderium>, <ore:gearMelodicAlloy>, <ore:plateEnderium>], 
+	[<ore:dustMana>, <ore:plateEnderium>, <ore:dustMana>],
+	[<ore:plateEnderium>, <ore:gearMelodicAlloy>, <ore:plateEnderium>],
 	[<ore:dustMana>, <ore:plateEnderium>, <ore:dustMana>]
 ]);
 
@@ -164,8 +164,8 @@ recipes.addShaped(<thermalfoundation:upgrade:3>, [
 recipes.remove(<thermalfoundation:material:640>);
 
 recipes.addShaped(<thermalfoundation:material:640>, [
-	[<ore:plateElectrum>, <ore:plateEnori>, <ore:plateElectrum>], 
-	[<ore:plateEnori>, <ore:gearRestonia>, <ore:plateEnori>], 
+	[<ore:plateElectrum>, <ore:plateEnori>, <ore:plateElectrum>],
+	[<ore:plateEnori>, <ore:gearRestonia>, <ore:plateEnori>],
 	[<ore:plateElectrum>, <ore:plateEnori>, <ore:plateElectrum>]
 ]);
 
@@ -173,8 +173,8 @@ recipes.addShaped(<thermalfoundation:material:640>, [
 recipes.remove(<thermalfoundation:material:656>);
 
 recipes.addShaped(<thermalfoundation:material:656>, [
-    [null, <minecraft:diamond_pickaxe>, null], 
-	[<ore:ingotSteel>, <ore:gearBronze>, <ore:ingotSteel>], 
+    [null, <minecraft:diamond_pickaxe>, null],
+	[<ore:ingotSteel>, <ore:gearBronze>, <ore:ingotSteel>],
 	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
 ]);
 
@@ -182,8 +182,8 @@ recipes.addShaped(<thermalfoundation:material:656>, [
 recipes.remove(<thermalfoundation:material:657>);
 
 recipes.addShaped(<thermalfoundation:material:657>, [
-    [<ore:ingotSteel>, <ore:ingotSteel>, null], 
-	[<ore:ingotSteel>, <ore:gearBronze>, <ore:ingotSteel>], 
+    [<ore:ingotSteel>, <ore:ingotSteel>, null],
+	[<ore:ingotSteel>, <ore:gearBronze>, <ore:ingotSteel>],
 	[null, <ore:ingotSteel>, <ore:ingotSteel>]
 ]);
 
@@ -191,8 +191,8 @@ recipes.addShaped(<thermalfoundation:material:657>, [
 recipes.removeByRecipeName("thermalexpansion:capacitor_4");
 
 recipes.addShaped(<thermalexpansion:capacitor:4>, [
-    [null, <actuallyadditions:block_crystal_empowered>, null], 
-	[<ore:ingotEnderium>, <thermalexpansion:capacitor:3>, <ore:ingotEnderium>], 
+    [null, <actuallyadditions:block_crystal_empowered>, null],
+	[<ore:ingotEnderium>, <thermalexpansion:capacitor:3>, <ore:ingotEnderium>],
 	[<actuallyadditions:block_crystal_empowered>, <ore:dustMana>, <actuallyadditions:block_crystal_empowered>]
 ]);
 
@@ -200,8 +200,8 @@ recipes.addShaped(<thermalexpansion:capacitor:4>, [
 recipes.removeByRecipeName("thermalexpansion:reservoir_4");
 
 recipes.addShaped(<thermalexpansion:reservoir:4>, [
-    [null, <ore:dustMana>, null], 
-	[<ore:ingotEnderium>, <thermalexpansion:reservoir:3>, <ore:ingotEnderium>], 
+    [null, <ore:dustMana>, null],
+	[<ore:ingotEnderium>, <thermalexpansion:reservoir:3>, <ore:ingotEnderium>],
 	[null, <ore:ingotSignalum>, null]
 ]);
 
@@ -210,8 +210,8 @@ recipes.removeByRecipeName("thermalexpansion:satchel");
 recipes.removeByRecipeName("thermalexpansion:satchel_1");
 
 recipes.addShaped(<thermalexpansion:satchel:0>, [
-    [null, <ore:itemLeather>, null], 
-	[<ore:ingotTin>, <ore:chest>, <ore:ingotTin>], 
+    [null, <ore:itemLeather>, null],
+	[<ore:ingotTin>, <ore:chest>, <ore:ingotTin>],
 	[<ore:itemLeather>, <ore:wool>, <ore:itemLeather>]
 ]);
 
@@ -219,8 +219,8 @@ recipes.addShaped(<thermalexpansion:satchel:0>, [
 recipes.removeByRecipeName("thermalexpansion:satchel_2");
 
 recipes.addShaped(<thermalexpansion:satchel:1>, [
-    [null, <ore:ingotInvar>, null], 
-	[<ironchest:iron_chest>, <thermalexpansion:satchel>, <ironchest:iron_chest>], 
+    [null, <ore:ingotInvar>, null],
+	[<ironchest:iron_chest>, <thermalexpansion:satchel>, <ironchest:iron_chest>],
 	[<ore:ingotInvar>, <ore:wool>, <ore:ingotInvar>]
 ]);
 
@@ -228,8 +228,8 @@ recipes.addShaped(<thermalexpansion:satchel:1>, [
 recipes.removeByRecipeName("thermalexpansion:satchel_3");
 
 recipes.addShaped(<thermalexpansion:satchel:2>, [
-	[null, <ore:ingotElectrum>, null], 
-	[<ironchest:iron_chest:1>, <thermalexpansion:satchel:1>, <ironchest:iron_chest:1>], 
+	[null, <ore:ingotElectrum>, null],
+	[<ironchest:iron_chest:1>, <thermalexpansion:satchel:1>, <ironchest:iron_chest:1>],
 	[<ore:ingotElectrum>, <ore:blockRockwool>, <ore:ingotElectrum>]
 ]);
 
@@ -237,8 +237,8 @@ recipes.addShaped(<thermalexpansion:satchel:2>, [
 recipes.removeByRecipeName("thermalexpansion:satchel_4");
 
 recipes.addShaped(<thermalexpansion:satchel:3>, [
-	[null, <ore:ingotSignalum>, null], 
-	[<ironchest:iron_chest:2>, <thermalexpansion:satchel:2>, <ironchest:iron_chest:2>], 
+	[null, <ore:ingotSignalum>, null],
+	[<ironchest:iron_chest:2>, <thermalexpansion:satchel:2>, <ironchest:iron_chest:2>],
 	[<ore:ingotSignalum>, <ore:dustCryotheum>, <ore:ingotSignalum>]
 ]);
 
@@ -246,8 +246,8 @@ recipes.addShaped(<thermalexpansion:satchel:3>, [
 recipes.removeByRecipeName("thermalexpansion:satchel_5");
 
 recipes.addShaped(<thermalexpansion:satchel:4>, [
-	[null, <ore:ingotEnderium>, null], 
-	[<actuallyadditions:block_giant_chest_large>, <thermalexpansion:satchel:3>, <actuallyadditions:block_giant_chest_large>], 
+	[null, <ore:ingotEnderium>, null],
+	[<actuallyadditions:block_giant_chest_large>, <thermalexpansion:satchel:3>, <actuallyadditions:block_giant_chest_large>],
 	[<ore:ingotEnderium>, <ore:dustMana>, <ore:ingotEnderium>]
 ]);
 
@@ -255,8 +255,8 @@ recipes.addShaped(<thermalexpansion:satchel:4>, [
 recipes.removeByRecipeName("thermalexpansion:capacitor_2");
 
 recipes.addShaped(<thermalexpansion:capacitor:2>, [
-	[null, <actuallyadditions:item_crystal:0>, null], 
-	[<ore:ingotEnergeticAlloy>, <thermalexpansion:capacitor:1>, <ore:ingotEnergeticAlloy>], 
+	[null, <actuallyadditions:item_crystal:0>, null],
+	[<ore:ingotEnergeticAlloy>, <thermalexpansion:capacitor:1>, <ore:ingotEnergeticAlloy>],
 	[<actuallyadditions:item_crystal:0>, <ore:blockGlassHardened>, <actuallyadditions:item_crystal:0>]
 ]);
 
@@ -264,8 +264,8 @@ recipes.addShaped(<thermalexpansion:capacitor:2>, [
 recipes.removeByRecipeName("thermalexpansion:capacitor_3");
 
 recipes.addShaped(<thermalexpansion:capacitor:3>, [
-	[null, <actuallyadditions:item_crystal_empowered:0>, null], 
-	[<contenttweaker:enriched_signalum_ingot>, <thermalexpansion:capacitor:2>, <contenttweaker:enriched_signalum_ingot>], 
+	[null, <actuallyadditions:item_crystal_empowered:0>, null],
+	[<contenttweaker:enriched_signalum_ingot>, <thermalexpansion:capacitor:2>, <contenttweaker:enriched_signalum_ingot>],
 	[<actuallyadditions:item_crystal_empowered:0>, <ore:dustCryotheum>, <actuallyadditions:item_crystal_empowered:0>]
 ]);
 
@@ -273,8 +273,8 @@ recipes.addShaped(<thermalexpansion:capacitor:3>, [
 recipes.removeByRecipeName("thermalcultivation:watering_can_4");
 
 recipes.addShaped(<thermalcultivation:watering_can:4>, [
-    [null, <thermalfoundation:fertilizer:2>, null], 
-	[<ore:ingotEnderium>, <thermalcultivation:watering_can:3>, <ore:ingotEnderium>], 
+    [null, <thermalfoundation:fertilizer:2>, null],
+	[<ore:ingotEnderium>, <thermalcultivation:watering_can:3>, <ore:ingotEnderium>],
 	[<thermalfoundation:fertilizer:2>, <ore:dustMana>, <thermalfoundation:fertilizer:2>]
 ]);
 
@@ -282,8 +282,8 @@ recipes.addShaped(<thermalcultivation:watering_can:4>, [
 recipes.removeByRecipeName("thermalinnovation:drill_2");
 
 recipes.addShaped(<thermalinnovation:drill:2>, [
-	[null, <actuallyadditions:item_crystal:2>, null], 
-	[<ore:ingotElectrum>, <thermalinnovation:drill:1>, <ore:ingotElectrum>], 
+	[null, <actuallyadditions:item_crystal:2>, null],
+	[<ore:ingotElectrum>, <thermalinnovation:drill:1>, <ore:ingotElectrum>],
 	[<actuallyadditions:item_crystal:2>, <ore:gearVibrantAlloy>, <actuallyadditions:item_crystal:2>]
 ]);
 
@@ -291,8 +291,8 @@ recipes.addShaped(<thermalinnovation:drill:2>, [
 recipes.removeByRecipeName("thermalinnovation:drill_4");
 
 recipes.addShaped(<thermalinnovation:drill:4>, [
-	[null, <ore:gearEnderium>, null], 
-	[<ore:ingotEnderium>, <thermalinnovation:drill:3>, <ore:ingotEnderium>], 
+	[null, <ore:gearEnderium>, null],
+	[<ore:ingotEnderium>, <thermalinnovation:drill:3>, <ore:ingotEnderium>],
 	[<ore:gearLumium>, <ore:dustMana>, <ore:gearLumium>]
 ]);
 
@@ -300,8 +300,8 @@ recipes.addShaped(<thermalinnovation:drill:4>, [
 recipes.removeByRecipeName("thermalinnovation:saw_2");
 
 recipes.addShaped(<thermalinnovation:saw:2>, [
-	[null, <actuallyadditions:item_crystal:2>, null], 
-	[<ore:ingotElectrum>, <thermalinnovation:saw:1>, <ore:ingotElectrum>], 
+	[null, <actuallyadditions:item_crystal:2>, null],
+	[<ore:ingotElectrum>, <thermalinnovation:saw:1>, <ore:ingotElectrum>],
 	[<actuallyadditions:item_crystal:2>, <ore:gearVibrantAlloy>, <actuallyadditions:item_crystal:2>]
 ]);
 
@@ -309,8 +309,8 @@ recipes.addShaped(<thermalinnovation:saw:2>, [
 recipes.removeByRecipeName("thermalinnovation:saw_4");
 
 recipes.addShaped(<thermalinnovation:saw:4>, [
-	[null, <ore:gearEnderium>, null], 
-	[<ore:ingotEnderium>, <thermalinnovation:saw:3>, <ore:ingotEnderium>], 
+	[null, <ore:gearEnderium>, null],
+	[<ore:ingotEnderium>, <thermalinnovation:saw:3>, <ore:ingotEnderium>],
 	[<ore:gearLumium>, <ore:dustMana>, <ore:gearLumium>]
 ]);
 
@@ -318,8 +318,8 @@ recipes.addShaped(<thermalinnovation:saw:4>, [
 recipes.removeByRecipeName("thermalinnovation:magnet_2");
 
 recipes.addShaped(<thermalinnovation:magnet:2>, [
-	[null, <ore:ingotInvar>, null], 
-	[<ore:ingotVibrantAlloy>, <thermalinnovation:magnet:1>, <ore:ingotVibrantAlloy>], 
+	[null, <ore:ingotInvar>, null],
+	[<ore:ingotVibrantAlloy>, <thermalinnovation:magnet:1>, <ore:ingotVibrantAlloy>],
 	[<ore:ingotInvar>, <ore:gearElectricalSteel>, <ore:ingotInvar>]
 ]);
 
@@ -327,8 +327,8 @@ recipes.addShaped(<thermalinnovation:magnet:2>, [
 recipes.removeByRecipeName("thermalinnovation:magnet_3");
 
 recipes.addShaped(<thermalinnovation:magnet:3>, [
-	[null, <ore:ingotVibrantAlloy>, null], 
-	[<contenttweaker:enriched_signalum_ingot>, <thermalinnovation:magnet:2>, <contenttweaker:enriched_signalum_ingot>], 
+	[null, <ore:ingotVibrantAlloy>, null],
+	[<contenttweaker:enriched_signalum_ingot>, <thermalinnovation:magnet:2>, <contenttweaker:enriched_signalum_ingot>],
 	[<ore:ingotVibrantAlloy>, <ore:gearRestonia>, <ore:ingotVibrantAlloy>]
 ]);
 
@@ -336,8 +336,8 @@ recipes.addShaped(<thermalinnovation:magnet:3>, [
 recipes.removeByRecipeName("thermalinnovation:magnet_4");
 
 recipes.addShaped(<thermalinnovation:magnet:4>, [
-	[null, <contenttweaker:enriched_signalum_ingot>, null], 
-	[<ore:ingotEnderium>, <thermalinnovation:magnet:3>, <ore:ingotEnderium>], 
+	[null, <contenttweaker:enriched_signalum_ingot>, null],
+	[<ore:ingotEnderium>, <thermalinnovation:magnet:3>, <ore:ingotEnderium>],
 	[<contenttweaker:enriched_signalum_ingot>, <ore:dustMana>, <contenttweaker:enriched_signalum_ingot>]
 ]);
 
@@ -345,8 +345,8 @@ recipes.addShaped(<thermalinnovation:magnet:4>, [
 recipes.removeByRecipeName("thermalinnovation:injector_4");
 
 recipes.addShaped(<thermalinnovation:injector:4>, [
-	[null, <ore:ingotSignalum>, null], 
-	[<ore:ingotEnderium>, <thermalinnovation:injector:3>, <ore:ingotEnderium>], 
+	[null, <ore:ingotSignalum>, null],
+	[<ore:ingotEnderium>, <thermalinnovation:injector:3>, <ore:ingotEnderium>],
 	[<ore:ingotSignalum>, <ore:dustMana>, <ore:ingotSignalum>]
 ]);
 
@@ -354,8 +354,8 @@ recipes.addShaped(<thermalinnovation:injector:4>, [
 recipes.removeByRecipeName("thermalinnovation:quiver_4");
 
 recipes.addShaped(<thermalinnovation:quiver:4>, [
-	[null, <ore:ingotSignalum>, null], 
-	[<ore:ingotEnderium>, <thermalinnovation:quiver:3>, <ore:ingotEnderium>], 
+	[null, <ore:ingotSignalum>, null],
+	[<ore:ingotEnderium>, <thermalinnovation:quiver:3>, <ore:ingotEnderium>],
 	[<ore:ingotSignalum>, <ore:dustMana>, <ore:ingotSignalum>]
 ]);
 
@@ -363,8 +363,8 @@ recipes.addShaped(<thermalinnovation:quiver:4>, [
 recipes.remove(<redstonearsenal:material:224>);
 
 recipes.addShaped(<redstonearsenal:material:224>, [
-	[<ore:dustPyrotheum>, <ore:plateElectrumFlux>, <ore:dustPyrotheum>], 
-	[<ore:plateElectrumFlux>, <ore:gemCrystalFlux>, <ore:plateElectrumFlux>], 
+	[<ore:dustPyrotheum>, <ore:plateElectrumFlux>, <ore:dustPyrotheum>],
+	[<ore:plateElectrumFlux>, <ore:gemCrystalFlux>, <ore:plateElectrumFlux>],
 	[<ore:dustPyrotheum>, <ore:plateElectrumFlux>, <ore:dustPyrotheum>]
 ]);
 
@@ -372,8 +372,8 @@ recipes.addShaped(<redstonearsenal:material:224>, [
 recipes.remove(<redstonearsenal:material:193>);
 
 recipes.addShaped(<redstonearsenal:material:193>, [
-    [null, <ore:dustPyrotheum>, <ore:gemCrystalFlux>], 
-	[<ore:dustPyrotheum>, <redstonearsenal:material:192>, <ore:dustPyrotheum>], 
+    [null, <ore:dustPyrotheum>, <ore:gemCrystalFlux>],
+	[<ore:dustPyrotheum>, <redstonearsenal:material:192>, <ore:dustPyrotheum>],
 	[<ore:gemCrystalFlux>, <ore:dustPyrotheum>, null]
 ]);
 
@@ -381,8 +381,8 @@ recipes.addShaped(<redstonearsenal:material:193>, [
 recipes.remove(<redstonerepository:material:7>);
 
 recipes.addShaped(<redstonerepository:material:7>, [
-	[<ore:dustMana>, <ore:plateGelidEnderium>, <ore:dustMana>], 
-	[<ore:plateGelidEnderium>, <ore:gemGelid>, <ore:plateGelidEnderium>], 
+	[<ore:dustMana>, <ore:plateGelidEnderium>, <ore:dustMana>],
+	[<ore:plateGelidEnderium>, <ore:gemGelid>, <ore:plateGelidEnderium>],
 	[<ore:dustMana>, <ore:plateGelidEnderium>, <ore:dustMana>]
 ]);
 
@@ -390,8 +390,8 @@ recipes.addShaped(<redstonerepository:material:7>, [
 recipes.remove(<redstonerepository:material:6>);
 
 recipes.addShaped(<redstonerepository:material:6>, [
-    [null, <ore:dustMana>, <ore:gemGelid>], 
-	[<ore:dustMana>, <redstonearsenal:material:193>, <ore:dustMana>], 
+    [null, <ore:dustMana>, <ore:gemGelid>],
+	[<ore:dustMana>, <redstonearsenal:material:193>, <ore:dustMana>],
 	[<ore:gemGelid>, <ore:dustMana>, null]
 ]);
 
@@ -399,21 +399,21 @@ recipes.addShaped(<redstonerepository:material:6>, [
 recipes.remove(<redstonerepository:util.ring_base>);
 
 recipes.addShaped(<redstonerepository:util.ring_base>, [
-	[<ore:dustMana>, <ore:ingotGelidEnderium>, <ore:dustMana>], 
-	[<ore:ingotGelidEnderium>, <actuallyadditions:item_misc:6>, <ore:ingotGelidEnderium>], 
+	[<ore:dustMana>, <ore:ingotGelidEnderium>, <ore:dustMana>],
+	[<ore:ingotGelidEnderium>, <actuallyadditions:item_misc:6>, <ore:ingotGelidEnderium>],
 	[<ore:dustMana>, <ore:gemGelid>, <ore:dustMana>]
 ]);
 
 // Creative flux capacitor
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:capacitor:32000>, [
-	[<ore:blockUltimate>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <ore:blockUltimate>], 
-	[<extendedcrafting:material:13>, <solarflux:custom_solar_panel_adamantium>, <solarflux:custom_solar_panel_adamantium>, <libvulpes:battery:1>, <mekanism:basicblock2:4>.withTag({tier: 3}), <libvulpes:battery:1>, <solarflux:custom_solar_panel_adamantium>, <solarflux:custom_solar_panel_adamantium>, <extendedcrafting:material:13>], 
-	[<extendedcrafting:material:13>, <solarflux:custom_solar_panel_adamantium>, <avaritia:endest_pearl>, <mekanism:basicblock2:4>.withTag({tier: 3}), <rftools:matter_booster>, <mekanism:basicblock2:4>.withTag({tier: 3}), <avaritia:endest_pearl>, <solarflux:custom_solar_panel_adamantium>, <extendedcrafting:material:13>], 
-	[<extendedcrafting:material:13>, <libvulpes:battery:1>, <mekanism:basicblock2:3>.withTag({tier: 3}), <solarflux:solar_panel_neutronium>, <redstonerepository:util.capacitor_gelid>, <solarflux:solar_panel_neutronium>, <mekanism:basicblock2:3>.withTag({tier: 3}), <libvulpes:battery:1>, <extendedcrafting:material:13>], 
-	[<extendedcrafting:material:13>, <mekanism:basicblock2:3>.withTag({tier: 3}), <rftools:matter_booster>, <redstonerepository:util.capacitor_gelid>, <enderio:block_cap_bank>, <redstonerepository:util.capacitor_gelid>, <rftools:matter_booster>, <mekanism:basicblock2:3>.withTag({tier: 3}), <extendedcrafting:material:13>], 
-	[<extendedcrafting:material:13>, <libvulpes:battery:1>, <mekanism:basicblock2:3>.withTag({tier: 3}), <solarflux:solar_panel_neutronium>, <redstonerepository:util.capacitor_gelid>, <solarflux:solar_panel_neutronium>, <mekanism:basicblock2:3>.withTag({tier: 3}), <libvulpes:battery:1>, <extendedcrafting:material:13>], 
-	[<extendedcrafting:material:13>, <solarflux:custom_solar_panel_adamantium>, <avaritia:endest_pearl>, <mekanism:basicblock2:4>.withTag({tier: 3}), <rftools:matter_booster>, <mekanism:basicblock2:4>.withTag({tier: 3}), <avaritia:endest_pearl>, <solarflux:custom_solar_panel_adamantium>, <extendedcrafting:material:13>], 
-	[<extendedcrafting:material:13>, <solarflux:custom_solar_panel_adamantium>, <solarflux:custom_solar_panel_adamantium>, <libvulpes:battery:1>, <mekanism:basicblock2:4>.withTag({tier: 3}), <libvulpes:battery:1>, <solarflux:custom_solar_panel_adamantium>, <solarflux:custom_solar_panel_adamantium>, <extendedcrafting:material:13>], 
+	[<ore:blockUltimate>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <ore:blockUltimate>],
+	[<extendedcrafting:material:13>, <solarflux:custom_solar_panel_adamantium>, <solarflux:custom_solar_panel_adamantium>, <libvulpes:battery:1>, <mekanism:basicblock2:4>.withTag({tier: 3}), <libvulpes:battery:1>, <solarflux:custom_solar_panel_adamantium>, <solarflux:custom_solar_panel_adamantium>, <extendedcrafting:material:13>],
+	[<extendedcrafting:material:13>, <solarflux:custom_solar_panel_adamantium>, <avaritia:endest_pearl>, <mekanism:basicblock2:4>.withTag({tier: 3}), <rftools:matter_booster>, <mekanism:basicblock2:4>.withTag({tier: 3}), <avaritia:endest_pearl>, <solarflux:custom_solar_panel_adamantium>, <extendedcrafting:material:13>],
+	[<extendedcrafting:material:13>, <libvulpes:battery:1>, <mekanism:basicblock2:3>.withTag({tier: 3}), <solarflux:solar_panel_neutronium>, <redstonerepository:util.capacitor_gelid>, <solarflux:solar_panel_neutronium>, <mekanism:basicblock2:3>.withTag({tier: 3}), <libvulpes:battery:1>, <extendedcrafting:material:13>],
+	[<extendedcrafting:material:13>, <mekanism:basicblock2:3>.withTag({tier: 3}), <rftools:matter_booster>, <redstonerepository:util.capacitor_gelid>, <enderio:block_cap_bank>, <redstonerepository:util.capacitor_gelid>, <rftools:matter_booster>, <mekanism:basicblock2:3>.withTag({tier: 3}), <extendedcrafting:material:13>],
+	[<extendedcrafting:material:13>, <libvulpes:battery:1>, <mekanism:basicblock2:3>.withTag({tier: 3}), <solarflux:solar_panel_neutronium>, <redstonerepository:util.capacitor_gelid>, <solarflux:solar_panel_neutronium>, <mekanism:basicblock2:3>.withTag({tier: 3}), <libvulpes:battery:1>, <extendedcrafting:material:13>],
+	[<extendedcrafting:material:13>, <solarflux:custom_solar_panel_adamantium>, <avaritia:endest_pearl>, <mekanism:basicblock2:4>.withTag({tier: 3}), <rftools:matter_booster>, <mekanism:basicblock2:4>.withTag({tier: 3}), <avaritia:endest_pearl>, <solarflux:custom_solar_panel_adamantium>, <extendedcrafting:material:13>],
+	[<extendedcrafting:material:13>, <solarflux:custom_solar_panel_adamantium>, <solarflux:custom_solar_panel_adamantium>, <libvulpes:battery:1>, <mekanism:basicblock2:4>.withTag({tier: 3}), <libvulpes:battery:1>, <solarflux:custom_solar_panel_adamantium>, <solarflux:custom_solar_panel_adamantium>, <extendedcrafting:material:13>],
 	[<ore:blockUltimate>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <ore:blockUltimate>]
 ]);
 
@@ -524,8 +524,8 @@ mods.thermalexpansion.Transposer.addFillRecipe(<redstonearsenal:material:0>, <th
 recipes.remove(<thermalexpansion:machine:1>);
 
 recipes.addShaped(<thermalexpansion:machine:1>, [
-	[null, <integrateddynamics:squeezer>, null], 
-	[<ore:itemFlint>, <thermalexpansion:frame>, <ore:itemFlint>], 
+	[null, <integrateddynamics:squeezer>, null],
+	[<ore:itemFlint>, <thermalexpansion:frame>, <ore:itemFlint>],
 	[<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]
 ]);
 
@@ -533,8 +533,8 @@ recipes.addShaped(<thermalexpansion:machine:1>, [
 recipes.remove(<thermalexpansion:machine:13>);
 
 recipes.addShaped(<thermalexpansion:machine:13>, [
-	[null, <minecraft:enchanting_table>, null], 
-	[<ore:gearPalisEmpowered>, <thermalexpansion:frame>, <ore:gearPalisEmpowered>], 
+	[null, <minecraft:enchanting_table>, null],
+	[<ore:gearPalisEmpowered>, <thermalexpansion:frame>, <ore:gearPalisEmpowered>],
 	[<ore:gearConstantan>, <thermalfoundation:material:513>, <ore:gearConstantan>]
 ]);
 
@@ -548,10 +548,20 @@ recipes.replaceAllOccurences(<ore:ingotInvar>, <ore:dustCryotheum>, <thermalexpa
 recipes.remove(<thermalexpansion:augment:352>);
 
 recipes.addShaped(<thermalexpansion:augment:352>, [
-	[null, <ore:gearInvar>, null], 
-	[<minecraft:red_nether_brick>, <thermalfoundation:material:515>, <minecraft:red_nether_brick>], 
+	[null, <ore:gearInvar>, null],
+	[<minecraft:red_nether_brick>, <thermalfoundation:material:515>, <minecraft:red_nether_brick>],
 	[null, <ore:dustPyrotheum>, null]
 ]);
 
 // Disable factorizer
 recipes.remove(<thermalexpansion:device:10>);
+
+game.setLocalization("tile.thermalfoundation.ore.mithril.name", "Mithril Ore");
+game.setLocalization("tile.thermalfoundation.storage.mithril.name", "Mithril Block");
+game.setLocalization("tile.thermalfoundation.glass.mithril.name", "Hardened Mithril Glass");
+<thermalfoundation:coin:72>.displayName = "Mithril Coin";
+<thermalfoundation:material:72>.displayName = "Pulverized Mithril";
+<thermalfoundation:material:136>.displayName = "Mithril Ingot";
+<thermalfoundation:material:200>.displayName = "Mithril Nugget";
+<thermalfoundation:material:264>.displayName = "Mithril Gear";
+<thermalfoundation:material:328>.displayName = "Mithril Plate";

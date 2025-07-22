@@ -1,0 +1,22 @@
+{
+	x: 6.5d,
+	y: -6.0d,
+	text: [
+		"The Stabilized Singularity line is needed for making ME Machinery components for better automating your Modular Machines.",
+		"",
+		"They can also let you duplicate Matter Balls and Singularities."
+	],
+	tasks: [{
+		uid: "cadfd48a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:stabilized_singularity"
+		}]
+	}],
+	rewards: [{
+		uid: "a890567e",
+		type: "item",
+		item: "appliedenergistics2:material 1 47",
+		count: 4
+	}]
+}

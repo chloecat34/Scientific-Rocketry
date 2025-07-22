@@ -128,14 +128,6 @@
 // Sky stone
 <appliedenergistics2:sky_stone_block>.addTooltip(format.aqua("Can be crafted, found on the moon/other planets, or produced via a Void Resource Miner"));
 
-<ae2wtlib:infinity_booster_card>.addTooltip(format.aqua("Is not consumed when using"));
-
-// Extra CPUs note
-<extracpus:crafting_storage_256k>.addTooltip(format.aqua("Crafting CPU must also have a crafting storage from base AE2"));
-<extracpus:crafting_storage_1024k>.addTooltip(format.aqua("Crafting CPU must also have a crafting storage from base AE2"));
-<extracpus:crafting_storage_4096k>.addTooltip(format.aqua("Crafting CPU must also have a crafting storage from base AE2"));
-<extracpus:crafting_storage_16384k>.addTooltip(format.aqua("Crafting CPU must also have a crafting storage from base AE2"));
-
 // Mekanism factories
 <mekanism:machineblock:5>.addTooltip(format.aqua("Made by right-clicking a machine with a Basic Tier Installer"));
 <mekanism:machineblock:6>.addTooltip(format.aqua("Made by right-clicking a basic factory with an Advanced Tier Installer"));
@@ -184,3 +176,6 @@
 <modularmachinery:itemblueprint>.withTag({ dynamicmachine: "modularmachinery:advanced_assembler" }).addTooltip(format.aqua("Required for multiblock, not consumed in crafting"));
 <modularmachinery:itemblueprint>.withTag({ dynamicmachine: "modularmachinery:cosmic_forge" }).addTooltip(format.aqua("Required for multiblock, not consumed in crafting"));
 <modularmachinery:itemblueprint>.withTag({ dynamicmachine: "modularmachinery:primal_furnace" }).addTooltip(format.aqua("Required for multiblock, not consumed in crafting"));
+
+// me machinery bug moment
+<contenttweaker:fake_controller>.addTooltip(format.aqua("This exists so that you can use ME Machinery Buses on your Advanced Assembler without literally bricking your ME system."));

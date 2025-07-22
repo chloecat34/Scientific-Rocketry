@@ -6,10 +6,10 @@
     "modifiers": [
         {
             "x": 0,
-            "y": [0, 1, 2],
+            "y": 0,
             "z": 1,
             "elements": "thermalfoundation:storage@8",
-            "description": "Replace Platinum Blocks, 1.5x speed, 2.5x RF/t usage",
+            "description": "Replace Platinum Blocks, 1.5x speed, 2x RF/t usage",
             "modifiers": [
                 {
                     "io": "input",
@@ -21,22 +21,22 @@
                     "io": "input",
                     "target": "energy",
                     "operation": 1,
-                    "multiplier": 1.185631
+                    "multiplier": 1.259921
                 }
             ]
         },
         {
             "x": 0,
-            "y": [0, 1, 2],
+            "y": 1,
             "z": 1,
-            "elements": "extendedcrafting:storage@3",
-            "description": "Replace Platinum Blocks, 2x speed, 4x RF/t usage",
+            "elements": "thermalfoundation:storage@8",
+            "description": "Replace Platinum Blocks, 1.5x speed, 2x RF/t usage",
             "modifiers": [
                 {
                     "io": "input",
                     "target": "duration",
                     "operation": 1,
-                    "multiplier": 0.7937
+                    "multiplier": 0.87358
                 },
                 {
                     "io": "input",
@@ -48,22 +48,148 @@
         },
         {
             "x": 0,
-            "y": [0, 1, 2],
+            "y": 2,
             "z": 1,
-            "elements": "avaritia:block_resource@2",
-            "description": "Replace Platinum Blocks, 2.5x speed, 6x RF/t usage",
+            "elements": "thermalfoundation:storage@8",
+            "description": "Replace Platinum Blocks, 1.5x speed, 2x RF/t usage",
             "modifiers": [
                 {
                     "io": "input",
                     "target": "duration",
                     "operation": 1,
-                    "multiplier": 0.736806
+                    "multiplier": 0.87358
                 },
                 {
                     "io": "input",
                     "target": "energy",
                     "operation": 1,
-                    "multiplier": 1.338866
+                    "multiplier": 1.259921
+                }
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": "extendedcrafting:storage@3",
+            "description": "Replace Platinum Blocks, 2x speed, 3.5x RF/t usage",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "duration",
+                    "operation": 1,
+                    "multiplier": 0.7937
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 1.51829
+                }
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "extendedcrafting:storage@3",
+            "description": "Replace Platinum Blocks, 2x speed, 3.5x RF/t usage",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "duration",
+                    "operation": 1,
+                    "multiplier": 0.7937
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 1.51829
+                }
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": "extendedcrafting:storage@3",
+            "description": "Replace Platinum Blocks, 2x speed, 3.5x RF/t usage",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "duration",
+                    "operation": 1,
+                    "multiplier": 0.7937
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 1.51829
+                }
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": "avaritia:block_resource@2",
+            "description": "Replace Platinum Blocks, 2.5x speed, 5x RF/t usage",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "duration",
+                    "operation": 1,
+                    "multiplier": 0.73681
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 1.70998
+                }
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "avaritia:block_resource@2",
+            "description": "Replace Platinum Blocks, 2.5x speed, 5x RF/t usage",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "duration",
+                    "operation": 1,
+                    "multiplier": 0.73681
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 1.70998
+                }
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": "avaritia:block_resource@2",
+            "description": "Replace Platinum Blocks, 2.5x speed, 5x RF/t usage",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "duration",
+                    "operation": 1,
+                    "multiplier": 0.73681
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 1.70998
                 }
             ]
         }
