@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -1.5d,
+	text: [
+		"The Quantum Compressor allows you to make singularities out of 1024 of an item."
+	],
+	dependencies: [
+		"9f369fec"
+	],
+	tasks: [{
+		uid: "fc98e4f2",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:compressor"
+		}]
+	}]
+}

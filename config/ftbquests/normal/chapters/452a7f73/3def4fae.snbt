@@ -1,0 +1,42 @@
+{
+	title: "The Garden",
+	icon: "minecraft:grass",
+	x: 0.5d,
+	y: 7.0d,
+	shape: "square",
+	text: [
+		"The Garden is a flat planet with no natural spawns.",
+		"",
+		"It can be discovered by placing a Basic Catalyst in the Warp Controller."
+	],
+	dependencies: [
+		"17b0bbdd"
+	],
+	tasks: [{
+		uid: "3593094b",
+		type: "dimension",
+		dim: 114
+	}],
+	rewards: [{
+		uid: "6d5ed623",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "minecraft:grass",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "The Garden",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704154063L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "{TrophyItem:{id:\"minecraft:grass\",Count:1b,Damage:0s},TrophyName:\"The Garden\",TrophyColorRed:179,TrophyColorGreen:49,TrophyColorBlue:44,TrophyVariant:\"classic\",TrophyShowsTooltip:1b}"
+	}]
+}

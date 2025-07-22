@@ -1,0 +1,46 @@
+{
+	title: "Moon Landing",
+	icon: "advancedrocketry:moonturf",
+	x: -1.5d,
+	y: 5.0d,
+	shape: "hexagon",
+	text: [
+		"Use your rocket to go to the Moon."
+	],
+	dependencies: [
+		"95f9bb04"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "dcdf8dfd",
+		type: "dimension",
+		dim: 100
+	}],
+	rewards: [{
+		uid: "4068164c",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "advancedrocketry:moonturf",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Moon Landing",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704153941L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"advancedrocketry:moonturf\", Count:1b,Damage:0s},  TrophyName:\"Moon Landing\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	},
+	{
+		uid: "71475db1",
+		type: "xp_levels",
+		xp_levels: 60
+	}]
+}

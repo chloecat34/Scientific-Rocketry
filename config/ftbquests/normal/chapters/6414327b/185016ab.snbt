@@ -1,0 +1,26 @@
+{
+	title: "Obsidian",
+	icon: "minecraft:obsidian",
+	x: -2.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fad0586e"
+	],
+	tasks: [{
+		uid: "adf67acc",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "b707a9b8",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 16
+	}]
+}

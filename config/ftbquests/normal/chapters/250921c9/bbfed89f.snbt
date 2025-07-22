@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"This questline shows the main early tech progression of the pack, up to starting Advanced Rocketry, which is included in the Space tab."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "862b88e9",
+		type: "checkmark",
+		title: "Tech Progression"
+	}]
+}

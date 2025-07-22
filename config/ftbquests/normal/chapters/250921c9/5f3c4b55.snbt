@@ -1,0 +1,24 @@
+{
+	title: "HSLA Steel",
+	x: -1.5d,
+	y: 7.0d,
+	text: [
+		"HSLA Steel is an important alloy for later. To make manganese, you need to take Crushed Rhodochrosite (made from putting Granite in a Rock Crusher) and smelt it 3 times."
+	],
+	dependencies: [
+		"ad283fdb"
+	],
+	tasks: [{
+		uid: "777339c9",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "158411f6",
+		type: "item",
+		item: "nuclearcraft:alloy 1 15",
+		count: 16
+	}]
+}

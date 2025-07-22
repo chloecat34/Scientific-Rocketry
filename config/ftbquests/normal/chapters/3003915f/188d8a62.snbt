@@ -1,0 +1,16 @@
+{
+	x: -0.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "2063783c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_sower"
+		}]
+	}],
+	rewards: [{
+		uid: "85131f0d",
+		type: "item",
+		item: "industrialforegoing:range_addon 1 11"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -4.5d,
+	y: 6.5d,
+	text: [
+		"Why *is* Tritium so hard to get anyway?"
+	],
+	dependencies: [
+		"969f64ae"
+	],
+	tasks: [{
+		uid: "0bdf5208",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

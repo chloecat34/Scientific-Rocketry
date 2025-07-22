@@ -1,0 +1,20 @@
+{
+	x: -3.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "0af217d9",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			Damage: 7s,
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

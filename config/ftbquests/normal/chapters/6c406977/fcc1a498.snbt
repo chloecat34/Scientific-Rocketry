@@ -1,0 +1,21 @@
+{
+	title: "Fluid Drawers",
+	x: -1.5d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "2b3d66a2",
+		type: "item",
+		items: [{
+			item: "fluiddrawers:tank"
+		}]
+	}],
+	rewards: [{
+		uid: "3120e619",
+		type: "item",
+		item: "fluiddrawers:tank",
+		count: 2
+	}]
+}

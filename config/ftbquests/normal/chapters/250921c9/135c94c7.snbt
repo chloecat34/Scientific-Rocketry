@@ -1,0 +1,45 @@
+{
+	x: -2.5d,
+	y: 11.0d,
+	text: [
+		"Mana Dust is an important item used for crafting, which will be needed in large amounts later on."
+	],
+	dependencies: [
+		"b9a23f00"
+	],
+	tasks: [{
+		uid: "e739c348",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1028"
+		}]
+	}],
+	rewards: [{
+		uid: "8ffb0493",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 1028s
+				},
+				TrophyName: "Mana Dust",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704153402L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"thermalfoundation:material\", Count:1b,Damage:1028s},  TrophyName:\"Mana Dust\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	},
+	{
+		uid: "a3b4dd54",
+		type: "item",
+		item: "thermalfoundation:material 1 1028",
+		count: 16
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	text: [
+		"Variants of vanilla ores spawn in the Nether at every elevation."
+	],
+	tasks: [{
+		uid: "931aa988",
+		type: "checkmark",
+		title: "Nether Ores",
+		icon: "cyclicmagic:nether_iron_ore"
+	}]
+}

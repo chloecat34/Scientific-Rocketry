@@ -1,0 +1,56 @@
+{
+	title: "Combination Crafting",
+	icon: "extendedcrafting:crafting_core",
+	x: -5.5d,
+	y: 2.5d,
+	text: [
+		"The Combination Crafter is basically an upgraded version of the Empowerer which can use more types of items and is much faster. It is used a lot in this pack, so automating it will be crucial."
+	],
+	dependencies: [
+		"76e6074b",
+		"6b21d007"
+	],
+	tasks: [{
+		uid: "27aa05ec",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:crafting_core"
+		}]
+	},
+	{
+		uid: "9292593b",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:pedestal"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "240feb42",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "extendedcrafting:crafting_core",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Combination Crafting",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704154526L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"extendedcrafting:crafting_core\", Count:1b,Damage:0s},  TrophyName:\"Combination Crafting\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	},
+	{
+		uid: "8307cdd1",
+		type: "item",
+		item: "extendedcrafting:material 1 16",
+		count: 8
+	}]
+}

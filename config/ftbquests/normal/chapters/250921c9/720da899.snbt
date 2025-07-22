@@ -1,0 +1,33 @@
+{
+	title: "Pulverizer",
+	x: -3.5d,
+	y: 1.0d,
+	text: [
+		"The Pulverizer is the first machine you need to craft. It lets you crush ores/ingots into dusts and double ores."
+	],
+	dependencies: [
+		"00ab50ae"
+	],
+	tasks: [{
+		uid: "4b6c9b13",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 1s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

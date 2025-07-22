@@ -1,0 +1,48 @@
+{
+	title: "Stellar Armor",
+	x: 0.5d,
+	y: -7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c8bcf5f8",
+		"765bec89"
+	],
+	tasks: [{
+		uid: "310dd200",
+		type: "item",
+		items: [{
+			item: "enderio:item_stellar_alloy_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "30f37a4c",
+		type: "item",
+		items: [{
+			item: "enderio:item_stellar_alloy_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f0117808",
+		type: "item",
+		items: [{
+			item: "enderio:item_stellar_alloy_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4ee11a80",
+		type: "item",
+		items: [{
+			item: "enderio:item_stellar_alloy_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Green Heart Canister",
+	x: 6.5d,
+	y: -1.0d,
+	dependencies: [
+		"9c89fd17"
+	],
+	tasks: [{
+		uid: "4a124b25",
+		type: "item",
+		items: [{
+			item: "bhc:green_heart_canister"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "b3a2dd13",
+		type: "item",
+		item: "bhc:green_heart",
+		count: 4
+	}]
+}

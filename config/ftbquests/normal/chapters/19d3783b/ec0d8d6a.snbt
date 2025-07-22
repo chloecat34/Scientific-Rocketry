@@ -1,0 +1,86 @@
+{
+	title: "Cosmic Forge",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"This multiblock allows you to do Metallurgic/Advanced Metallurgic Fabricator recipes much faster and with better yield per recipe.",
+		"",
+		"This multiblock has several upgrades. ",
+		"",
+		"Replacing the Reactor Controller with an Infinity Block allows you to do 4x as many recipes at once.",
+		"",
+		"Replacing it with an Eternity Block gives a 4x speed boost and multiplies RF/t cost by 10x."
+	],
+	dependencies: [
+		"0c54b79d"
+	],
+	tasks: [{
+		uid: "5fb6f39b",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:cosmic_forge"
+			}
+		}]
+	},
+	{
+		uid: "b124010e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cosmic_machine_casing"
+		}],
+		count: 64L
+	},
+	{
+		uid: "b7862a6e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cosmic_machine_casing"
+		}],
+		count: 34L
+	},
+	{
+		uid: "ab2fbc9d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}],
+		count: 8L
+	},
+	{
+		uid: "75e29fc4",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "da70d438",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "contenttweaker:cosmic_machine_casing",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Cosmic Forge",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704154967L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"contenttweaker:cosmic_machine_casing\", Count:1b,Damage:0s},  TrophyName:\"Cosmic Forge\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	},
+	{
+		uid: "997128a0",
+		type: "item",
+		item: "contenttweaker:cosmic_machine_casing",
+		count: 8
+	}]
+}

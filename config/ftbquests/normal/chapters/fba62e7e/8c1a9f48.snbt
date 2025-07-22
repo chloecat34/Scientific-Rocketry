@@ -1,0 +1,43 @@
+{
+	title: "Solid Fuel Fission",
+	x: -4.0d,
+	y: 4.0d,
+	text: [
+		"While you may want to use fission and a turbine for power, it is also important for byproducts such as isotopes of Plutonium and Californium."
+	],
+	tasks: [{
+		uid: "19fcdbe5",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:solid_fission_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "f73665cc",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "nuclearcraft:solid_fission_controller",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Fission Reactor",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704153519L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"nuclearcraft:solid_fission_controller\", Count:1b,Damage:0s},  TrophyName:\"Fission Reactor\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	},
+	{
+		uid: "01a55a8d",
+		type: "item",
+		item: "nuclearcraft:fission_casing",
+		count: 8
+	}]
+}

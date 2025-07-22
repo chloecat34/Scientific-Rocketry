@@ -1,0 +1,46 @@
+{
+	x: -5.5d,
+	y: 3.5d,
+	description: "5x5 Crafting",
+	text: [
+		""
+	],
+	dependencies: [
+		"2e25d73f"
+	],
+	tasks: [{
+		uid: "6d739342",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}]
+	}],
+	rewards: [{
+		uid: "92679730",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "extendedcrafting:table_advanced",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Advanced Crafting Table",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704154646L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"extendedcrafting:table_advanced\", Count:1b,Damage:0s},  TrophyName:\"Advanced Crafting Table\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	},
+	{
+		uid: "a0ebb18d",
+		type: "item",
+		item: "extendedcrafting:material 1 15",
+		count: 8
+	}]
+}

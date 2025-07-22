@@ -1,0 +1,57 @@
+{
+	title: "Flux Networks",
+	x: -2.0d,
+	y: 7.0d,
+	text: [
+		"In the lategame and endgame, you can use Flux Networks for limitless wireless RF transfer. It is quite gated, however."
+	],
+	tasks: [{
+		uid: "df2c2e89",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcontroller"
+		}]
+	},
+	{
+		uid: "525e9796",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}]
+	},
+	{
+		uid: "89597257",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxplug"
+		}]
+	}],
+	rewards: [{
+		uid: "feff8aa7",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "fluxnetworks:fluxcore",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Flux Networks",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704155687L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"fluxnetworks:fluxcore\", Count:1b,Damage:0s},  TrophyName:\"Flux Networks\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	},
+	{
+		uid: "7baf5122",
+		type: "item",
+		item: "fluxnetworks:fluxcore",
+		count: 16
+	}]
+}

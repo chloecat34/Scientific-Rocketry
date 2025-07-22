@@ -1,0 +1,23 @@
+{
+	x: 3.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b3dac577"
+	],
+	tasks: [{
+		uid: "6a3825bc",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:ic 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "187389db",
+		type: "item",
+		item: "advancedrocketry:ic 1 2",
+		count: 4
+	}]
+}

@@ -1,0 +1,75 @@
+{
+	title: "9x9 Exchanger",
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"dbe0396b"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "f2807a27",
+		type: "item",
+		items: [{
+			id: "exchangers:diamond_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "464cc99b",
+		type: "item",
+		items: [{
+			id: "exchangers:electrical_steel_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "10edee8b",
+		type: "item",
+		items: [{
+			id: "exchangers:vivid_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Syngas Producer",
+	x: -2.0d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "47374d84",
+		type: "item",
+		items: [{
+			item: "advgenerators:syngas_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "e9246491",
+		type: "item",
+		item: "advgenerators:iron_frame",
+		count: 16
+	}]
+}

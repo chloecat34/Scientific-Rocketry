@@ -1,0 +1,18 @@
+{
+	title: "Integrated Dynamics",
+	x: -2.5d,
+	y: 8.0d,
+	text: [
+		"Integrated Dynamics allows you to automate many things. Crafting a Mechanical Squeezer and a Mechanical Drying Basin will help with getting into this mod."
+	],
+	dependencies: [
+		"a8409e7a"
+	],
+	tasks: [{
+		uid: "e825a9e2",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:logic_programmer"
+		}]
+	}]
+}

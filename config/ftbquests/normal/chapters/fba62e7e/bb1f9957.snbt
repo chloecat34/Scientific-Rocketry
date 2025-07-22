@@ -1,0 +1,22 @@
+{
+	title: "NuclearCraft Turbine",
+	x: -2.0d,
+	y: 5.0d,
+	description: "Power outputs per unit of steam are massively increased",
+	text: [
+		"The addon NCOUTO is installed, which adds more options for turbines."
+	],
+	tasks: [{
+		uid: "66d8afe4",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:turbine_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "32bc1696",
+		type: "item",
+		item: "nuclearcraft:turbine_casing",
+		count: 8
+	}]
+}

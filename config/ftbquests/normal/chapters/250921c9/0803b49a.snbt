@@ -1,0 +1,23 @@
+{
+	x: -3.5d,
+	y: 6.0d,
+	text: [
+		"The Manufactory is a NuclearCraft machine that lets you make many important items, including Graphite."
+	],
+	dependencies: [
+		"bea08379"
+	],
+	tasks: [{
+		uid: "7d7fb000",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:manufactory"
+		}]
+	}],
+	rewards: [{
+		uid: "12278351",
+		type: "item",
+		item: "nuclearcraft:part 1 4",
+		count: 2
+	}]
+}

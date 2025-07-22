@@ -1,0 +1,33 @@
+{
+	title: "Basic Drawer",
+	x: -2.5d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f3eed67a",
+		type: "item",
+		title: "Any drawerBasic",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "drawerBasic"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "17b82f22",
+		type: "item",
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		},
+		count: 2
+	}]
+}

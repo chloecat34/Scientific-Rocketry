@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"This machine can be used to get Pink Slime and Liquid Meat from mobs."
+	],
+	tasks: [{
+		uid: "54aa7f4b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_slaughter_factory"
+		}]
+	}]
+}

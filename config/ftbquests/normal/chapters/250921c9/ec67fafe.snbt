@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: 5.0d,
+	text: [
+		"The Alloy Furnace is another way to make alloys. However, it can be upgraded to be faster than the induction Smelter, using Speed and Energy Upgrades."
+	],
+	dependencies: [
+		"7fa0b3b4"
+	],
+	tasks: [{
+		uid: "25da1109",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "2bf09729",
+		type: "item",
+		item: "nuclearcraft:part",
+		count: 2
+	}]
+}

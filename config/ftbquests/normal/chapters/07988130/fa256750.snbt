@@ -1,0 +1,24 @@
+{
+	title: "Crystal Matrix",
+	x: -7.5d,
+	y: 4.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f0e5b080"
+	],
+	tasks: [{
+		uid: "9d2f46d5",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "41a8a43b",
+		type: "item",
+		item: "avaritia:resource 1 1",
+		count: 16
+	}]
+}

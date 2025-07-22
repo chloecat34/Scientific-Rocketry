@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 7.0d,
+	description: "Produces 8388608 RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"3f3367d2"
+	],
+	tasks: [{
+		uid: "f08172e4",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_neutronium"
+		}]
+	}],
+	rewards: [{
+		uid: "e27bed76",
+		type: "item",
+		item: "moreplates:neutronium_plate",
+		count: 16
+	}]
+}

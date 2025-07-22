@@ -1,0 +1,45 @@
+{
+	title: "Creative Flux Capacitor",
+	x: 1.0d,
+	y: 0.5d,
+	text: [
+		"Infinite RF/t on the go"
+	],
+	dependencies: [
+		"36048c2a"
+	],
+	tasks: [{
+		uid: "7380e01f",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:capacitor",
+			Damage: 32000s,
+			tag: {
+				Energy: 50000000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b0561e93",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "thermalexpansion:capacitor",
+					Count: 1b,
+					Damage: 32000s
+				},
+				TrophyName: "Creative Flux Capacitor",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704155332L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"thermalexpansion:capacitor\", Count:1b,Damage:32000s},  TrophyName:\"Creative Flux Capacitor\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	text: [
+		"This is made from every singularity in the pack. These aren't the typical singularities you'd expect, as most of them are not just raw materials."
+	],
+	dependencies: [
+		"70ea2f9a"
+	],
+	tasks: [{
+		uid: "5bf80a32",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_ultimate"
+		}]
+	}],
+	rewards: [{
+		uid: "81a38d6f",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "extendedcrafting:singularity_ultimate",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "The Ultimate Singularity",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704155370L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"extendedcrafting:singularity_ultimate\", Count:1b,Damage:0s},  TrophyName:\"The Ultimate Singularity\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

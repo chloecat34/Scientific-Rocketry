@@ -1,0 +1,16 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	text: [
+		"This item tells you where the nearest Woodland Mansion is. You need cheats on to use it, though."
+	],
+	tasks: [{
+		uid: "6f193e3b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:woodland_mansion_compass"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

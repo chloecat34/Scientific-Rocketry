@@ -1,0 +1,95 @@
+{
+	title: "Metallurgic Fabricator",
+	x: -6.5d,
+	y: -0.5d,
+	text: [
+		"This multiblock allows you to make some new alloys which will be very important for progression.",
+		"",
+		"This multiblock has several upgrades.",
+		"",
+		"Replacing the Platinum Blocks with Mithril Blocks gives a 1.5x speed boost and multiplies RF/t usage by 2.5x.",
+		"",
+		"Replacing the Platinum Blocks with Crystaltine Blocks gives a 2x speed boost and multiplies RF/t usage by 4x.",
+		"",
+		"Replacing the Platinum Blocks with Crystal Matrix Blocks gives a 2.5x speed boost and multiplies RF/t usage by 6x."
+	],
+	dependencies: [
+		"c2f98e2c"
+	],
+	tasks: [{
+		uid: "918f2856",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:metallurgic_fabricator"
+			}
+		}],
+		consume_items: false
+	},
+	{
+		uid: "ac8a4227",
+		type: "item",
+		items: [{
+			item: "contenttweaker:titanium_machine_casing"
+		}],
+		count: 32L
+	},
+	{
+		uid: "7298e56f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "0aaea1ed",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 2"
+		}]
+	},
+	{
+		uid: "c517e0da",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 1"
+		}]
+	},
+	{
+		uid: "d82d28e3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage 1 6"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "464e1451",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "contenttweaker:titanium_machine_casing",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Metallurgic Fabricator",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704154202L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"contenttweaker:titanium_machine_casing\", Count:1b,Damage:0s},  TrophyName:\"Metallurgic Fabricator\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	},
+	{
+		uid: "11f36798",
+		type: "item",
+		item: "contenttweaker:titanium_machine_casing",
+		count: 8
+	}]
+}

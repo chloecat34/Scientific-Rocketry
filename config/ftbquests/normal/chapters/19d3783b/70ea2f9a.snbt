@@ -1,0 +1,36 @@
+{
+	x: -1.0d,
+	y: 0.5d,
+	dependencies: [
+		"ed5e22eb"
+	],
+	tasks: [{
+		uid: "f8f55efd",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "dac91778",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "avaritia:resource",
+					Count: 1b,
+					Damage: 6s
+				},
+				TrophyName: "Infinity Ingot",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704155173L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"avaritia:resource\", Count:1b,Damage:6s},  TrophyName:\"Infinity Ingot\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

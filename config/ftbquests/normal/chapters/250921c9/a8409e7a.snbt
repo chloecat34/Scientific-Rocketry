@@ -1,0 +1,55 @@
+{
+	title: "Empowerer",
+	icon: "actuallyadditions:block_empowerer",
+	x: -3.5d,
+	y: 8.0d,
+	text: [
+		"The Empowerer is a machine that can be used to empower crystals and other items. It requires good power generation to use, and can be automated in various ways."
+	],
+	dependencies: [
+		"d1f678e3"
+	],
+	tasks: [{
+		uid: "033eb842",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	},
+	{
+		uid: "8da91d10",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_display_stand"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "9d5f377e",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "actuallyadditions:block_empowerer",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Empowerer",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704152764L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"actuallyadditions:block_empowerer\",Count:1b,Damage:0s},  TrophyName:\"Empowerer\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	},
+	{
+		uid: "6f8500ff",
+		type: "item",
+		item: "actuallyadditions:item_misc 1 8",
+		count: 8
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Opinionium",
+	x: -2.0d,
+	y: -0.5d,
+	description: "The ultimate meme ingot",
+	text: [
+		"Found in the Internet Realm, which requires a Salt Singularity to get to."
+	],
+	dependencies: [
+		"ee86e47b"
+	],
+	tasks: [{
+		uid: "f0bc8b9f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:opinionium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "f580074d",
+		type: "item",
+		item: "contenttweaker:opinionium_ingot",
+		count: 16
+	}]
+}

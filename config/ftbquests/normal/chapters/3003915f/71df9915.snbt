@@ -1,0 +1,17 @@
+{
+	x: -2.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "5e9e046e",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_farmer"
+		}]
+	}],
+	rewards: [{
+		uid: "b92acd67",
+		type: "item",
+		item: "minecraft:wheat_seeds",
+		count: 16
+	}]
+}

@@ -1,0 +1,120 @@
+{
+	title: "15x15 Exchanger",
+	x: 4.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4911b55a"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "dd042df1",
+		type: "item",
+		items: [{
+			id: "exchangers:end_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "50c8169b",
+		type: "item",
+		items: [{
+			id: "exchangers:vibrant_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6865300b",
+		type: "item",
+		items: [{
+			id: "exchangers:melodic_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fd9bfab5",
+		type: "item",
+		items: [{
+			id: "exchangers:resonant_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eb81cf7a",
+		type: "item",
+		items: [{
+			id: "exchangers:ultimate_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bc74a61b",
+		type: "item",
+		items: [{
+			id: "exchangers:end_steel_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

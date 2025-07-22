@@ -1,0 +1,40 @@
+{
+	x: -4.5d,
+	y: 5.0d,
+	text: [
+		"The Atomic Reconstructor lets you turn some resources into crystals by dropping them in front of the laser it produces.",
+		"Later on, you can make the crystals with a fluid transposer, but you won't be able to use that recipe for a little while."
+	],
+	dependencies: [
+		"ee2cd896"
+	],
+	tasks: [{
+		uid: "ca573333",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}],
+	rewards: [{
+		uid: "146c75c0",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "actuallyadditions:block_atomic_reconstructor",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Atomic Reconstructor",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704152716L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"actuallyadditions:block_atomic_reconstructor\",Count:1b,Damage:0s},  TrophyName:\"Atomic Reconstructor\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

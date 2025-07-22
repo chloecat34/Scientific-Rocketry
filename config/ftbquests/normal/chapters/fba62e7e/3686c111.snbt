@@ -1,0 +1,45 @@
+{
+	title: "Fusion Reactor",
+	x: -4.0d,
+	y: 3.0d,
+	description: "Endgame power, endgame cost",
+	text: [
+		"You are highly recommended to build a Boiler and a Turbine to achieve maximum power. ",
+		"Each boiler + turbine produces 267 million RF/t, and you could potentially power multiple boilers off a single reactor."
+	],
+	tasks: [{
+		uid: "6d4d1a34",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "9ec3248e",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "mekanismgenerators:reactor",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Fusion Reactor",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704153476L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"mekanismgenerators:reactor\", Count:1b,Damage:0s},  TrophyName:\"Fusion Reactor\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	},
+	{
+		uid: "7125a4a3",
+		type: "item",
+		item: "mekanismgenerators:reactor 1 1",
+		count: 8
+	}]
+}

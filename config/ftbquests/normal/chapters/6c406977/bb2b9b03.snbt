@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: -7.0d,
+	tasks: [{
+		uid: "7699e095",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "3b1fceb5",
+		type: "item",
+		item: "ironchest:iron_chest"
+	}]
+}

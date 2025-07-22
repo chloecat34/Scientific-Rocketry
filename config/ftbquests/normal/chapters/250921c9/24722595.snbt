@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: 9.0d,
+	text: [
+		"The Assembler can be used to craft some new items, mainly AE2 Inscriber Presses."
+	],
+	dependencies: [
+		"2da9008a"
+	],
+	tasks: [{
+		uid: "3c3f7efa",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:assembler"
+		}]
+	}]
+}

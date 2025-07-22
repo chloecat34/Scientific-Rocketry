@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	description: "Holds 400 million RF",
+	text: [
+		"The Induction Matrix is a Mekanism multiblock that can store trillions of RF. It will be very useful for lategame bases."
+	],
+	tasks: [{
+		uid: "fb3e75a8",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			Damage: 3s,
+			tag: {
+				tier: 0
+			}
+		}]
+	}]
+}

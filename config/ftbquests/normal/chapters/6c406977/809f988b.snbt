@@ -1,0 +1,13 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b5440ddc",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_tank"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

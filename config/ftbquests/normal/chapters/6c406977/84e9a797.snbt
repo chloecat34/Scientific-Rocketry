@@ -1,0 +1,22 @@
+{
+	title: "Super Factory Manager",
+	x: -3.5d,
+	y: 2.0d,
+	text: [
+		"Super Factory Manager is a mod that lets you automate various things using a visual programming language."
+	],
+	tasks: [{
+		uid: "ea976567",
+		type: "item",
+		items: [{
+			item: "superfactorymanager:manager"
+		}]
+	},
+	{
+		uid: "24269c5b",
+		type: "item",
+		items: [{
+			item: "superfactorymanager:cable"
+		}]
+	}]
+}

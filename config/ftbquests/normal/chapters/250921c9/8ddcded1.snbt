@@ -1,0 +1,24 @@
+{
+	x: -4.5d,
+	y: 8.0d,
+	text: [
+		"To get Pink Slime, craft a Mob Slaughter Factory, use it to get liquid Pink Slime from mobs, place a bucket of Pink Slime in the world, wait for it to spawn a Pink Slimeball, and kill it."
+	],
+	dependencies: [
+		"de22126b",
+		"a8409e7a"
+	],
+	tasks: [{
+		uid: "21d1f862",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime"
+		}]
+	}],
+	rewards: [{
+		uid: "3f974307",
+		type: "item",
+		item: "industrialforegoing:pink_slime",
+		count: 8
+	}]
+}

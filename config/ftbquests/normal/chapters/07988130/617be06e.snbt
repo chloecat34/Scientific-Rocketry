@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: 4.5d,
+	text: [
+		"This item lets you instantly level up your Data Models to the highest tier."
+	],
+	dependencies: [
+		"e18c4eea"
+	],
+	tasks: [{
+		uid: "f0fce6a1",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:creative_model_learner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

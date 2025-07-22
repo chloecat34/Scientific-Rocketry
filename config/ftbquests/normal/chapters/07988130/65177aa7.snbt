@@ -1,0 +1,23 @@
+{
+	x: -6.5d,
+	y: 6.5d,
+	text: [
+		"Aethium is acquired from a T5 Void Ore Miner. Void Ore Miners are very useful for gathering resources, so if you haven't set one up yet, now should be the time."
+	],
+	dependencies: [
+		"68e2a574"
+	],
+	tasks: [{
+		uid: "26ee31b2",
+		type: "item",
+		items: [{
+			item: "environmentaltech:aethium_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "eb5cf8a5",
+		type: "item",
+		item: "environmentaltech:aethium_crystal",
+		count: 16
+	}]
+}

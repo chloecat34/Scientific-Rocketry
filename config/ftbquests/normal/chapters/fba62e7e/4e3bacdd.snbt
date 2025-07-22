@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	description: "Transfers 1024 RF/t",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1d06c191",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit"
+		}]
+	}],
+	rewards: [{
+		uid: "fe010ef6",
+		type: "item",
+		item: "enderio:item_power_conduit",
+		count: 16
+	}]
+}

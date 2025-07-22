@@ -1,0 +1,24 @@
+{
+	title: "RFTools Machine Frame",
+	x: -3.5d,
+	y: 7.0d,
+	text: [
+		"This frame can be used to craft RFTools machines, including the Builder."
+	],
+	dependencies: [
+		"a8409e7a"
+	],
+	tasks: [{
+		uid: "76f237de",
+		type: "item",
+		items: [{
+			item: "rftools:machine_frame"
+		}]
+	}],
+	rewards: [{
+		uid: "de339f34",
+		type: "item",
+		item: "enderio:item_basic_capacitor 1 1",
+		count: 2
+	}]
+}

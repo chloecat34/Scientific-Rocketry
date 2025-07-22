@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"/dank/nulls let you store large amounts of a smaller number of items, voiding the rest. They come in 6 tiers, and are great for mining."
+	],
+	tasks: [{
+		uid: "2ca7036e",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_0"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

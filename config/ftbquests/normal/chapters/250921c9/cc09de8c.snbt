@@ -1,0 +1,18 @@
+{
+	x: -3.5d,
+	y: 9.0d,
+	text: [
+		"The Pressurized Reaction Chamber uses items, fluids, and gases to make a new item or gas."
+	],
+	dependencies: [
+		"dc5c7a5c"
+	],
+	tasks: [{
+		uid: "6b52708e",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 10"
+		}],
+		ignore_nbt: 1b
+	}]
+}

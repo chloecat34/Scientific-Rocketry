@@ -1,0 +1,60 @@
+{
+	title: "Warp Speed",
+	x: -1.5d,
+	y: 6.75d,
+	shape: "hexagon",
+	description: "Build a Warp Controller",
+	text: [
+		"The Warp Controller can be provided with Dilithium to let your space station travel to other planets.",
+		"",
+		"The Warp Core can be set up as a multiblock to allow you to teleport to other planets.",
+		"",
+		"The Warp Controller can be provided with artifacts to allow it to go to certain specific planets."
+	],
+	dependencies: [
+		"3a5b48dd"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "dc938dff",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpcore"
+		}]
+	},
+	{
+		uid: "cc28e8d6",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpmonitor"
+		}]
+	}],
+	rewards: [{
+		uid: "ba5d62aa",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "advancedrocketry:warpcore",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Warp Core",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704154012L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"advancedrocketry:warpcore\", Count:1b,Damage:0s},  TrophyName:\"Warp Core\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	},
+	{
+		uid: "c440a4c8",
+		type: "item",
+		item: "libvulpes:productgem",
+		count: 32
+	}]
+}

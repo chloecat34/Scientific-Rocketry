@@ -1,0 +1,21 @@
+{
+	title: "Steam Turbine",
+	x: -2.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "998741f3",
+		type: "item",
+		items: [{
+			item: "advgenerators:steam_turbine_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "34f6b90f",
+		type: "item",
+		item: "advgenerators:iron_frame",
+		count: 16
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Titanium",
+	x: -6.5d,
+	y: -1.5d,
+	description: "Hopefully you followed the Space quests...",
+	text: [
+		"You will need Titanium from the Moon to progress further in the pack."
+	],
+	dependencies: [
+		"cf25a854"
+	],
+	tasks: [{
+		uid: "9c60b511",
+		type: "item",
+		items: [{
+			item: "libvulpes:productingot 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "a2fad035",
+		type: "item",
+		item: "libvulpes:productingot 1 7",
+		count: 16
+	}]
+}

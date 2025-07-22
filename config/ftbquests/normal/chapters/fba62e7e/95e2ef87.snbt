@@ -1,0 +1,18 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "e30bf040",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3b16d2bb",
+		type: "item",
+		item: "mekanism:enrichedalloy",
+		count: 8
+	}]
+}

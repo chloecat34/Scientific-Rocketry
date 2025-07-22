@@ -1,0 +1,17 @@
+{
+	x: 0.5d,
+	y: -5.0d,
+	dependencies: [
+		"b4747219",
+		"a4c49f6b"
+	],
+	tasks: [{
+		uid: "86b98546",
+		type: "item",
+		items: [{
+			item: "enderio:item_stellar_alloy_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

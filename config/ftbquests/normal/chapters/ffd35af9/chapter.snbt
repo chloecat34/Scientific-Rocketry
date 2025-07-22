@@ -1,0 +1,14 @@
+{
+	title: "Gadgetry",
+	icon: {
+		id: "simplyjetpacks:itemjetpack",
+		Damage: 24s,
+		tag: {
+			Energy: 0,
+			JetpackParticle: 0
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

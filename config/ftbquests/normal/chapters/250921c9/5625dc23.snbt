@@ -1,0 +1,24 @@
+{
+	title: "Deep Mob Evolution",
+	x: -5.5d,
+	y: 7.0d,
+	text: [
+		"DME can be used to get mob drops. You put polymer clay in a Simulation Chamber containing a data model. This produces both regular matter and sometimes pristine matter, which can be used in a Loot Fabricator to get various items."
+	],
+	dependencies: [
+		"de22126b"
+	],
+	tasks: [{
+		uid: "f51f233a",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:machine_casing"
+		}]
+	}],
+	rewards: [{
+		uid: "f294f50e",
+		type: "item",
+		item: "deepmoblearning:soot_covered_plate",
+		count: 8
+	}]
+}

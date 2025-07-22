@@ -1,0 +1,42 @@
+{
+	title: "To Eternity",
+	icon: "contenttweaker:eternity_ingot",
+	x: -1.5d,
+	y: 10.0d,
+	shape: "square",
+	description: "The Infinity Dimension needs an Infinite Catalyst to visit",
+	text: [
+		"This planet has all the Infinity Blocks and Eternity Ore you could ever need."
+	],
+	dependencies: [
+		"17b0bbdd"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "0f01875c",
+		type: "dimension",
+		dim: 104
+	}],
+	rewards: [{
+		uid: "d14a4fc2",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "contenttweaker:eternity_ingot",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "The Infinity Dimension",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704154124L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"contenttweaker:eternity_ingot\", Count:1b,Damage:0s},  TrophyName:\"The Infinity Dimension\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

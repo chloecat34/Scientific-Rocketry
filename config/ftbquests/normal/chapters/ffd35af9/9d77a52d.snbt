@@ -1,0 +1,30 @@
+{
+	title: "19x19 Exchanger",
+	x: 4.5d,
+	y: 5.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"dd36c249"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "b11713d4",
+		type: "item",
+		items: [{
+			id: "exchangers:stellar_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

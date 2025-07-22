@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: 7.0d,
+	text: [
+		"The Machine Case can be used for Industrial Foregoing machines."
+	],
+	dependencies: [
+		"5e5bf967"
+	],
+	tasks: [{
+		uid: "691d7d31",
+		type: "item",
+		items: [{
+			item: "teslacorelib:machine_case"
+		}]
+	}]
+}

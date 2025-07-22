@@ -1,0 +1,39 @@
+{
+	title: "Creating Plastic",
+	x: -5.5d,
+	y: 6.0d,
+	text: [
+		"Latex can be produced by placing wood next to a Tree Fluid Extractor. Then, it can be used with water and energy in a Latex Processing Unit to make Plastic."
+	],
+	dependencies: [
+		"bea08379"
+	],
+	tasks: [{
+		uid: "af368fe1",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tree_fluid_extractor"
+		}]
+	},
+	{
+		uid: "12d4dc1f",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	},
+	{
+		uid: "cbd3efd8",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plastic"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "7b1a7347",
+		type: "item",
+		item: "industrialforegoing:plastic",
+		count: 16
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Crystaltine",
+	x: -7.5d,
+	y: 3.5d,
+	text: [
+		"Crystaltine is used in many things, including devices which allow you to better automate ExtendedCrafting."
+	],
+	dependencies: [
+		"43a854bd"
+	],
+	tasks: [{
+		uid: "3115b11e",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 24"
+		}]
+	}],
+	rewards: [{
+		uid: "908a5e59",
+		type: "item",
+		item: "extendedcrafting:material 1 24",
+		count: 16
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "PackagedExCrafting",
+	x: -8.5d,
+	y: 3.5d,
+	text: [
+		"PackagedExCrafting lets you automate ExtendedCrafting recipes with PackagedAuto. This includes Advanced/Elite/Ultimate crafting.",
+		"",
+		"To use it, you need to set up a Package Crafter of the given tier. The Combination Package Crafter will also require Marked Pedestals to function."
+	],
+	dependencies: [
+		"f0e5b080"
+	],
+	tasks: [{
+		uid: "df89ef4b",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:combination_crafter"
+		}]
+	}]
+}

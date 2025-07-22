@@ -1,0 +1,22 @@
+{
+	title: "Yellow Heart Canister",
+	x: 6.5d,
+	y: -2.0d,
+	dependencies: [
+		"81efa4c1"
+	],
+	tasks: [{
+		uid: "44df3ee6",
+		type: "item",
+		items: [{
+			item: "bhc:yellow_heart_canister"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "9efcd2b5",
+		type: "item",
+		item: "bhc:yellow_heart",
+		count: 4
+	}]
+}

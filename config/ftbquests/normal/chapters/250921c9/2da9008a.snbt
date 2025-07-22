@@ -1,0 +1,24 @@
+{
+	title: "HDPE",
+	x: -2.5d,
+	y: 9.0d,
+	text: [
+		"HDPE is a type of plastic used for Advanced Rocketry. It takes multiple steps in the Pressurized Reaction Chamber, and automating it will be very important."
+	],
+	dependencies: [
+		"cc09de8c"
+	],
+	tasks: [{
+		uid: "b7efbd10",
+		type: "item",
+		items: [{
+			item: "mekanism:polyethene 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "c8c679a0",
+		type: "item",
+		item: "mekanism:polyethene 1 2",
+		count: 8
+	}]
+}

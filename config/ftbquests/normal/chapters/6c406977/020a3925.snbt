@@ -1,0 +1,39 @@
+{
+	x: 3.5d,
+	y: -7.0d,
+	tasks: [{
+		uid: "7a786390",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "48c6e519",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "chisel:futura",
+					Count: 1b,
+					Damage: 2s
+				},
+				TrophyName: "Applied Energistics 2",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704153761L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "{TrophyItem:{id:\"chisel:futura\",Count:1b,Damage:2s},TrophyName:\"Applied Energistics 2\",TrophyColorRed:179,TrophyColorGreen:49,TrophyColorBlue:44,TrophyVariant:\"classic\",TrophyShowsTooltip:1b}"
+	},
+	{
+		uid: "bfe6f4c9",
+		type: "item",
+		item: "appliedenergistics2:part 1 76",
+		count: 32
+	}]
+}

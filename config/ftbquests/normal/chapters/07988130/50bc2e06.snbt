@@ -1,0 +1,29 @@
+{
+	title: "Crafting Nether Stars",
+	x: -6.5d,
+	y: 1.5d,
+	text: [
+		"While Nether Stars and Dragon Eggs can't be acquired directly from DME, you can produce items (Nether Star Core and Dragon Scale) which can be turned into Nether Stars and Dragon Eggs respectively with a crafting recipe.",
+		"",
+		"I hope you have AE2 autocrafting at this point..."
+	],
+	dependencies: [
+		"c0e2988e",
+		"ca5b5612",
+		"ccfbd8a4"
+	],
+	tasks: [{
+		uid: "7c7ee2fe",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "5a5174fb",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 8
+	}]
+}

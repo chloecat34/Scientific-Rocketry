@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"This machine lets you automatically spawn mobs."
+	],
+	tasks: [{
+		uid: "633c0653",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	}],
+	rewards: [{
+		uid: "a6ff3616",
+		type: "item",
+		item: "industrialforegoing:mob_imprisonment_tool"
+	}]
+}

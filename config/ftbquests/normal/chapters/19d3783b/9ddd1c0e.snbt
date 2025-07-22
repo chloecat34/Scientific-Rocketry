@@ -1,0 +1,39 @@
+{
+	x: -1.0d,
+	y: 2.5d,
+	text: [
+		"This is one of the most difficult items you have needed to craft in the entire pack. It is the culmination of your efforts. It will unlock the Infinity Dimension."
+	],
+	dependencies: [
+		"17b054c6"
+	],
+	tasks: [{
+		uid: "f88c8cf2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:infinite_catalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "89416233",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "contenttweaker:infinite_catalyst",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Infinite Catalyst",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704155460L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"contenttweaker:infinite_catalyst\", Count:1b,Damage:0s},  TrophyName:\"Infinite Catalyst\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

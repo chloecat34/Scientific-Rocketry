@@ -1,0 +1,23 @@
+{
+	x: -7.5d,
+	y: 1.5d,
+	text: [
+		"Luminessence is an important material both for ExtendedCrafting and for crafting Nether Stars."
+	],
+	dependencies: [
+		"135c94c7"
+	],
+	tasks: [{
+		uid: "0b58ea5b",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "c707a598",
+		type: "item",
+		item: "extendedcrafting:material 1 7",
+		count: 16
+	}]
+}

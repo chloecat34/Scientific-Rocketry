@@ -1,0 +1,166 @@
+{
+	title: "Avaritia",
+	icon: {
+		id: "avaritia:infinity_sword",
+		ForgeCaps: {
+			"ocdevices:item_analyze": {}
+		}
+	},
+	x: -2.0d,
+	y: 0.5d,
+	text: [
+		"The best tools and armor in the pack."
+	],
+	dependencies: [
+		"70ea2f9a"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "8b59bc27",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_sword",
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5dbfa919",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					id: 35s,
+					lvl: 10s
+				}]
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6f25bb91",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_shovel",
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "feb213a3",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_axe",
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e1f595d8",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_hoe",
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "13d776a3",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_bow",
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "802e7d1d",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_helmet",
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e872716a",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_chestplate",
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ed3201ed",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pants",
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c81c7ad9",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_boots",
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8ef4f6a3",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "avaritia:infinity_sword",
+					Count: 1,
+					Damage: 0s
+				},
+				TrophyName: "Sword of the Cosmos",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704155073L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"avaritia:infinity_sword\", Count:1b,Damage:0s},  TrophyName:\"Sword of the Cosmos\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

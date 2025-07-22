@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: -2.0d,
+	description: "Transfers 25.6k RF/t",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "54f90d88",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			Damage: 4s,
+			tag: {
+				tier: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e563e007",
+		type: "item",
+		item: "mekanism:controlcircuit",
+		count: 16
+	}]
+}

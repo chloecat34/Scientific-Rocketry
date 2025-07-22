@@ -1,0 +1,25 @@
+{
+	title: "Satchels",
+	x: -2.5d,
+	y: 2.0d,
+	text: [
+		"Satchels from Thermal Expansion are an option for storing items, and can be enchanted with Holding to store even more."
+	],
+	tasks: [{
+		uid: "73dce9bb",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6788a345",
+		type: "item",
+		item: "minecraft:leather",
+		count: 4
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Dragon Eggs",
+	x: -5.5d,
+	y: 5.5d,
+	text: [
+		"Hopefully you can produce a bunch of Adamantium..."
+	],
+	dependencies: [
+		"abe67ee9"
+	],
+	tasks: [{
+		uid: "b5d7d0a0",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "51b4aca2",
+		type: "item",
+		item: "minecraft:dragon_egg",
+		count: 8
+	}]
+}

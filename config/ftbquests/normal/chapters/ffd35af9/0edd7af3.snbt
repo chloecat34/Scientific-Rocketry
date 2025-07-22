@@ -1,0 +1,22 @@
+{
+	title: "Blue Heart Canister",
+	x: 6.5d,
+	y: 0.0d,
+	dependencies: [
+		"dcfcefdb"
+	],
+	tasks: [{
+		uid: "cd183ddb",
+		type: "item",
+		items: [{
+			item: "bhc:blue_heart_canister"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "96f243d4",
+		type: "item",
+		item: "bhc:blue_heart",
+		count: 4
+	}]
+}

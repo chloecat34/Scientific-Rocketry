@@ -1,0 +1,28 @@
+{
+	title: "XNet",
+	x: 1.5d,
+	y: -7.0d,
+	text: [
+		"XNet allows you to automate logistics using its system. You can also connect many inventories to it to access them with a Storage Scanner."
+	],
+	tasks: [{
+		uid: "a536339a",
+		type: "item",
+		items: [{
+			item: "xnet:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "469780c8",
+		type: "item",
+		item: {
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_blue.name"
+				}
+			}
+		},
+		count: 4
+	}]
+}

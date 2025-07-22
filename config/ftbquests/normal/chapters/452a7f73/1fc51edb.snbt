@@ -1,0 +1,17 @@
+{
+	x: 2.5d,
+	y: 0.5d,
+	text: [
+		"The Cutting Machine is used to make Silicon Wafers and Circuits from Advanced Rocketry."
+	],
+	dependencies: [
+		"91acd35e"
+	],
+	tasks: [{
+		uid: "aeef6624",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:cuttingmachine"
+		}]
+	}]
+}

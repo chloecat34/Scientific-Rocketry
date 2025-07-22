@@ -1,0 +1,23 @@
+{
+	x: -4.5d,
+	y: 1.0d,
+	dependencies: [
+		"0761fb86"
+	],
+	tasks: [{
+		uid: "06cad3cd",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			Damage: 24s,
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

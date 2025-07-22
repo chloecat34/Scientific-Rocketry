@@ -1,0 +1,40 @@
+{
+	title: "Creative AE2 Energy Cell",
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"Infinite power for your ME system"
+	],
+	dependencies: [
+		"ee86e47b"
+	],
+	tasks: [{
+		uid: "c51a8ed6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:creative_energy_cell"
+		}]
+	}],
+	rewards: [{
+		uid: "1f9aa8cd",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "appliedenergistics2:creative_energy_cell",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Creative ME Energy Cell",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704155814L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"appliedenergistics2:creative_energy_cell\", Count:1b,Damage:0s},  TrophyName:\"Creative ME Energy Cell\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

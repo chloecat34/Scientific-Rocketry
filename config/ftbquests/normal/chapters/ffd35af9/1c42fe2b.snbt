@@ -1,0 +1,20 @@
+{
+	title: "Basic Flux Capacitor",
+	x: -1.5d,
+	y: -3.0d,
+	description: "Stores 2 million RF",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "faa5d24d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 2000000
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

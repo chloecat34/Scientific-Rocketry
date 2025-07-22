@@ -1,0 +1,26 @@
+{
+	title: "Eternity",
+	x: -1.0d,
+	y: 3.5d,
+	text: [
+		"The Eternity Ingot is the most powerful ingot in the pack. Its ore only spawns in the Infinity Dimension. It is the key to the most powerful creative items in the pack.",
+		"",
+		"The ore requires a World Breaker to mine."
+	],
+	dependencies: [
+		"9ddd1c0e"
+	],
+	tasks: [{
+		uid: "1e90ecb8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:eternity_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "326a328b",
+		type: "item",
+		item: "contenttweaker:eternity_ingot",
+		count: 16
+	}]
+}

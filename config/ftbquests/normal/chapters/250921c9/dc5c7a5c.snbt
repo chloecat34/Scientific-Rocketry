@@ -1,0 +1,23 @@
+{
+	x: -4.5d,
+	y: 9.0d,
+	text: [
+		"The Electrolytic Separator can electrolyze Water into Hydrogen and Oxygen. This is important for making Ethylene and HDPE, as well as other things."
+	],
+	dependencies: [
+		"a8409e7a"
+	],
+	tasks: [{
+		uid: "b708eab1",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "836a2f3d",
+		type: "item",
+		item: "mekanism:electrolyticcore"
+	}]
+}

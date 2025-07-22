@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: 10.0d,
+	text: [
+		"The Terrestrial Artifact is a crafting item. It will be important to automate all parts of it later."
+	],
+	dependencies: [
+		"2da9008a"
+	],
+	tasks: [{
+		uid: "58656b2c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:terrestrial_artifact"
+		}]
+	}],
+	rewards: [{
+		uid: "f41c6cc4",
+		type: "item",
+		item: "contenttweaker:terrestrial_artifact",
+		count: 8
+	}]
+}

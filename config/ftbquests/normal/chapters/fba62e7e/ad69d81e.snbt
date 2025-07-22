@@ -1,0 +1,21 @@
+{
+	title: "Gas Turbine",
+	x: -2.0d,
+	y: 2.0d,
+	text: [
+		"The Gas Turbine is one of your best midgame power sources, especially when ran with Mekanism Ethylene."
+	],
+	tasks: [{
+		uid: "dfbb5799",
+		type: "item",
+		items: [{
+			item: "advgenerators:turbine_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "697c8cab",
+		type: "item",
+		item: "advgenerators:iron_frame",
+		count: 16
+	}]
+}

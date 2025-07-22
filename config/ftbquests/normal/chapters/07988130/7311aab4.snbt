@@ -1,0 +1,32 @@
+{
+	title: "PackagedAuto",
+	x: -4.5d,
+	y: 2.5d,
+	text: [
+		"PackagedAuto lets you put more than 9 stacks of items into a crafting recipe. It can help you better automate processes like Combination Crafting."
+	],
+	dependencies: [
+		"2e25d73f"
+	],
+	tasks: [{
+		uid: "426a86d4",
+		type: "item",
+		items: [{
+			item: "packagedauto:encoder"
+		}]
+	},
+	{
+		uid: "d51936da",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	},
+	{
+		uid: "abf46ce3",
+		type: "item",
+		items: [{
+			item: "packagedauto:unpackager"
+		}]
+	}]
+}

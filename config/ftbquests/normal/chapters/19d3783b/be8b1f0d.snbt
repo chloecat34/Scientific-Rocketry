@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: -3.5d,
+	text: [
+		"The Neutron Collector is disabled, so you have to craft Neutronium in the Advanced Metallurgic Fabricator."
+	],
+	dependencies: [
+		"58f8f87c"
+	],
+	tasks: [{
+		uid: "f795311d",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "466c7cc2",
+		type: "item",
+		item: "avaritia:resource 1 4",
+		count: 16
+	}]
+}

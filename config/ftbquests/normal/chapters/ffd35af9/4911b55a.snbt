@@ -1,0 +1,84 @@
+{
+	title: "13x13 Exchanger",
+	x: 4.5d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2393acd0"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "1ea8aea3",
+		type: "item",
+		items: [{
+			id: "exchangers:obsidian_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1ff61088",
+		type: "item",
+		items: [{
+			id: "exchangers:dark_steel_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6c676f3b",
+		type: "item",
+		items: [{
+			id: "exchangers:signalum_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3e60d23b",
+		type: "item",
+		items: [{
+			id: "exchangers:elite_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

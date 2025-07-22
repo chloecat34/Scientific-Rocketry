@@ -1,0 +1,106 @@
+{
+	title: "Advanced Metallurgic Fabricator",
+	x: -6.5d,
+	y: 3.5d,
+	text: [
+		"This multiblock lets you make more advanced alloys which can require up to 3 different types of fluids. I would recommend using AE2 Fluid Crafting to help handle this.",
+		"",
+		"",
+		"This multiblock has several upgrades.",
+		"",
+		"Replacing the Mithril Blocks with Crystal Matrix Blocks gives a 1.5x speed boost and multiplies RF/t usage by 2.5x.",
+		"",
+		"Replacing the Mithril Blocks with Adamantium Blocks gives a 2x speed boost and multiplies RF/t usage by 4x.",
+		"",
+		"Replacing the Mithril Blocks with Ultimate Blocks gives a 2.5x speed boost and multiplies RF/t usage by 6x."
+	],
+	dependencies: [
+		"e18c4eea"
+	],
+	tasks: [{
+		uid: "d71a4bdd",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:advanced_metallurgic_fabricator"
+			}
+		}]
+	},
+	{
+		uid: "8b304061",
+		type: "item",
+		items: [{
+			item: "contenttweaker:osmiridium_machine_casing"
+		}],
+		count: 64L
+	},
+	{
+		uid: "3f6fae05",
+		type: "item",
+		items: [{
+			item: "contenttweaker:osmiridium_machine_casing"
+		}],
+		count: 6L
+	},
+	{
+		uid: "91b8a314",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "77b0afc4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ardite_block"
+		}],
+		count: 10L
+	},
+	{
+		uid: "639ff3ec",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage 1 8"
+		}],
+		count: 3L
+	},
+	{
+		uid: "f2ea0eed",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 1"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "46b85b32",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "contenttweaker:osmiridium_machine_casing",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Advanced Metallurgic Fabricator",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704154390L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"contenttweaker:osmiridium_machine_casing\", Count:1b,Damage:0s},  TrophyName:\"Advanced Metallurgic Fabricator\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"clas"
+	},
+	{
+		uid: "ed627f3f",
+		type: "item",
+		item: "contenttweaker:osmiridium_machine_casing",
+		count: 8
+	}]
+}

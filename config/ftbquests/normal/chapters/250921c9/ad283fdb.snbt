@@ -1,0 +1,23 @@
+{
+	x: -1.5d,
+	y: 6.0d,
+	text: [
+		"The Rock Crusher lets you crush rocks into dusts, which can be used for other purposes."
+	],
+	dependencies: [
+		"7fa0b3b4"
+	],
+	tasks: [{
+		uid: "400661d8",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rock_crusher"
+		}]
+	}],
+	rewards: [{
+		uid: "b8711e4e",
+		type: "item",
+		item: "minecraft:stone 1 1",
+		count: 64
+	}]
+}

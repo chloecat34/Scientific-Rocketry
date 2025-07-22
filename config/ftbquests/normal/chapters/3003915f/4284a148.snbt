@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	text: [
+		"This machine can be used to automatically kill mobs."
+	],
+	tasks: [{
+		uid: "e5be7ed2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_relocator"
+		}]
+	}]
+}

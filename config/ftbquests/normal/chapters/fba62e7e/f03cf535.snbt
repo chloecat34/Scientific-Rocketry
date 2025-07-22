@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	description: "Produces 256 RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"2d9c9a73"
+	],
+	tasks: [{
+		uid: "669babd8",
+		type: "item",
+		items: [{
+			item: "solarflux:custom_solar_panel_resonant"
+		}]
+	}],
+	rewards: [{
+		uid: "67b60965",
+		type: "item",
+		item: "contenttweaker:resonant_photovoltaic_cell",
+		count: 8
+	}]
+}

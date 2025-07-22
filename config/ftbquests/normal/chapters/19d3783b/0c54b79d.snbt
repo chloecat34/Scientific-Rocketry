@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	description: "Don't throw this in your base",
+	text: [
+		""
+	],
+	dependencies: [
+		"9f369fec"
+	],
+	tasks: [{
+		uid: "55d0bfdc",
+		type: "item",
+		items: [{
+			item: "avaritia:endest_pearl"
+		}]
+	}],
+	rewards: [{
+		uid: "05719934",
+		type: "item",
+		item: "extendedcrafting:material 1 40",
+		count: 16
+	}]
+}

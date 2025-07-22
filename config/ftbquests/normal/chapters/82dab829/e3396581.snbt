@@ -1,0 +1,21 @@
+{
+	x: 0.5d,
+	y: 2.0d,
+	text: [
+		"The Scanner lets you scan for ores, and can be equipped with modules to help control what it scans for."
+	],
+	tasks: [{
+		uid: "a80d8d07",
+		type: "item",
+		items: [{
+			item: "scannable:scanner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2a2c16cf",
+		type: "item",
+		item: "scannable:module_blank"
+	}]
+}

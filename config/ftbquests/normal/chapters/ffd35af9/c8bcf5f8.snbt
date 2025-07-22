@@ -1,0 +1,59 @@
+{
+	title: "Enderium Flux Armor",
+	x: 1.5d,
+	y: -7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"db1f5bcc"
+	],
+	tasks: [{
+		uid: "04c1c306",
+		type: "item",
+		items: [{
+			id: "redstonerepository:armor.chestplategelid",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8e439221",
+		type: "item",
+		items: [{
+			id: "redstonerepository:armor.leggings_gelid",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cfd26cb3",
+		type: "item",
+		items: [{
+			id: "redstonerepository:armor.boots_gelid",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9895192f",
+		type: "item",
+		items: [{
+			id: "redstonerepository:armor.helmet_gelid",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

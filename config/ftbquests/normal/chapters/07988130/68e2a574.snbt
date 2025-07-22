@@ -1,0 +1,48 @@
+{
+	x: -6.5d,
+	y: 5.5d,
+	description: "7x7 Crafting",
+	text: [
+		""
+	],
+	dependencies: [
+		"fb371b5e",
+		"7185b1ca",
+		"abe67ee9"
+	],
+	tasks: [{
+		uid: "1859a6f2",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_elite"
+		}]
+	}],
+	rewards: [{
+		uid: "ec335680",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "extendedcrafting:table_elite",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Elite Crafting Table",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704154613L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"extendedcrafting:table_elite\", Count:1b,Damage:0s},  TrophyName:\"Elite Crafting Table\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	},
+	{
+		uid: "a2c23a1c",
+		type: "item",
+		item: "extendedcrafting:material 1 16",
+		count: 8
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: 2.0d,
+	text: [
+		"This item allows you to lock its slots to a specific item, which can be useful for automation."
+	],
+	tasks: [{
+		uid: "ade5e542",
+		type: "item",
+		items: [{
+			item: "enderutilities:storage_0 1 1"
+		}]
+	}]
+}

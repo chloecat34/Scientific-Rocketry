@@ -1,0 +1,24 @@
+{
+	x: -4.0d,
+	y: 3.0d,
+	description: "The best flight in the pack",
+	text: [
+		""
+	],
+	dependencies: [
+		"f8a7d722",
+		"899e5b68"
+	],
+	tasks: [{
+		uid: "f68c1695",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 200000,
+				JetpackParticleType: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

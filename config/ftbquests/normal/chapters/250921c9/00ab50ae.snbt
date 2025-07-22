@@ -1,0 +1,21 @@
+{
+	title: "Steam Power",
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"The Steam Dynamo is your first source of power. You feed it with water and furnace fuel. Water can be automatically provided with an Aqueous Accumulator."
+	],
+	tasks: [{
+		uid: "bb8db10b",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

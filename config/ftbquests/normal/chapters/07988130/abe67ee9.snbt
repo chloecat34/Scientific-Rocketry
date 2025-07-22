@@ -1,0 +1,24 @@
+{
+	title: "Adamantium",
+	x: -6.5d,
+	y: 4.5d,
+	text: [
+		"Adamantium is an important lategame resource. It must be crafted in the Advanced Metallurgic Fabricator for now, as the ore requires a T6 Void Ore Miner to obtain."
+	],
+	dependencies: [
+		"43a854bd"
+	],
+	tasks: [{
+		uid: "5eaa55c8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:adamantium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "ac14cea3",
+		type: "item",
+		item: "contenttweaker:adamantium_ingot",
+		count: 16
+	}]
+}

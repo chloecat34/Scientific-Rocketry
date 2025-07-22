@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: -5.0d,
+	text: [
+		"This card lets you add 9 more recipes in an ME Interface."
+	],
+	tasks: [{
+		uid: "9027ddf8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 58"
+		}]
+	}],
+	rewards: [{
+		uid: "3bdcdba2",
+		type: "item",
+		item: "appliedenergistics2:material 1 58"
+	}]
+}

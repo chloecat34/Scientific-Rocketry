@@ -1,0 +1,24 @@
+{
+	title: "Osgloglas",
+	x: -6.5d,
+	y: 0.5d,
+	text: [
+		"Osgloglas is used in many items, especially items for teleportation. You will need it in large amounts in the future, so automate it!"
+	],
+	dependencies: [
+		"e0a043d2"
+	],
+	tasks: [{
+		uid: "6ffe3840",
+		type: "item",
+		items: [{
+			item: "contenttweaker:osgloglas_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "b03aca81",
+		type: "item",
+		item: "contenttweaker:osgloglas_ingot",
+		count: 16
+	}]
+}

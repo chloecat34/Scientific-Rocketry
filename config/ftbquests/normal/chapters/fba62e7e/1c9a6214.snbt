@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	description: "Transfers 2 billion RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"a1693aeb"
+	],
+	tasks: [{
+		uid: "b7c11abb",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "e34ebee8",
+		type: "item",
+		item: "enderio:item_endergy_conduit 1 11",
+		count: 16
+	}]
+}

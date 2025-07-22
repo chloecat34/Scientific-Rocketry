@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 4.0d,
+	description: "Stores 32 million RF",
+	text: [
+		""
+	],
+	dependencies: [
+		"bb93c9f6"
+	],
+	tasks: [{
+		uid: "5c621538",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "98224d8a",
+		type: "item",
+		item: "enderio:item_basic_capacitor 1 1",
+		count: 4
+	}]
+}

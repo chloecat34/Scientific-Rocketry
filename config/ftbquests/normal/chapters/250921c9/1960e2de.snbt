@@ -1,0 +1,23 @@
+{
+	x: -1.5d,
+	y: 8.0d,
+	text: [
+		"Thermoconducting Alloy is important for Advanced Rocketry. The Boron Arsenide required to craft it is a relatively simple chemical process, using Boron and Crushed Arsenic from Andesite."
+	],
+	dependencies: [
+		"ad283fdb"
+	],
+	tasks: [{
+		uid: "a6353ea9",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "5821ad32",
+		type: "item",
+		item: "nuclearcraft:alloy 1 11",
+		count: 16
+	}]
+}

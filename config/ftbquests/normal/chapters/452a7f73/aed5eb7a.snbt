@@ -1,0 +1,22 @@
+{
+	title: "Extreme Alloy",
+	x: -3.5d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a156969c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy 1 10"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "abebf3be",
+		type: "item",
+		item: "nuclearcraft:alloy 1 10",
+		count: 16
+	}]
+}

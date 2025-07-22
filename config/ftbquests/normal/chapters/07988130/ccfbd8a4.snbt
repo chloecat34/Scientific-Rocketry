@@ -1,0 +1,24 @@
+{
+	title: "Mithril",
+	x: -5.5d,
+	y: 0.5d,
+	text: [
+		"Mithril is an important resource in this modpack. While it can be gotten from ores later on, for now you must craft it in the Metallurgic Fabricator."
+	],
+	dependencies: [
+		"e0a043d2"
+	],
+	tasks: [{
+		uid: "59ded535",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 136"
+		}]
+	}],
+	rewards: [{
+		uid: "22f35448",
+		type: "item",
+		item: "thermalfoundation:material 1 136",
+		count: 16
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Compactor",
+	x: -3.5d,
+	y: 2.0d,
+	text: [
+		"The Compactor lets you make plates. You can also make gears using a Gearworking Die augment."
+	],
+	dependencies: [
+		"377da610"
+	],
+	tasks: [{
+		uid: "f5c89b66",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 5s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

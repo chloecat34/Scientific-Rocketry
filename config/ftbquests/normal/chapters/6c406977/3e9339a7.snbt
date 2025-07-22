@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	shape: "circle",
+	description: "Used for autocrafting with Integrated Dynamics",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "7b7683cc",
+		type: "item",
+		items: [{
+			item: "integratedcrafting:part_interface_crafting_item"
+		}]
+	}],
+	rewards: [{
+		uid: "dff88e85",
+		type: "item",
+		item: "integrateddynamics:variable",
+		count: 32
+	}]
+}

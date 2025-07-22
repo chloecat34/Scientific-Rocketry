@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: 3.0d,
+	description: "You can make your first steel in the Induction Smelter",
+	text: [
+		""
+	],
+	dependencies: [
+		"032ce105"
+	],
+	tasks: [{
+		uid: "beaf9180",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "5c7c2961",
+		type: "item",
+		item: "thermalfoundation:material 1 352",
+		count: 8
+	}]
+}

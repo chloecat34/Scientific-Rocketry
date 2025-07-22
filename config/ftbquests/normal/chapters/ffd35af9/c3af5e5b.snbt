@@ -1,0 +1,24 @@
+{
+	title: "Resonant Flux Capacitor",
+	x: -1.5d,
+	y: 1.0d,
+	description: "Stores 50 million RF",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b2f0afb"
+	],
+	tasks: [{
+		uid: "4890fc2e",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:capacitor",
+			Damage: 4s,
+			tag: {
+				Energy: 50000000
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

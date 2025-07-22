@@ -1,0 +1,17 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "71eb69f8",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5ef0b5eb",
+		type: "item",
+		item: "mekanism:teleportationcore"
+	}]
+}

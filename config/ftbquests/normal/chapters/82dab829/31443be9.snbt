@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: 0.5d,
+	text: [
+		"This pack offers you the chance to play in the Void World instead. ",
+		"",
+		"You won't be able to launch rockets or (probably) go to the Nether, but you can set up all of your machines.",
+		"",
+		"You will need to mine in the Overworld, and sleeping doesn't really work."
+	],
+	tasks: [{
+		uid: "8bbd73f2",
+		type: "checkmark",
+		title: "Void World",
+		icon: "simplevoidworld:portal"
+	}],
+	rewards: [{
+		uid: "f9fb7b93",
+		type: "item",
+		item: "simplevoidworld:portal"
+	}]
+}

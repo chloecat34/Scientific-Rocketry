@@ -1,0 +1,24 @@
+{
+	x: -4.5d,
+	y: 6.0d,
+	text: [
+		"The Enrichment Chamber lets you make some Mekanism items more efficiently (8x more efficient)."
+	],
+	dependencies: [
+		"bea08379"
+	],
+	tasks: [{
+		uid: "7050fb86",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "710e6384",
+		type: "item",
+		item: "mekanism:reinforcedalloy",
+		count: 4
+	}]
+}

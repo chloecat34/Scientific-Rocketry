@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	description: "Produces 4 RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"7da1599a"
+	],
+	tasks: [{
+		uid: "0ac2aa80",
+		type: "item",
+		items: [{
+			item: "solarflux:custom_solar_panel_hardened"
+		}]
+	}],
+	rewards: [{
+		uid: "bc9434f7",
+		type: "item",
+		item: "contenttweaker:hardened_photovoltaic_cell",
+		count: 8
+	}]
+}

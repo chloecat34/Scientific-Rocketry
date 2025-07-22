@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	description: "Holds 25.6 billion RF",
+	text: [
+		""
+	],
+	dependencies: [
+		"c56ecaa0"
+	],
+	tasks: [{
+		uid: "e164dc08",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			Damage: 3s,
+			tag: {
+				tier: 2
+			}
+		}]
+	}]
+}

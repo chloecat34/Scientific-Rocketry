@@ -1,0 +1,80 @@
+{
+	title: "Primal Furnace",
+	x: -2.0d,
+	y: -2.5d,
+	text: [
+		"This multiblock lets you automate ore processing at an extremely fast rate, able to handle the outputs from multiple T6 Void Ore Miners. It also lets you process Uranium-235 fuel much faster."
+	],
+	dependencies: [
+		"9f369fec"
+	],
+	tasks: [{
+		uid: "ec76881d",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:primal_furnace"
+			}
+		}]
+	},
+	{
+		uid: "8e43459a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:adamantium_machine_casing"
+		}],
+		count: 44L
+	},
+	{
+		uid: "a4cff214",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_6"
+		}],
+		count: 12L
+	},
+	{
+		uid: "e2123f2b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}],
+		count: 4L
+	},
+	{
+		uid: "ef97cde9",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:storage 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "26a6ef32",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "contenttweaker:adamantium_machine_casing",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Primal Furnace",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704154935L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"contenttweaker:adamantium_machine_casing\", Count:1b,Damage:0s},  TrophyName:\"Primal Furnace\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	},
+	{
+		uid: "d93ff6e8",
+		type: "item",
+		item: "contenttweaker:adamantium_machine_casing",
+		count: 8
+	}]
+}

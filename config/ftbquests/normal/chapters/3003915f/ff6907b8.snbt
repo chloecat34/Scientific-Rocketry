@@ -1,0 +1,36 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	text: [
+		"This can be used to set up a quarry, or just to build things."
+	],
+	tasks: [{
+		uid: "eebdf0da",
+		type: "item",
+		items: [{
+			item: "rftools:builder"
+		}]
+	}],
+	rewards: [{
+		uid: "119f3750",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "rftools:builder",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyName: "Builder",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704153622L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"rftools:builder\", Count:1b,Damage:0s},  TrophyName:\"Builder\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: 0.5d,
+	description: "Cobbleworks in a box",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ceec6333",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:material_stonework_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "f0b2b51f",
+		type: "item",
+		item: "teslacorelib:speed_tier1",
+		count: 4
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Molten Salt Fission",
+	x: -4.0d,
+	y: 5.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c45744e1",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "b4cb0379",
+		type: "item",
+		item: "nuclearcraft:fission_casing",
+		count: 8
+	}]
+}

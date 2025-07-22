@@ -1,0 +1,37 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	dependencies: [
+		"0c54b79d",
+		"0880d709"
+	],
+	tasks: [{
+		uid: "afac1f65",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "b5fcdd18",
+		type: "command",
+		icon: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyItem: {
+					id: "avaritia:resource",
+					Count: 1b,
+					Damage: 5s
+				},
+				TrophyName: "Infinity Catalyst",
+				TrophyColorRed: 179,
+				TrophyColorGreen: 49,
+				TrophyColorBlue: 44,
+				TrophyVariant: "classic",
+				TrophyEarnedAt: 1704155148L,
+				TrophyShowsTooltip: 1b
+			}
+		},
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"avaritia:resource\", Count:1b,Damage:5s},  TrophyName:\"Infinity Catalyst\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

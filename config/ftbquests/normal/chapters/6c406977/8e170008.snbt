@@ -1,0 +1,20 @@
+{
+	title: "RFTools Control",
+	x: 1.5d,
+	y: -6.0d,
+	text: [
+		"RFTools Control lets you automate various things using a visual programming language."
+	],
+	tasks: [{
+		uid: "35e69998",
+		type: "item",
+		items: [{
+			item: "rftoolscontrol:programmer"
+		}]
+	}],
+	rewards: [{
+		uid: "c4a206c1",
+		type: "item",
+		item: "rftoolscontrol:cpu_core_1000"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Gelid JetPlate",
+	x: -4.5d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"898c406d"
+	],
+	tasks: [{
+		uid: "ace380a6",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			Damage: 25s,
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

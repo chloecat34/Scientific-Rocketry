@@ -1,0 +1,15 @@
+{
+	title: "Vanilla Progression",
+	x: -1.0d,
+	y: 0.5d,
+	text: [
+		"For the most part, Vanilla progression is unchanged. You can get into tech pretty quickly, which will be the main challenge of the pack.",
+		"",
+		"Good luck!"
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "412fbe52",
+		type: "checkmark"
+	}]
+}

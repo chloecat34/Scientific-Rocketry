@@ -1,0 +1,19 @@
+{
+	title: "Signalum Cell Frame",
+	x: -5.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c0e2988e",
+		"ccfbd8a4"
+	],
+	tasks: [{
+		uid: "aad5e70c",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 147"
+		}]
+	}]
+}

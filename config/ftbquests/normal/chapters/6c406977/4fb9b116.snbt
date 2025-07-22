@@ -1,0 +1,20 @@
+{
+	title: "AE2 Fluid Crafting",
+	x: 5.5d,
+	y: -5.0d,
+	text: [
+		"AE2 Fluid Crafting lets you more easily autocraft with fluids. The ME Fluid Discretizer, ME Dual Interface, and ME Fluid Pattern Terminal are key items to look into."
+	],
+	tasks: [{
+		uid: "e0eb690c",
+		type: "item",
+		items: [{
+			item: "ae2fc:fluid_discretizer"
+		}]
+	}],
+	rewards: [{
+		uid: "f2b19e7a",
+		type: "item",
+		item: "ae2fc:dual_interface"
+	}]
+}

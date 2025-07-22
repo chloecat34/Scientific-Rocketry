@@ -1,0 +1,24 @@
+{
+	title: "Reinforced Fluxbore",
+	x: 0.5d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"43cf0296"
+	],
+	tasks: [{
+		uid: "0872ac7a",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			Damage: 2s,
+			tag: {
+				Energy: 240000,
+				Mode: 2
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

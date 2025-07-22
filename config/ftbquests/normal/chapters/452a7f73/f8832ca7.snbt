@@ -1,0 +1,21 @@
+{
+	title: "Machine Structures",
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "29245079",
+		type: "item",
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "3f3ccab5",
+		type: "item",
+		item: "libvulpes:holoprojector"
+	}]
+}

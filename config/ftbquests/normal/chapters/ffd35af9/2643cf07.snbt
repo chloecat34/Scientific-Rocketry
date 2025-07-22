@@ -1,0 +1,66 @@
+{
+	title: "5x5 Exchanger",
+	x: 4.5d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"42908ed0"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "d86040a4",
+		type: "item",
+		items: [{
+			id: "exchangers:golden_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8c34c8fe",
+		type: "item",
+		items: [{
+			id: "exchangers:pulsating_iron_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b60992b4",
+		type: "item",
+		items: [{
+			id: "exchangers:energetic_silver_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

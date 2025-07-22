@@ -1,0 +1,16 @@
+{
+	x: 0.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "6ab99612",
+		type: "item",
+		items: [{
+			item: "rftools:modular_storage"
+		}]
+	}],
+	rewards: [{
+		uid: "e6d251de",
+		type: "item",
+		item: "rftools:storage_module 1 2"
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "Inscriber",
+	x: -1.5d,
+	y: 10.0d,
+	text: [
+		"The Inscriber allows you to make AE2 circuits, which are important for starting AE2."
+	],
+	dependencies: [
+		"24722595"
+	],
+	tasks: [{
+		uid: "27d56aae",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "bab52f21",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "2fddd399",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "d9ecab7b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	},
+	{
+		uid: "bfdf2050",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}]
+}
